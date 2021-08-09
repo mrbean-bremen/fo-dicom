@@ -14,12 +14,12 @@
 					</listItem>
 					<listItem>
 						<para>
-              Targets .NET 4.5.2 and higher, .NET Core (.NET Standard 1.3 and higher), Universal Windows Platform, Xamarin iOS, Xamarin Android, Mono and Unity
+              Targets .NET Standard 2.0
             </para>
 					</listItem>
 					<listItem>
 						<para>
-              DICOM dictionary version 2016e
+              DICOM dictionary version 2021b
             </para>
 					</listItem>
 					<listItem>
