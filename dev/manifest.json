@@ -1,0 +1,6224 @@
+{
+  "homepages": [],
+  "source_base_path": "c:/dev/GitHub/fo-dicom/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "wwtB+8FdRwApd+s1VLFcYw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.AppendDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.AppendDicomTransformRule.html",
+          "hash": "PLty41tVKwmNnGtSLnxl5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.BoolDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.BoolDicomMatchRule.html",
+          "hash": "5e5pVu2jLNMrVOXqNnov/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.ContainsDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.ContainsDicomMatchRule.html",
+          "hash": "xEpO9rZ7ClOnIGsqCbAU8w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.CopyValueDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.CopyValueDicomTransformRule.html",
+          "hash": "8NWavZ0fweOSRF3UMrznIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DefaultServiceProviderHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DefaultServiceProviderHost.html",
+          "hash": "44opJloyS/7RaXNVNeVIMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAgeString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAgeString.html",
+          "hash": "7fF4FYn6eG0k/rW3pdBEBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAnonymizer.SecurityProfile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAnonymizer.SecurityProfile.html",
+          "hash": "VFVcJT2Wp3in8J/mMGx8Sg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAnonymizer.SecurityProfileActions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAnonymizer.SecurityProfileActions.html",
+          "hash": "9rJBXwJPLLT8ignY3BzoLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAnonymizer.SecurityProfileOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAnonymizer.SecurityProfileOptions.html",
+          "hash": "yyGXAkvobLY3Y0sT4SxvBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAnonymizer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAnonymizer.html",
+          "hash": "+unXKbs1Yv7a3hEGN52hgA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomApplicationEntity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomApplicationEntity.html",
+          "hash": "I+c+1xGBOmU7Wzoohmi3fw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomAttributeTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomAttributeTag.html",
+          "hash": "j6/+tezEzofh2anJ88LTbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomCodeString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomCodeString.html",
+          "hash": "CPRJv30nHN3QVS+QdM5Smg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDataException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDataException.html",
+          "hash": "cSSmFBJNOB7982nU/fdy6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDataset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDataset.html",
+          "hash": "A689Te2NoxP1de/Idn7E4Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDatasetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDatasetExtensions.html",
+          "hash": "eS51N7oxiRC/1mBlCZ7kVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDatasetWalker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDatasetWalker.html",
+          "hash": "v5Mf1QYJUFG9k6wOcRyj9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDate.html",
+          "hash": "N5n9RXN93m/zKQhtNi6IOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDateElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDateElement.html",
+          "hash": "ZVLmqGgXyTkvRdEO/A0oIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDateRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDateRange.html",
+          "hash": "O69E8R6iVRHQIVgQtNhNig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDateTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDateTime.html",
+          "hash": "mWUhwrpuEGLl5xBdZcl9FA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDecimalString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDecimalString.html",
+          "hash": "QGbeYf0hC059Ao1jeb+Pmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDictionary.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDictionary.html",
+          "hash": "umIIwQFPQWi9+5Pe+NegTA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDictionaryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDictionaryEntry.html",
+          "hash": "yMLEnRBCZ+CegABK9sSJ5g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDictionaryFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDictionaryFormat.html",
+          "hash": "un3Nm2bixl9tVF846Fs8gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomDictionaryReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomDictionaryReader.html",
+          "hash": "doXHI22va3PZWtYUwcUP0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomElement.html",
+          "hash": "iMnAJLwQK2qE3pnOjSq2yQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomEncoding.html",
+          "hash": "2xWIpBsD05+fDiaYZYIkcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomException.html",
+          "hash": "5z0sju+SbWjFKj6uEHO/6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomExceptionEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomExceptionEventArgs.html",
+          "hash": "GPfO3Oy05lBVRs7VetDaAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFile.html",
+          "hash": "omHvdE23cGhb1SMsEp2bHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFileException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFileException.html",
+          "hash": "WfsTJ3BZqnachX1KWOJxbg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFileExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFileExtensions.html",
+          "hash": "SqcYZdceJ8oZ0W3RU2cYxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFileFormat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFileFormat.html",
+          "hash": "OAmpYncu9neVJEm9AFLpEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFileMetaInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFileMetaInformation.html",
+          "hash": "HZu4HZwFkx/7LIAKJz0kpA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFloatingPointDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFloatingPointDouble.html",
+          "hash": "u1nKcacVatGrShJ+XQQvkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFloatingPointSingle.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFloatingPointSingle.html",
+          "hash": "iRY+y8kizMYqAUasLvf0XQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomFragmentSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomFragmentSequence.html",
+          "hash": "A07nOQRrktOYW0Vxi7DPXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomImplementation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomImplementation.html",
+          "hash": "WL8rAIgp131hK6Nbt8uYcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomIntegerString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomIntegerString.html",
+          "hash": "/+GFLN827PgcGqA2XvEPZw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomItem.html",
+          "hash": "Dlb4limmOxivHOHoG3K4pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomLongString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomLongString.html",
+          "hash": "Dm1c2eUazGGfyM8poG5ang=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomLongText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomLongText.html",
+          "hash": "cCtQO/ehOfKdd8jjGQxRAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomMaskedTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomMaskedTag.html",
+          "hash": "Fq777RH6ADu3lP+m7BzBwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomMatchOperator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomMatchOperator.html",
+          "hash": "mAEethS0yvDmtIYoacH9KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomMatchRuleSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomMatchRuleSet.html",
+          "hash": "JuD75sALPcMq0yLmvlcM1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomMultiStringElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomMultiStringElement.html",
+          "hash": "o5LAk6wpunfnL9nwEDcBtw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherByte.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherByte.html",
+          "hash": "He6IsNXriH6qBmINZJjN5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherByteFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherByteFragment.html",
+          "hash": "KYqnXENb7WdrzZFiTEegVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherDouble.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherDouble.html",
+          "hash": "JOWjb5PgUl6U9DZMMufWmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherFloat.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherFloat.html",
+          "hash": "qYr+xtfUP8YQj8c/iveWqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherLong.html",
+          "hash": "R4ce5M/e67FVv7q0OQfDPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherVeryLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherVeryLong.html",
+          "hash": "MQEKzsRMR714A302WSAYWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherWord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherWord.html",
+          "hash": "ulZOF6rSTDto4F1m9QAxUA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomOtherWordFragment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomOtherWordFragment.html",
+          "hash": "+OosViKgTXaPxyNhDrjeZA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomParseable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomParseable.html",
+          "hash": "TtA+SwdEFXWiKhBdPB1e+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomPersonName.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomPersonName.html",
+          "hash": "agPBlPkAX9/S3YzqWBa3zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomPrivateCreator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomPrivateCreator.html",
+          "hash": "uaQ/DoHKPrux3JZ+dr9zEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomRange-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomRange-1.html",
+          "hash": "krwXEuMQyABluGpAYz7zpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomSequence.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomSequence.html",
+          "hash": "tt939MQ1ogbktI4GXQUxrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomSetupBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomSetupBuilder.html",
+          "hash": "sXJbwlewOhmJdCvhoctVgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomShortString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomShortString.html",
+          "hash": "f3KVPwPx4Xq7UqpbSApeBA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomShortText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomShortText.html",
+          "hash": "jIk2x5cCLBGFa60qZvvVXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomSignedLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomSignedLong.html",
+          "hash": "5pCNkbs2s4kGRagJ0PfEAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomSignedShort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomSignedShort.html",
+          "hash": "P/87e16hviEPTGVzDMyrog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomSignedVeryLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomSignedVeryLong.html",
+          "hash": "RfZykSWsjVTjiA3qlgPrmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomStorageCategory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomStorageCategory.html",
+          "hash": "BycarAiTH4XmRJ9JpjntDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomStringElement.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomStringElement.html",
+          "hash": "M+n7eG35t+1D3mLrxIFtpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTag.html",
+          "hash": "fow2B5Zvd5bZPNlaTiZZMA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTagComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTagComparer.html",
+          "hash": "NWs59cs1yf/X4P4y8AGRfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTime.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTime.html",
+          "hash": "XkTRzEdsz5ZPpfYTkJVAdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTransferSyntax.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTransferSyntax.html",
+          "hash": "/+Si6vC81lDz2tE5ysQF8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTransformRuleSet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTransformRuleSet.html",
+          "hash": "XCbYIOrghDF7jbKUvEp1Hw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomTrimPosition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomTrimPosition.html",
+          "hash": "T+wFokhhmgUl2D2/kriGdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUID.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUID.html",
+          "hash": "TFMZCKHXqC7OQwCW7fLN9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUIDGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUIDGenerator.html",
+          "hash": "iQtmu7YyntOnhw2OO1sBpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUidType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUidType.html",
+          "hash": "HWMnFb6OYuv46sPU6oTpJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUniqueIdentifier.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUniqueIdentifier.html",
+          "hash": "WUY2Qg5vL7dn8j4mMck4Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUniversalResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUniversalResource.html",
+          "hash": "hXK1dIpMJimiMXKnDWcrOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnknown.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnknown.html",
+          "hash": "HfFbfbaXaMVQ6ZZfbh2OWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnlimitedCharacters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnlimitedCharacters.html",
+          "hash": "BrrElmp/vR7OO50zIGKAXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnlimitedText.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnlimitedText.html",
+          "hash": "+C5OyxbMiczTmhdbG0ratA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnsignedLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnsignedLong.html",
+          "hash": "Sy3H4jPt4pA7dGJUJpZ3dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnsignedShort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnsignedShort.html",
+          "hash": "9bkeMHdmrsCeoBtoRBh5Sw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomUnsignedVeryLong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomUnsignedVeryLong.html",
+          "hash": "ng7UrGqDes/MvVS0+DxggQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomVM.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomVM.html",
+          "hash": "K0bL5xSRJLBe6uzsmi6qpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomVR.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomVR.html",
+          "hash": "oqF2VfbfqPH6LJKhiaEZcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomVRCode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomVRCode.html",
+          "hash": "5HKBF/14k8OPHnqI6/MUDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomValidation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomValidation.html",
+          "hash": "c3bydw8VX7A+MnN42MSQYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomValidationBuilderExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomValidationBuilderExtension.html",
+          "hash": "LLuBf8Oj5rUWPv7Eshc88A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomValidationException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomValidationException.html",
+          "hash": "XDpOcXRQtuyZ5mmcRrWukA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomValueComparer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomValueComparer.html",
+          "hash": "LlHTLufiE8IiGmc0jzgGTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.DicomValueElement-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.DicomValueElement-1.html",
+          "hash": "mlQ5EAvOgJVwoSaPR5/Ibg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.EndsWithDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.EndsWithDicomMatchRule.html",
+          "hash": "ydji8xR3yctcYabdbB7GEw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.EnumerableExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.EnumerableExtensions.html",
+          "hash": "4pfcdk79+iMEaS63v9ECVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.EqualsDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.EqualsDicomMatchRule.html",
+          "hash": "pVzi6At6cYvWxS4hhVbYEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.ExistsDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.ExistsDicomMatchRule.html",
+          "hash": "Vy0O9/0oA+JbcDUeaYcGzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.FileReadOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.FileReadOption.html",
+          "hash": "75+vM9RMLuqt8VCgIqHTcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.GenerateUidDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.GenerateUidDicomTransformRule.html",
+          "hash": "3jurgIY3Akaoy3uiuUoD/g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IDicomDatasetWalker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IDicomDatasetWalker.html",
+          "hash": "KOA3JsBzWKBvgjDAFxK6eQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IDicomMatchRule.html",
+          "hash": "Ei26elxdmgt3Z3wjpkojJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IDicomTransformRule.html",
+          "hash": "GOKp23zuq2S5Rz0UwYIwOQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.BulkDataUriByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.BulkDataUriByteBuffer.html",
+          "hash": "igIIVKsNtN0Jiso8vWUMEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferByteSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferByteSource.html",
+          "hash": "IPKECUDnCTqrPx3waCEE2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferByteEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferByteEnumerator.html",
+          "hash": "TypjaZgkyXBhvFUEA6nRWw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferDoubleEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferDoubleEnumerator.html",
+          "hash": "4sLzZuMYeLKQkMhFO1USDw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt16Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt16Enumerator.html",
+          "hash": "g81d3GNKYiMF7e6h+45f9g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt32Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt32Enumerator.html",
+          "hash": "rmoHMuoXWeI1I96e08JEhQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt64Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferInt64Enumerator.html",
+          "hash": "Z1i9Zd8a8+RT/OKteryv0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferSByteEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferSByteEnumerator.html",
+          "hash": "U8IPpT0OmnZq6OfQqr6yBQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferSingleEnumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferSingleEnumerator.html",
+          "hash": "/zewLVG9KJ2Cieht7QzoKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt16Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt16Enumerator.html",
+          "hash": "joMgXz44GU6KxsWUaWd/rw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt32Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt32Enumerator.html",
+          "hash": "GzC3ANcoTtMV0yXH+9uakQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt64Enumerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.ByteBufferUInt64Enumerator.html",
+          "hash": "sskFYIeGG0fs5r6F1yHT+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferEnumerator-1.html",
+          "hash": "irRL1j/3AyrwJpBro22NxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.ByteBufferExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.ByteBufferExtensions.html",
+          "hash": "e/ibjnGzbP76BI/A0FLYTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.CompositeByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.CompositeByteBuffer.html",
+          "hash": "Du1U3h/U0dM1K6+hwEBsig=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.EmptyBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.EmptyBuffer.html",
+          "hash": "xNXYEaWZOv3eQ9kllTdxEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.EndianByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.EndianByteBuffer.html",
+          "hash": "PQUPCl5Y35AIsxGECWIzyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.EvenLengthBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.EvenLengthBuffer.html",
+          "hash": "HOA1q/TrtuCVmXnIsgo82A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.FileByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.FileByteBuffer.html",
+          "hash": "atzxONAahSLD4d9keie02A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.IBulkDataUriByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.IBulkDataUriByteBuffer.html",
+          "hash": "/K58809EEmktokz2eIRZNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.IByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.IByteBuffer.html",
+          "hash": "TRY3HXw7Y2am7Uv3ko0m9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.LazyByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.LazyByteBuffer.html",
+          "hash": "zF6r9jWw0Q4xKC0dDA8tkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.MemoryByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.MemoryByteBuffer.html",
+          "hash": "nnOLgQ1M5fZtHlXFm3HMbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.RangeByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.RangeByteBuffer.html",
+          "hash": "rnxhi3aFjQXZWOjW7IPdnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.StreamByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.StreamByteBuffer.html",
+          "hash": "eYSUYcaVoidTzzLpBuDLnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.SwapByteBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.SwapByteBuffer.html",
+          "hash": "Ln6JAVm/zPV3EK08L5Msrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.TempFileBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.TempFileBuffer.html",
+          "hash": "N4CPchPA2cJgmC2OyPCLQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Buffer.html",
+          "hash": "a8DHB+WTtfZq8R1qYiwquA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.ByteConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.ByteConverter.html",
+          "hash": "M6AKFd2BcbFUe3v0KRwMkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.ByteSourceCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.ByteSourceCallback.html",
+          "hash": "M+MLC0w0zqFX0g9mGuJD3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.ByteTargetCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.ByteTargetCallback.html",
+          "hash": "9w9YLkgadgCm+2JAGo8tyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.DicomIoException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.DicomIoException.html",
+          "hash": "lWU777NYEQDqNriO3IlkwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.DirectoryReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.DirectoryReference.html",
+          "hash": "XiS4ZhG94cFItRwFvJrzkQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Endian.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Endian.html",
+          "hash": "Wvpaq1dcnt0oiz+xb0aPUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.EndianBinaryReader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.EndianBinaryReader.html",
+          "hash": "38kgB5IddwdWUHjpNePsSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.EndianBinaryWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.EndianBinaryWriter.html",
+          "hash": "Ap+BUOWWFDO872HPip68KQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.FileByteSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.FileByteSource.html",
+          "hash": "ZqUMu/p5q6MUqVK5sNalzA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.FileByteTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.FileByteTarget.html",
+          "hash": "TvUAm2nRViLmGVhDpCzRpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.FileReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.FileReference.html",
+          "hash": "HIxC+4a7kQpNlqLEERteWg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.FileReferenceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.FileReferenceFactory.html",
+          "hash": "p7GC+JGwFpRUkYfZ5/4WAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.IByteSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.IByteSource.html",
+          "hash": "TIOuk+mNlU6Kyy/AmKnxmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.IByteTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.IByteTarget.html",
+          "hash": "1jIqtYVR+DIzTE3BmygCTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.IDirectoryReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.IDirectoryReference.html",
+          "hash": "HGH3E4piAiovNoyt/eKhjg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.IFileReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.IFileReference.html",
+          "hash": "H0PGOOkiQGTN/9XNGAa8hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.IFileReferenceFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.IFileReferenceFactory.html",
+          "hash": "Z/EhzGqFsB0MJP6Bw8VISw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.MergeStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.MergeStream.html",
+          "hash": "CPJ3cAuTmjqbWqfIu0fLKA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.PinnedArray-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.PinnedArray-1.html",
+          "hash": "l7p6vDd63csrA6AFOVeb3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.PinnedByteArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.PinnedByteArray.html",
+          "hash": "INovrPETCqK/fW6O8T2mxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.PinnedIntArray.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.PinnedIntArray.html",
+          "hash": "ytIBTO2zqF7wUgvmTq781w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Reader.DicomReaderException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Reader.DicomReaderException.html",
+          "hash": "SSoiDZBYmrIbsWiREgu0Gw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Reader.DicomReaderResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Reader.DicomReaderResult.html",
+          "hash": "r2p3bynr1MuMGdgp3XIwfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Reader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Reader.html",
+          "hash": "fDImGe7KQ9rk2DDFTyRVbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.StreamByteSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.StreamByteSource.html",
+          "hash": "f6EjS5F0Kyz0N+pyMSdIsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.StreamByteTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.StreamByteTarget.html",
+          "hash": "F+yx3Mix/8Su+I1xz5UovQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.TemporaryFile.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.TemporaryFile.html",
+          "hash": "0mh9T8h4w6+paR4VfmPR0w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.TemporaryFileRemover.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.TemporaryFileRemover.html",
+          "hash": "AHciMDKM3f/pWLwX2VTGng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.DicomDatasetExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.DicomDatasetExtensions.html",
+          "hash": "rEa++dNFgJZ92rAtE5a26w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.DicomFileWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.DicomFileWriter.html",
+          "hash": "jo3ru4mRELZ7uD05ttKekQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.DicomWriteLengthCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.DicomWriteLengthCalculator.html",
+          "hash": "ZS80JUHXm83RO9GgE1wB2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.DicomWriteOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.DicomWriteOptions.html",
+          "hash": "DWuGVnkXopE0/3JchmTs4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.DicomWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.DicomWriter.html",
+          "hash": "0cLHVJCNmu/41WNS6JY8Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.Writer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.Writer.html",
+          "hash": "0y/dCSYNQVNyZX1apqzOxQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IO.html",
+          "hash": "siDW22XUJ9v94Nt+81YQjA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IServiceCollectionExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IServiceCollectionExtension.html",
+          "hash": "grlprI7pfy/FxUCaRzxPpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IServiceProviderHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IServiceProviderHost.html",
+          "hash": "AI1oaAZNcjlH02VocZPs2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Algorithms.BilinearInterpolation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Algorithms.BilinearInterpolation.html",
+          "hash": "yz8Px2mQSNz4fAB+/Ol1QQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Algorithms.NearestNeighborInterpolation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Algorithms.NearestNeighborInterpolation.html",
+          "hash": "f1c7kSdq4AZ5iv9i1B3r+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Algorithms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Algorithms.html",
+          "hash": "b6eH8E0OIsGnG/MMcAkKGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.BitDepth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.BitDepth.html",
+          "hash": "KONciFP8iOojybF2C6z/UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DefaultTranscoderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DefaultTranscoderManager.html",
+          "hash": "bbLj4Bsdqdhu42hICMgRkA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomCodecException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomCodecException.html",
+          "hash": "rLaTLBC4e326jmSKofbr2A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomCodecExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomCodecExtensions.html",
+          "hash": "XNrlwuQDLAIEhKJZMobseg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomCodecParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomCodecParams.html",
+          "hash": "6NtpuQ+SfBq0SHy90b2ijg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomJpeg2000Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomJpeg2000Codec.html",
+          "hash": "qWDliUwhz8urHMrUTkWMuw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomJpeg2000Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomJpeg2000Params.html",
+          "hash": "sYz2aXe48a6DXlkqu9ya/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomJpegCodec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomJpegCodec.html",
+          "hash": "paxKIZL9xsvEAM7068NvMg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomJpegParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomJpegParams.html",
+          "hash": "mia7qcM0vM6nNfKHTvB/UQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomJpegSampleFactor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomJpegSampleFactor.html",
+          "hash": "9jC2wmZym/qRBbJhSqxJ3A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomRleCodec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomRleCodec.html",
+          "hash": "o8eQBdw9xbFOPdZAqtIItw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomRleCodecImpl.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomRleCodecImpl.html",
+          "hash": "MgrwpxAiUTfwZEe4SaDa+g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.DicomTranscoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.DicomTranscoder.html",
+          "hash": "sn1rJ/6kU1RBbV9ekDJwLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.IDicomCodec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.IDicomCodec.html",
+          "hash": "FAxCDapp6n4sbvd7eJ10LQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.IDicomTranscoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.IDicomTranscoder.html",
+          "hash": "2rtQYIIiVdrF7uDedsnYww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.ITranscoderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.ITranscoderManager.html",
+          "hash": "NVNXkKbBQX22B6kD50ErmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.Jpeg.JpegHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.Jpeg.JpegHelper.html",
+          "hash": "ZHOcmejAG44f3erbihGBew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.Jpeg.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.Jpeg.html",
+          "hash": "jGBjV5o6wPrbRJE7oCVlyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.JpegLossless.DicomJpegLosslessDecoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.JpegLossless.DicomJpegLosslessDecoder.html",
+          "hash": "ASCdLz2Wlz4YeAhFVGiEUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.JpegLossless.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.JpegLossless.html",
+          "hash": "cu40g6xMqrsX6YqALVgLNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.JpegLosslessDecoderWrapperProcess14.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.JpegLosslessDecoderWrapperProcess14.html",
+          "hash": "fk2csAW6dQAcF0xyxf3Paw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.JpegLosslessDecoderWrapperProcess14SV1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.JpegLosslessDecoderWrapperProcess14SV1.html",
+          "hash": "i+RChMf5gVw1ARKsUlGVRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.TranscoderManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.TranscoderManager.html",
+          "hash": "THhrQqpm/+QMJC2rQehGBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Codec.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Codec.html",
+          "hash": "AzAM9v9wNSqw/rg7NtS2fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Color32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Color32.html",
+          "hash": "zPaCQSmnTdLJLh8WTs8vsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ColorSpace.Component.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ColorSpace.Component.html",
+          "hash": "QlzoZVT/OV/OW0Xj/ECHwQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ColorSpace.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ColorSpace.html",
+          "hash": "UOJ8YSR9HXAE3SFOVMCX0Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ColorTable.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ColorTable.html",
+          "hash": "oFd3hRZZGgv4idgeUU2rmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomImage.html",
+          "hash": "04plchOeYryIgZA6uUFPeg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomImagingException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomImagingException.html",
+          "hash": "pejvWPvz2Fd+qYsoCZeuOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomOverlayData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomOverlayData.html",
+          "hash": "0o/ckZwvj/5j/DTYKKi41w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomOverlayDataFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomOverlayDataFactory.html",
+          "hash": "LjyXYfvMzhlLpt6zvrxTgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomOverlayType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomOverlayType.html",
+          "hash": "FNEfrmWR1ZuxVOdInJ8+UA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.DicomPixelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.DicomPixelData.html",
+          "hash": "GaK78ZiD6iIaHS9Ty564Qg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.FrameGeometry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.FrameGeometry.html",
+          "hash": "Y5U0h/Vrlip5wXtTZtgzEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.FrameGeometryType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.FrameGeometryType.html",
+          "hash": "3T4Q6dzOOhb2pIaLlreR4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.FrameOrientation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.FrameOrientation.html",
+          "hash": "M6R50lpdzqaxnhJFCqlg9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.GrayscaleRenderOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.GrayscaleRenderOptions.html",
+          "hash": "imR+LGFksu4/qJhqbL2rVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.IImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.IImage.html",
+          "hash": "hM+c6sSH96HsLiTSKiPFjw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.IImageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.IImageManager.html",
+          "hash": "zaereW14j+3xJa7N8odOgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ImageBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ImageBase-1.html",
+          "hash": "jSlB0Emh5AHe6sOAF3ltdQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ImageDisposableBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ImageDisposableBase-1.html",
+          "hash": "ejoNw2P3sTy5n2MpB4RfVw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.ImageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.ImageManager.html",
+          "hash": "iUL+tKDMaGxikgQUeKD4+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.CompositeLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.CompositeLUT.html",
+          "hash": "726z06ukRAEe2jXVZcv/hQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.ILUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.ILUT.html",
+          "hash": "SnuYa2ITw7t49nfSUvB5aQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.IModalityLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.IModalityLUT.html",
+          "hash": "ePJbUpieZ0pHFDtDFM2Urw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.InvertLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.InvertLUT.html",
+          "hash": "hR8uen/PZsioMYRgj3z9Yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.ModalityRescaleLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.ModalityRescaleLUT.html",
+          "hash": "Yp6LDjkEyLl5NsJPwZHIQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.ModalitySequenceLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.ModalitySequenceLUT.html",
+          "hash": "GBHh10p9y+FVGSvdMBNzMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.OutputLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.OutputLUT.html",
+          "hash": "u4XmWetMOyXXDi4neWyZdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.PaddingLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.PaddingLUT.html",
+          "hash": "cxCzLJc7CbPjHNg88AIQiA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.PaletteColorLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.PaletteColorLUT.html",
+          "hash": "aXJ7OymwgbzvYwfi2xi6AQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.PrecalculatedLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.PrecalculatedLUT.html",
+          "hash": "HoMIukX6fQYNs044yEQk5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.VOILUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.VOILUT.html",
+          "hash": "fFI5Wql696eovGqKU5TQCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.VOILinearExactLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.VOILinearExactLUT.html",
+          "hash": "sOZ4a32/GtZyWU6twWx3kA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.VOILinearLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.VOILinearLUT.html",
+          "hash": "yv5sHr13x6wJRp/GqIsbcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.VOISequenceLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.VOISequenceLUT.html",
+          "hash": "wCxNls1OKH9jikcTqAISNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.VOISigmoidLUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.VOISigmoidLUT.html",
+          "hash": "iIjx+hMxIPi65dKmYeHtsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.LUT.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.LUT.html",
+          "hash": "rk0t4fAUndwbKZMw4pjm1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.BitList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.BitList.html",
+          "hash": "twTevt3ZQICtUsbIsb2K+w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Constants.html",
+          "hash": "9fNyC8vq5u1ckwMFERdJTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Extensions.html",
+          "hash": "1jKj6TWZF3ZPlPkV2RDZAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.GeometryHelper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.GeometryHelper.html",
+          "hash": "4h8wO5Gxh/WaIIbofChg5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Histogram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Histogram.html",
+          "hash": "yUgAPfxpQgvdY5S8u9HTUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.IntervalD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.IntervalD.html",
+          "hash": "p0HhB8K7tyiABZUqfAdxng=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Line3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Line3D.html",
+          "hash": "Bo1M5FfWZh+ZQ8txkRZjkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Matrix.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Matrix.html",
+          "hash": "uZyiAZhPbiiZsqj+N4O+jg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.MatrixD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.MatrixD.html",
+          "hash": "9uC4tSqbuzFqn8TN/aEKag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.MatrixF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.MatrixF.html",
+          "hash": "Z4bxZjpnn8/3zsvyff4KYA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.MovingAverage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.MovingAverage.html",
+          "hash": "Rdpcqf71dcHDy2qTdpSB8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.MovingAverageD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.MovingAverageD.html",
+          "hash": "XZiDEkayVTkF444saSygnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.MovingAverageF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.MovingAverageF.html",
+          "hash": "ovY8MW7FWGz6JwwfXMNN9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Orientation3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Orientation3D.html",
+          "hash": "3Dv38M/a3Tm72CxWrhdipg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Plane3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Plane3D.html",
+          "hash": "jgEj2tnUOP/gnRmUdRQnJQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Point2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Point2.html",
+          "hash": "01gR36vYQSYiSDKvzqa/VQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Point2D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Point2D.html",
+          "hash": "uipIRg09dpVAhf/wnm7gGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Point3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Point3D.html",
+          "hash": "xr79AekhoCBtpHTPzC+XMQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.RectF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.RectF.html",
+          "hash": "8nG4wqiuUn44Fu3L1bJQBg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Segment3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Segment3D.html",
+          "hash": "pouhT06DSNDnrl5Gohl1Fg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Slice3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Slice3D.html",
+          "hash": "tHKL6aeJEThr7zmXra+l9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.Vector3D.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.Vector3D.html",
+          "hash": "sDYmigOJYu7wTbi2e3m25g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Mathematics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Mathematics.html",
+          "hash": "2DDBV+5qEvQ2NOXn0p08Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.PhotometricInterpretation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.PhotometricInterpretation.html",
+          "hash": "tF949OSoMMYtlf5mfJGSJA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.PixelDataConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.PixelDataConverter.html",
+          "hash": "R9uAfGZUTpMT7H5pG+lNEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.PixelRepresentation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.PixelRepresentation.html",
+          "hash": "odeHA/3Uqg4XLceCli+/wg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.PlanarConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.PlanarConfiguration.html",
+          "hash": "4D3oSK4aK8fhQsw7UFHdFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.RawImage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.RawImage.html",
+          "hash": "Kz2V7MP9xuA3LG9ESN+Zsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.RawImageExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.RawImageExtensions.html",
+          "hash": "NJLp03AMuieLGa/zX46VYg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.RawImageManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.RawImageManager.html",
+          "hash": "3ELUHhFyJktLh2WV1fBGxw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.DicomGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.DicomGenerator.html",
+          "hash": "aiURwIbSAmPsgMk2NfRJNQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.ImageData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.ImageData.html",
+          "hash": "R2jK21hwSpjCHpjusWIxPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.Slice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.Slice.html",
+          "hash": "ayxEZNC1EUEDOHpdp5CUEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.Stack.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.Stack.html",
+          "hash": "Uc5d/tEBvavvuFkltQEdHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.StackType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.StackType.html",
+          "hash": "JnEWDAwKu25XZPCmX9O1Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.VolumeData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.VolumeData.html",
+          "hash": "hX3mX/5VpfhqJpEijUQQpQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Reconstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Reconstruction.html",
+          "hash": "qGkI3z0ocaPXkVDNMnuGdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.ColorPixelData24.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.ColorPixelData24.html",
+          "hash": "Dk3kGMR2xVQR/1ha8+z2Vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.CompositeGraphic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.CompositeGraphic.html",
+          "hash": "fEJLtt+SpEWDPOLtaKYuvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GenericGrayscalePipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GenericGrayscalePipeline.html",
+          "hash": "lvAsCbPS/Uskdx9k8KS2Zw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GrayscalePixelDataS16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GrayscalePixelDataS16.html",
+          "hash": "d+gyNrnIyF05f8BRjV62Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GrayscalePixelDataS32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GrayscalePixelDataS32.html",
+          "hash": "PAJ+8tHFkQ0iL3pqRRblgQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU16.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU16.html",
+          "hash": "GXkeJLaVdrUl7EPo6PS+iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU32.html",
+          "hash": "Swhi1jq+1HitXtkImhgQAw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU8.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.GrayscalePixelDataU8.html",
+          "hash": "jl7qdABMOaxIxYHWqSMEow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.IGraphic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.IGraphic.html",
+          "hash": "BrUC/7Ts5iNBOHoX42iPqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.IPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.IPipeline.html",
+          "hash": "ZN4BKY35tEJTXmPGcZxRhg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.IPixelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.IPixelData.html",
+          "hash": "aOnywfjbm2MYNR7SMjT6Jw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.ImageGraphic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.ImageGraphic.html",
+          "hash": "3vLwnnGQxYHUpc7L54wHWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.OverlayGraphic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.OverlayGraphic.html",
+          "hash": "k828cucq4c7+f5E2FtMAHg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.PaletteColorPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.PaletteColorPipeline.html",
+          "hash": "DfpHMdt3PuQqU1V2HFU8Bw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.PixelDataFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.PixelDataFactory.html",
+          "hash": "thNvpDZMuTkAogEP+pQkaQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.RgbColorPipeline.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.RgbColorPipeline.html",
+          "hash": "Qv9jQ/xYmFb8IdqRgtJO0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.SingleBitPixelData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.SingleBitPixelData.html",
+          "hash": "CMW6QExNN/QNsAsVYA422A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.Render.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.Render.html",
+          "hash": "p5QVmZiq6qIehaa4hC+sFw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.SpatialTransform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.SpatialTransform.html",
+          "hash": "nueI3k5ntNQgYlhMKaEgsA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Imaging.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Imaging.html",
+          "hash": "azQb16D/y4m14JXIoNGO3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.IsEmptyDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.IsEmptyDicomMatchRule.html",
+          "hash": "SUXQi12WU4S1xtGoNB0vJw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.ConsoleExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.ConsoleExtensions.html",
+          "hash": "Ne1qbI05pdUQDqB4GoqAGw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.ConsoleLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.ConsoleLogger.html",
+          "hash": "2pLHTDEdlQheTv5Quf44DQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.DicomDatasetDumper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.DicomDatasetDumper.html",
+          "hash": "Tt+vp0z7P7KnmhsNMxaLVA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.DicomDatasetLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.DicomDatasetLogger.html",
+          "hash": "pfCaW8zjEwgD0ZUGs8m/8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.DicomParserLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.DicomParserLogger.html",
+          "hash": "UNkApnxYimYa1lhXo+KnKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.Extensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.Extensions.html",
+          "hash": "u2CzaDNvz8Yk/bpGGSQWfQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.HexWriter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.HexWriter.html",
+          "hash": "cJiH3rBsOJfOC4Nl7E26cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.ILogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.ILogManager.html",
+          "hash": "czpMgRovOcMTRYJP6bNv9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.ILogger-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.ILogger-1.html",
+          "hash": "JIAVPEOQ7iiI3bQGph2qvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.ILogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.ILogger.html",
+          "hash": "XFuZdzkwYrw0m0/iPIJ5NA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.LogLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.LogLevel.html",
+          "hash": "jlNJhn6PgPW4GZ4pOMjzCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.LogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.LogManager.html",
+          "hash": "5SIJpytjqPdET4xOIAPV1g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.Logger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.Logger.html",
+          "hash": "Ovoy2Uc689gMtRaOwYAAOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.TextWriterLogManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.TextWriterLogManager.html",
+          "hash": "1oZKVdEcQ/OF5gacwZpJSw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.TextWriterLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.TextWriterLogger.html",
+          "hash": "vOxKm4v3PlbBrrJ0aJ7yug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Log.html",
+          "hash": "WI9z0vGuSrWuL9SroX5hxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.MapValueDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.MapValueDicomTransformRule.html",
+          "hash": "QvrGztWhEq9Cx9d1USjPpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectory.html",
+          "hash": "dVyEMRksSBqIHSP7ZXAtFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectoryEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectoryEntry.html",
+          "hash": "tj3B6/G0CyqfUs86yfcAsg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectoryReaderObserver.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectoryReaderObserver.html",
+          "hash": "MqC53sb659XMLD3tEjN6Iw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectoryRecord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectoryRecord.html",
+          "hash": "IiMxy8kGJWM8+uPM5hWdqQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectoryRecordCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectoryRecordCollection.html",
+          "hash": "MGgEhCjEFFUIcKe9oUeCAg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomDirectoryRecordType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomDirectoryRecordType.html",
+          "hash": "B1oKhJB52y+ApqdPG4vC+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomFileScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomFileScanner.html",
+          "hash": "pnRykly7ubHtWwKbqZuliw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomScanCompleteCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomScanCompleteCallback.html",
+          "hash": "FeNKJDlP/dpKUpau5Hy3pQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomScanFileFoundCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomScanFileFoundCallback.html",
+          "hash": "ZpH8McsWwMbHUdj4cRCofg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.DicomScanProgressCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.DicomScanProgressCallback.html",
+          "hash": "cAdO9MeHwtuSP/Dyj1hmzg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Media.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Media.html",
+          "hash": "K8o8nnY3vrflQw5qk6w6IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.MetaSopClasses.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.MetaSopClasses.html",
+          "hash": "tcB71oITsu2Qom60fuf5ew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.NegateDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.NegateDicomMatchRule.html",
+          "hash": "ZGziYgvaqtcJfmIK40bf7Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AAbort.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AAbort.html",
+          "hash": "4Kl0JQffqtGEi9zHmX1bEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AAssociateAC.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AAssociateAC.html",
+          "hash": "/AzxEsdN3M9y4aZaAtbYvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AAssociateRJ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AAssociateRJ.html",
+          "hash": "xKy5ni76iUYrqWpukDmy3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AAssociateRQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AAssociateRQ.html",
+          "hash": "gOglWg/HSgDr/39cvTxXPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AReleaseRP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AReleaseRP.html",
+          "hash": "VTgwHDdPTdGj9dY9ya6ctw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AReleaseRQ.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AReleaseRQ.html",
+          "hash": "Gp25hWhx5cRVj4pBwY+GCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AsyncManualResetEvent-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AsyncManualResetEvent-1.html",
+          "hash": "LgHlH7rpoqAQcu94kBwWag=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.AsyncManualResetEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.AsyncManualResetEvent.html",
+          "hash": "pNpkYJT9/7PQ4IBL1Z9lrw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DefaultDicomClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DefaultDicomClientFactory.html",
+          "hash": "M025C5XPuDCq7d+TSkLpew=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClient.html",
+          "hash": "0fGBZZWILqqKbcwXMprwyg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientCStoreRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientCStoreRequestHandler.html",
+          "hash": "9uaYC6FeAbmoMhnNIS3J9Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientCancellation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientCancellation.html",
+          "hash": "qDG1sf3ML1t89Uw6Pc54gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientCancellationMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientCancellationMode.html",
+          "hash": "y+KHBoeaNjO776uMYoe/Ww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientConnection.html",
+          "hash": "RWC422shG8JX8DN9F7c50w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientFactory.html",
+          "hash": "X2XXP1TFfGKF1M5Hi9GJbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientNEventReportRequestHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientNEventReportRequestHandler.html",
+          "hash": "Wz8AppviaqgmrOmn39688g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.DicomClientOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.DicomClientOptions.html",
+          "hash": "xTsdvhgDUKbunnBONqRAPg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.EventArguments.AssociationAcceptedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.EventArguments.AssociationAcceptedEventArgs.html",
+          "hash": "c9mEDgm4hlnM9XrcGnDuVg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.EventArguments.AssociationRejectedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.EventArguments.AssociationRejectedEventArgs.html",
+          "hash": "o9Irnag+T1mG8Sqn2nbu9w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.EventArguments.RequestTimedOutEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.EventArguments.RequestTimedOutEventArgs.html",
+          "hash": "QTIMhdghIhdAYfLmwFAitA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.EventArguments.StateChangedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.EventArguments.StateChangedEventArgs.html",
+          "hash": "d6O2a2n9dKmBpT5PFn2GUg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.EventArguments.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.EventArguments.html",
+          "hash": "PUhr/V7vaeQ+vZtSd5K67w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.IDicomClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.IDicomClient.html",
+          "hash": "lephlGpx21xx8gQnQppe6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.IDicomClientConnection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.IDicomClientConnection.html",
+          "hash": "hzlv0FzL8SjLwrtb2J83yw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.IDicomClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.IDicomClientFactory.html",
+          "hash": "RTd43DCs5FwwP2lOZPHVtg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientAbortState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientAbortState.InitialisationParameters.html",
+          "hash": "T1uQI2wMzR+m5YnkFoOhgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientAbortState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientAbortState.html",
+          "hash": "OL/1+McubpQgBdD7mwBX+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.DicomClientCompletedWithErrorInitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.DicomClientCompletedWithErrorInitialisationParameters.html",
+          "hash": "eWqgv54uwNJHNAcvPVyYKQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.DicomClientCompletedWithoutErrorInitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.DicomClientCompletedWithoutErrorInitialisationParameters.html",
+          "hash": "VyNxJnPEK+RbCsK2D5EK4g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.InitialisationParameters.html",
+          "hash": "R+WRJ0mHSFU6NIRX685z1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientCompletedState.html",
+          "hash": "znm7VoM2a/ucvrHLipqHTw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientConnectState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientConnectState.html",
+          "hash": "zXSe2KWMXxHJL7gYH9GTAA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientIdleState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientIdleState.html",
+          "hash": "LMFWHM2mx9OGU2OcXZb22w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientLingeringState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientLingeringState.InitialisationParameters.html",
+          "hash": "KefvVTPud39ANirR1h2rBw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientLingeringState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientLingeringState.html",
+          "hash": "ySh+4LKM3Krw7bgmMRj9Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientReleaseAssociationState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientReleaseAssociationState.InitialisationParameters.html",
+          "hash": "i3hi0sibaijC9tQPlrRvgw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientReleaseAssociationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientReleaseAssociationState.html",
+          "hash": "cc2sCSy2ANDeOheye193zQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientRequestAssociationState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientRequestAssociationState.InitialisationParameters.html",
+          "hash": "/BcqsSDwqIsH2e0ArTA8lQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientRequestAssociationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientRequestAssociationState.html",
+          "hash": "WuDXvRumx7myBKiXqIcMxg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientSendingRequestsState.InitialisationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientSendingRequestsState.InitialisationParameters.html",
+          "hash": "8+UhG2y/5pXMRqahLiErtQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientSendingRequestsState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientSendingRequestsState.html",
+          "hash": "Rol1Hie7TAIf+wT3cPUTEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientWithAssociationState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientWithAssociationState.html",
+          "hash": "ym+z791Qrkxpj7NYmmBObA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.DicomClientWithConnectionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.DicomClientWithConnectionState.html",
+          "hash": "1cuCqrJDG81HNwokhAegDQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.IDicomClientState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.IDicomClientState.html",
+          "hash": "Sgr7iBcMKbDZprYcxy3y2Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.IInitialisationWithAssociationParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.IInitialisationWithAssociationParameters.html",
+          "hash": "raDSRA1etBTbuNCFH3Y4BA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.IInitialisationWithConnectionParameters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.IInitialisationWithConnectionParameters.html",
+          "hash": "Trz+mnSvY+sMEsTWMU8Hvw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.States.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.States.html",
+          "hash": "X4VJ6ZVo441oh3oFBZE96Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.Client.html",
+          "hash": "6H5sfS+SgJ7Vw5bdw7UHnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DefaultDicomServerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DefaultDicomServerFactory.html",
+          "hash": "48VWM5Gl6o48uF9m0aurXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DefaultDicomServerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DefaultDicomServerRegistry.html",
+          "hash": "347agFW+jI72QxiYljiEog=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DesktopNetworkListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DesktopNetworkListener.html",
+          "hash": "d8yVHSONzMKwrT8cGFjG5A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DesktopNetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DesktopNetworkManager.html",
+          "hash": "F7jwXmf6rC8wij+Jd+bQqA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DesktopNetworkStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DesktopNetworkStream.html",
+          "hash": "aKuGwfe1N4J47+c5sUs3yA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomAbortReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomAbortReason.html",
+          "hash": "wXKepMw0TsrusvbREmKdvQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomAbortSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomAbortSource.html",
+          "hash": "azCFzlmma4XTeM7cXV+MOg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomAssociation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomAssociation.html",
+          "hash": "Qh7duJOqEXqL+cXJ22LtmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomAssociationAbortedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomAssociationAbortedException.html",
+          "hash": "52GcJQSNWOFreTipvIkk+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomAssociationRejectedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomAssociationRejectedException.html",
+          "hash": "6T5i97m3SXJablCc042eHQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCEchoProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCEchoProvider.html",
+          "hash": "axSFk6xR/bpmhXUCF/7OzQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCEchoRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCEchoRequest.ResponseDelegate.html",
+          "hash": "+IchRg6udDLy7ny0MYev8A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCEchoRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCEchoRequest.html",
+          "hash": "FjLa7CuieuzB1SAtGUBDUQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCEchoResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCEchoResponse.html",
+          "hash": "2hPeQyuLgbgAtszMI0QCmw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCFindApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCFindApplicationInfo.html",
+          "hash": "bZNtQSDHx8qR5F3ioyM2Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCFindOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCFindOption.html",
+          "hash": "tR6YJ1Jq0HHPyEjbQsqu0g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCFindRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCFindRequest.ResponseDelegate.html",
+          "hash": "6C4Iu/q4ZJ9QSzF81SzE6A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCFindRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCFindRequest.html",
+          "hash": "8Trmplg7PWHE9kNApux4Cg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCFindResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCFindResponse.html",
+          "hash": "dfxvbub4AsGrKALKEuhmOA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCGetApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCGetApplicationInfo.html",
+          "hash": "Ls+ioL8M1xxKf9JYRsdUdw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCGetOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCGetOption.html",
+          "hash": "KTvOH7bSzA/MbiCHH99xpg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCGetRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCGetRequest.ResponseDelegate.html",
+          "hash": "xxSmeXiHWGdk9A2bXW/bmg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCGetRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCGetRequest.html",
+          "hash": "B+IWmydJl0tP/4uuy9DryA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCGetResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCGetResponse.html",
+          "hash": "zVBVq0SQzsY2TB79WYP1ug=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCMoveApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCMoveApplicationInfo.html",
+          "hash": "4Uneh15ZPQLQy2jj+66EDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCMoveOption.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCMoveOption.html",
+          "hash": "2In3pTrzXi0xYzBpr6zD1A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCMoveRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCMoveRequest.ResponseDelegate.html",
+          "hash": "s5lIC8wRuziJ8EhAa09GEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCMoveRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCMoveRequest.html",
+          "hash": "q38fDkWfAkOrwRpDgxZONw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCMoveResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCMoveResponse.html",
+          "hash": "B1VGn9ClyTPLhmFFvu6/8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCStoreApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCStoreApplicationInfo.html",
+          "hash": "3wlkYIPIDJ6b/x34Uxyi6g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCStoreRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCStoreRequest.ResponseDelegate.html",
+          "hash": "i0M4F4sZ9Sr6m7j+8hGBCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCStoreRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCStoreRequest.html",
+          "hash": "pc3Bs7qV0cu+/sm4hF99rg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCStoreResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCStoreResponse.html",
+          "hash": "4gMlnW0or6bm7U8WPmUCcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomCommandField.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomCommandField.html",
+          "hash": "IhXkNSdrmP2reyt1A5rDwg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomElementCoercion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomElementCoercion.html",
+          "hash": "WvAACHt7nqxzx0wDISownw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomExtendedNegotiation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomExtendedNegotiation.html",
+          "hash": "LFAhZISdxxnt+5OyV9s5+Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomExtendedNegotiationCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomExtendedNegotiationCollection.html",
+          "hash": "Eg0dSkaP4s8dnaQtP7WqCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomLevelOfDigitalSignatureSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomLevelOfDigitalSignatureSupport.html",
+          "hash": "7b5kXZBfmA7INPdAEdZytg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomLevelOfSupport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomLevelOfSupport.html",
+          "hash": "kDDgfEiDn15zl0V67kycNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomMessage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomMessage.html",
+          "hash": "bIoaU/YIQelhJoGZfi77kg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNActionRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNActionRequest.ResponseDelegate.html",
+          "hash": "FZuiKHmBUl3XffWwx63BoQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNActionRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNActionRequest.html",
+          "hash": "psiqqKpIZ0z49xKWC3LaPw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNActionResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNActionResponse.html",
+          "hash": "aAWMrLoRxmeyfyePxVRT5Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNCreateRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNCreateRequest.ResponseDelegate.html",
+          "hash": "wCIMOeFeueVSKsxYUZMTwA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNCreateRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNCreateRequest.html",
+          "hash": "CQl5Sz9kKF7FQCh31U3gQg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNCreateResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNCreateResponse.html",
+          "hash": "YeDdt8QtaTLxIhNYDtWy+A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNDeleteRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNDeleteRequest.ResponseDelegate.html",
+          "hash": "m8Hneijb0nkuR8LLQZzXVQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNDeleteRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNDeleteRequest.html",
+          "hash": "5fMILRWuYmOXR+BKm3gT8Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNDeleteResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNDeleteResponse.html",
+          "hash": "BvxIbAbhOQ//WYReic1d7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNEventReportRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNEventReportRequest.ResponseDelegate.html",
+          "hash": "lllONW43hbhG2/1YJUAD/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNEventReportRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNEventReportRequest.html",
+          "hash": "wy1PRPVnbptc/2yS3d29dw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNEventReportResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNEventReportResponse.html",
+          "hash": "juS1uoSWgglzXip8/K9DbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNGetRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNGetRequest.ResponseDelegate.html",
+          "hash": "PinsNi762angDge7lT9D/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNGetRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNGetRequest.html",
+          "hash": "2uoZIZQtBe3ysplADs0bpw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNGetResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNGetResponse.html",
+          "hash": "Y/gKqBiPZ3P4IhVBe8fRvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNSetRequest.ResponseDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNSetRequest.ResponseDelegate.html",
+          "hash": "sBbWaEvc4eHMYt8lecrjLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNSetRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNSetRequest.html",
+          "hash": "c99iXqhsBe0xKRdaKXBGtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNSetResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNSetResponse.html",
+          "hash": "Q2F7S76eRKW3DurBrCS4CA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomNetworkException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomNetworkException.html",
+          "hash": "XMTg0L6w9FC9ynheU9cBHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomPresentationContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomPresentationContext.html",
+          "hash": "BbRpCSWlV4jF48GWawMNEA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomPresentationContextCollection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomPresentationContextCollection.html",
+          "hash": "evpJcePHTsehlW/C30mPXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomPresentationContextResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomPresentationContextResult.html",
+          "hash": "COtgxbPYFGu1XZuNaXE7SQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomPriority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomPriority.html",
+          "hash": "9XMOjkrsRn24U0RHlp5YQA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomPriorityRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomPriorityRequest.html",
+          "hash": "6Ty5al4IF+iurQ+7pRDsnQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomQueryRetrieveLevel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomQueryRetrieveLevel.html",
+          "hash": "fRydrkEDk7V+DuGxwjDmfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomRejectReason.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomRejectReason.html",
+          "hash": "PVPVyPoHD5q8/WvDIbo4Gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomRejectResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomRejectResult.html",
+          "hash": "pI1Ln2mRRjt5qLxhgjgieg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomRejectSource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomRejectSource.html",
+          "hash": "9ARbvfdVXV0FSehJEJKyDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomRequest.OnTimeoutEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomRequest.OnTimeoutEventArgs.html",
+          "hash": "ewX3w+64/j2YgED/SMiL0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomRequest.html",
+          "hash": "LnUYt/WYLM7DTsUwPMFAPA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomResponse.html",
+          "hash": "oI0I8YBWqVRStJBfc4kimg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServer-1.html",
+          "hash": "WJ7x4DvY/JmAcKBlB+lY/Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServerFactory.html",
+          "hash": "vQ8X5vKNvbrZE7RLLns4Uw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServerRegistration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServerRegistration.html",
+          "hash": "vbw0ORGztPgONEv6dATfhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServerRegistry.html",
+          "hash": "iuyxdfdsRox3kRZVT/2rkg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomService.html",
+          "hash": "iB/RJaB/pf+tZqpxEAHCvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServiceApplicationInfo.CreateApplicationInfoDelegate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServiceApplicationInfo.CreateApplicationInfoDelegate.html",
+          "hash": "j8cYQYiO5HsueIPEejFQ3g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServiceApplicationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServiceApplicationInfo.html",
+          "hash": "WnGoq9/B3ui+5HTV1x5ypw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomServiceOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomServiceOptions.html",
+          "hash": "FQlsl/96vW+In/H2G3Lm3w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomState.html",
+          "hash": "XTa7X7k48DFMduaewk/pcQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomStatus.html",
+          "hash": "IIz0sHTuKC23N8WVRkErWQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.DicomTimeout.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.DicomTimeout.html",
+          "hash": "MS9odnZMOLlJ4zxXtcT2gA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomCEchoProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomCEchoProvider.html",
+          "hash": "LhewCPxx7Bg9qahOn/w+dA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomCFindProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomCFindProvider.html",
+          "hash": "EnugGepmczpEWiuwd0k4IA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomCGetProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomCGetProvider.html",
+          "hash": "owzKlWVl0U08pbg4lc+f1w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomCMoveProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomCMoveProvider.html",
+          "hash": "/ph3L9MrpLPVosiNSEGmCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomCStoreProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomCStoreProvider.html",
+          "hash": "MqVer1GFdJT42oW/Gp5p5w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomNEventReportRequestProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomNEventReportRequestProvider.html",
+          "hash": "shRR/8d9Hy8nXKMWli0UKw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomNServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomNServiceProvider.html",
+          "hash": "1oZ+j7SYnIgRcSES/Hodcw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServer-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServer-1.html",
+          "hash": "eCLRYp4rJD3OZYdxPmuvfA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServer.html",
+          "hash": "8ykS88x7ccTOAD67rOgAMw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServerFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServerFactory.html",
+          "hash": "Te3FR4vp5oxtJhHRV2I1zA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServerRegistry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServerRegistry.html",
+          "hash": "DwoYxGXDP48l4uT3xEDnQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomService.html",
+          "hash": "C0Kt5ufofnIkplP07nzDyA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServiceProvider.html",
+          "hash": "85rABdV6oZqcqYc9WnZVIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.IDicomServiceRunner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.IDicomServiceRunner.html",
+          "hash": "eeaVEP49zMxR+TPDH/VrZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.INetworkListener.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.INetworkListener.html",
+          "hash": "Xd7jbTEQ2PTTSA3LvKJT2w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.INetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.INetworkManager.html",
+          "hash": "9YSsFYUdrH7+nwT/fHsu6Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.INetworkStream.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.INetworkStream.html",
+          "hash": "hZDfM2pyyzE2lYH7yIZzAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.NetworkManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.NetworkManager.html",
+          "hash": "jnfzu3T9d0+A3oCq4yye/A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.PDU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.PDU.html",
+          "hash": "OupvhMFAyhBU18QfEjFSnA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.PDUBytesHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.PDUBytesHandler.html",
+          "hash": "kwiQHSeg3dgdbrTz96MFww=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.PDV.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.PDV.html",
+          "hash": "OaMgp1rMRbefQ1Yjz/5lrg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.PDataTF.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.PDataTF.html",
+          "hash": "0FvrnneZFeMqFWdOUj+prg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.RawPDU.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.RawPDU.html",
+          "hash": "kJgujcDRU1hkZiFsTc9Eiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Network.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Network.html",
+          "hash": "7xyiEGCDEqSHEbgjusOUcg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.OneOfDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.OneOfDicomMatchRule.html",
+          "hash": "f6xzuTzgEQaiMTHoFynpAQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.PadStringDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.PadStringDicomTransformRule.html",
+          "hash": "p6z1XrP+nmi99AxAI16eSg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.ParseState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.ParseState.html",
+          "hash": "/9A2lyPUYHgCO4Nq1XzGGQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.PrefixDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.PrefixDicomTransformRule.html",
+          "hash": "y+6XHjhjqX9GNWl6LT6hbQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Printing.FilmBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Printing.FilmBox.html",
+          "hash": "fdGE/2LPQrK7wSNE9qkwyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Printing.FilmSession.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Printing.FilmSession.html",
+          "hash": "hP7lrA0RsJzK+zby7/cbLA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Printing.ImageBox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Printing.ImageBox.html",
+          "hash": "weT7zeAlqW4YIywbB83Plg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Printing.PresentationLut.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Printing.PresentationLut.html",
+          "hash": "HpypGXXXnR1rcOw26AX3sA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Printing.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Printing.html",
+          "hash": "uPPLQp2r2LpIHWBKmHKB3Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.RegexDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.RegexDicomMatchRule.html",
+          "hash": "SXMCgIEZ+4Ymxyl6ZgS8iA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.RegexDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.RegexDicomTransformRule.html",
+          "hash": "bFLs8Hf0VrkzvXgicAz6lw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.RemoveElementDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.RemoveElementDicomTransformRule.html",
+          "hash": "UuLjxdGlGV2gR6UIFu4izg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Serialization.DicomArrayJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Serialization.DicomArrayJsonConverter.html",
+          "hash": "gP1RIRjI4EVCc9dCZwnuiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Serialization.DicomJson.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Serialization.DicomJson.html",
+          "hash": "wQXDz8BFoc0/6PXYg+4EXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Serialization.DicomJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Serialization.DicomJsonConverter.html",
+          "hash": "vjmlTNX2ijeshlbJjUVSmA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Serialization.DicomXML.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Serialization.DicomXML.html",
+          "hash": "Cj9tQrfEZjnoQQrLNae+Mg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Serialization.html",
+          "hash": "voWlVMvpdx86/TOZPHHGCg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.SetValueDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.SetValueDicomTransformRule.html",
+          "hash": "PlZrR8iFnoTHZF5LBTADFg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.SplitFormatDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.SplitFormatDicomTransformRule.html",
+          "hash": "c+YXOd9SSEqeSe6xwrtJzw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StartsWithDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StartsWithDicomMatchRule.html",
+          "hash": "zIScCtBvNFNhwwK5dWrJhA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomCodeItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomCodeItem.html",
+          "hash": "Q/9fQA5bNGTS20vUOz8ECQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomContentItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomContentItem.html",
+          "hash": "fpla1UQ5LTYtht1ftY2VNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomContinuity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomContinuity.html",
+          "hash": "2lA7Nra1j4h82wh56HbmmQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomMeasuredValue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomMeasuredValue.html",
+          "hash": "hnt+5DuT5EKQRM5MQYvfyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomReferencedSOP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomReferencedSOP.html",
+          "hash": "tDOAQlYJikdoG1AnsMwjCQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomRelationship.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomRelationship.html",
+          "hash": "wYM2DAqea2BxVmfMqAh2Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomStructuredReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomStructuredReport.html",
+          "hash": "IDv6ho4wUDW6qcMnPUUdHw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomStructuredReportException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomStructuredReportException.html",
+          "hash": "WTFPptmGK5TbA/M1dvu9vg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.DicomValueType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.DicomValueType.html",
+          "hash": "S2/Cmj7hwr88/FHSueOuJg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.StructuredReport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.StructuredReport.html",
+          "hash": "hgKrBjPb2286o53l/tl8kQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.ToLowerDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.ToLowerDicomTransformRule.html",
+          "hash": "pWOXUniezQJVH0MUq4MiaA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.ToUpperDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.ToUpperDicomTransformRule.html",
+          "hash": "sx+vRV2Y2wdPRKHS36nb9A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Tools.LinqExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Tools.LinqExtensions.html",
+          "hash": "L150En4V7U6aoEC5CsSf7A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.Tools.html",
+          "hash": "hNq8Q/9qeuFms8DJUyZ8qA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.TrimCharactersDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.TrimCharactersDicomTransformRule.html",
+          "hash": "K3uRBM5wNsD3NX0c96kcNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.TrimStringDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.TrimStringDicomTransformRule.html",
+          "hash": "El3ddm9aA1XFb6MUnBrytg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.TruncateDicomTransformRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.TruncateDicomTransformRule.html",
+          "hash": "T/PklxVqdiUKrNZ5JjE3Zg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.UnvalidatedScope.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.UnvalidatedScope.html",
+          "hash": "00S4IpPV75qmhbxkNTpe1Q=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.WildcardDicomMatchRule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.WildcardDicomMatchRule.html",
+          "hash": "mRCrXZP3a9fuS84+vptUNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "obj/api/FellowOakDicom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/FellowOakDicom.html",
+          "hash": "JYaKVA59Q3xRSgf5vKJ4Bg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "obj/api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "IuswU7h8TQgsjOMPAzX1OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 511,
+          "skipped_file_count": 0
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 1,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
