@@ -5,9 +5,9 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>fo-dicom Documentation | fo-dicom API </title>
+    <title>Usage notes | fo-dicom API </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="fo-dicom Documentation | fo-dicom API ">
+    <meta name="title" content="Usage notes | fo-dicom API ">
     <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
@@ -70,34 +70,16 @@
         <div class="article row grid">
           <div class="col-md-10">
             <article class="content wrap" id="_content" data-uid="">
-<h1 id="fo-dicom-documentation">fo-dicom Documentation</h1>
+<h2 id="usage-notes">Usage notes</h2>
 
-<p>Fellow Oak DICOM, a DICOM toolkit in C# for all .NET Standard 2.0 compatible frameworks</p>
-<h2 id="main-features">Main features</h2>
-<ul>
-<li>Portable Class Library (PCL)</li>
-<li>Targets .NET Standard 2.0</li>
-<li>DICOM dictionary version 2021b</li>
-<li>High-performance, fully asynchronous async/await API</li>
-<li>JPEG (including lossless), JPEG-LS, JPEG2000, and RLE image compression (limited on .NET Core, Xamarin, Mono and Unity platforms)</li>
-<li>Supports very large datasets with content loading on demand</li>
-<li>Platform-specific image rendering</li>
-<li>JSON import and export</li>
-<li>XML export</li>
-<li>Anonymization</li>
-</ul>
-<h2 id="usage-documentation">Usage documentation</h2>
-<ul>
-<li><a href="api/FellowOakDicom.html">Generated API documentation</a></li>
-<li><a href="https://github.com/fo-dicom/fo-dicom-samples">Sample applications</a> in separate repository</li>
-<li><a href="usage.html">Usage notes</a></li>
-</ul>
-<h2 id="project-documentation">Project documentation</h2>
-<ul>
-<li><a href="../ChangeLog5.html">Release Notes</a></li>
-<li><a href="../.github/CONTRIBUTING.html">Contributung Guidelines</a></li>
-<li><a href="../Contributors.html">List of Contributers</a></li>
-</ul>
+<h3 id="image-rendering-configuration">Image rendering configuration</h3>
+<p>Out-of-the-box, fo-dicom for .NET defaults to Windows Forms-style image rendering. To switch to WPF-style image rendering, call: ImageManager.SetImplementation(WPFImageManager.Instance)</p>
+<h3 id="logging-configuration">Logging configuration</h3>
+<p>By default, logging defaults to the no-op NullLogerManager. Several log managers are available and can be enabled like this:</p>
+<pre><code class="lang-cs">LogManager.SetImplementation(ConsoleLogManager.Instance); // or ...
+
+LogManager.SetImplementation(NLogManager.Instance); // or ...
+</code></pre>
 </article>
           </div>
           
@@ -106,7 +88,7 @@
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc/Documentation/usage.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

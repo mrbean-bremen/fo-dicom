@@ -21,7 +21,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Bamp97N1RruppZ6t4zZLrq/mRzZOCe3vVjmJTS+pj18="
+          "hash": "Dpfvh4dLGuVOt2eQJQSagotwg6U4c47U4xc2Wk6NkTg="
         }
       },
       "is_incremental": false,
@@ -6194,6 +6194,18 @@
       },
       "is_incremental": false,
       "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage.html",
+          "hash": "Gz93B6liOw9be26uLyfzJzxkCcSnnU0PKeBxbQ/6Z3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     }
   ],
   "incremental_info": [
@@ -6210,7 +6222,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 1,
+          "total_file_count": 2,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
