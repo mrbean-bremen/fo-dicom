@@ -13,6 +13,42 @@
       "is_incremental": false
     },
     {
+      "type": "Conceptual",
+      "source_relative_path": "../.github/CONTRIBUTING.md",
+      "output": {
+        ".html": {
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "ir11nAIAh4DqB5zqnH1bEYNLF/qs0FOGZy694QxyL3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../ChangeLog5.md",
+      "output": {
+        ".html": {
+          "relative_path": "ChangeLog5.html",
+          "hash": "5zQVHOicQkxMOHkblMzY73Rjk/uYslImd+Rd3hSYY9s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "../Contributors.md",
+      "output": {
+        ".html": {
+          "relative_path": "Contributors.html",
+          "hash": "TdG+G1eRL5EAGHaN1iCZARBmSYBub4X1XfuHC/SNig0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "log_codes": [
         "InvalidFileLink"
       ],
@@ -21,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Dpfvh4dLGuVOt2eQJQSagotwg6U4c47U4xc2Wk6NkTg="
+          "hash": "ZSOYKb/OzuDXDbMr8KeuX8SvRRh2pt64fANBQ4L42l0="
         }
       },
       "is_incremental": false,
@@ -6222,7 +6258,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 2,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
