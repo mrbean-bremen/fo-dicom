@@ -177,13 +177,13 @@
   
   
   <a id="FellowOakDicom_DicomEncoding_GetCharset_" data-uid="FellowOakDicom.DicomEncoding.GetCharset*"></a>
-  <h4 id="FellowOakDicom_DicomEncoding_GetCharset_Encoding_" data-uid="FellowOakDicom.DicomEncoding.GetCharset(Encoding)">GetCharset(Encoding)</h4>
-  <div class="markdown level1 summary"><p>Get charset from encoding.</p>
+  <h4 id="FellowOakDicom_DicomEncoding_GetCharset_Encoding_System_Boolean_" data-uid="FellowOakDicom.DicomEncoding.GetCharset(Encoding,System.Boolean)">GetCharset(Encoding, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Get DICOM character set from encoding.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static string GetCharset(Encoding encoding)</code></pre>
+    <pre><code class="lang-csharp hljs">public static string GetCharset(Encoding encoding, bool extended = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,6 +201,12 @@
         <td><p>Encoding.</p>
 </td>
       </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a></td>
+        <td><span class="parametername">extended</span></td>
+        <td><p>If true, the extended version of the character set is returned.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -214,7 +220,7 @@
     <tbody>
       <tr>
         <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.string">String</a></td>
-        <td><p>Charset.</p>
+        <td><p>The Specific Character Set as defined in DICOM.</p>
 </td>
       </tr>
     </tbody>
