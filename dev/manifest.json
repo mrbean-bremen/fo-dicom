@@ -17,8 +17,8 @@
       "source_relative_path": "../.github/CONTRIBUTING.md",
       "output": {
         ".html": {
-          "relative_path": "usage/CONTRIBUTING.html",
-          "hash": "vv/7U+4JavfqwDXd1IXzvdWoG+jNf8AvR2GLwW/cAH0="
+          "relative_path": "CONTRIBUTING.html",
+          "hash": "ir11nAIAh4DqB5zqnH1bEYNLF/qs0FOGZy694QxyL3w="
         }
       },
       "is_incremental": false,
@@ -29,8 +29,8 @@
       "source_relative_path": "../ChangeLog5.md",
       "output": {
         ".html": {
-          "relative_path": "usage/ChangeLog5.html",
-          "hash": "WmnMTBXBJuvmXmXspj5JX8M3BE3cfwucGQtEOs+45tg="
+          "relative_path": "ChangeLog5.html",
+          "hash": "/5IeIhV0sue2BboJrkil1mVpFToJrLxsQ3hZ5w6KNME="
         }
       },
       "is_incremental": false,
@@ -41,20 +41,23 @@
       "source_relative_path": "../Contributors.md",
       "output": {
         ".html": {
-          "relative_path": "usage/Contributors.html",
-          "hash": "8dCVwyV8ZQhBdFtDJrFmQ0oiFFb7UMoMszz93rS0s4A="
+          "relative_path": "Contributors.html",
+          "hash": "nXB8F/9GXla+FYZ0oPT9uJIzs+l+y/pR336sTpqwUNI="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
+      "log_codes": [
+        "InvalidFileLink"
+      ],
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "i7LO2Q2EJJhz/ymTzWiYC0Is5KH5rxHIGy6cx7PIHNM="
+          "hash": "TneT+/CGBjQ5Umv6qq7u9il5HVXfAb5VAhhq28SQFYM="
         }
       },
       "is_incremental": false,
@@ -6227,6 +6230,18 @@
       },
       "is_incremental": false,
       "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "usage.md",
+      "output": {
+        ".html": {
+          "relative_path": "usage.html",
+          "hash": "Gz93B6liOw9be26uLyfzJzxkCcSnnU0PKeBxbQ/6Z3w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
     }
   ],
   "incremental_info": [
@@ -6243,7 +6258,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 4,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
