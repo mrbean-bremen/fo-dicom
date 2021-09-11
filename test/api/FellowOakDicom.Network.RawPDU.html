@@ -91,55 +91,48 @@
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
     <div class="level1"><span class="xref">RawPDU</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">IDisposable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.Network.html">FellowOakDicom.Network</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
   <h5 id="FellowOakDicom_Network_RawPDU_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public class RawPDU : IDisposable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU__ctor_System_Byte_System_Text_Encoding_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.%23ctor(System.Byte%2CSystem.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L42">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU__ctor_" data-uid="FellowOakDicom.Network.RawPDU.#ctor*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU__ctor_MemoryStream_Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(MemoryStream,Encoding)">RawPDU(MemoryStream, Encoding)</h4>
-  <div class="markdown level1 summary"><p>Initializes new PDU reader from a stream</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public RawPDU(MemoryStream stream, Encoding encoding = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">MemoryStream</span></td>
-        <td><span class="parametername">stream</span></td>
-        <td><p>Stream</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">Encoding</span></td>
-        <td><span class="parametername">encoding</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 id="FellowOakDicom_Network_RawPDU__ctor_MemoryStream_Encoding__remarks">Remarks</h5>
-  <div class="markdown level1 remarks"><p>The created object takes ownership of the stream</p>
-</div>
-  
-  
-  <a id="FellowOakDicom_Network_RawPDU__ctor_" data-uid="FellowOakDicom.Network.RawPDU.#ctor*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU__ctor_System_Byte_Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(System.Byte,Encoding)">RawPDU(Byte, Encoding)</h4>
+  <h4 id="FellowOakDicom_Network_RawPDU__ctor_System_Byte_System_Text_Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(System.Byte,System.Text.Encoding)">RawPDU(Byte, Encoding)</h4>
   <div class="markdown level1 summary"><p>Initializes new PDU for writing</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -164,17 +157,22 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Encoding</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
         <td><span class="parametername">encoding</span></td>
         <td><p>The encoding to use for encoding text</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU__ctor_System_Byte___System_Text_Encoding_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.%23ctor(System.Byte%5B%5D%2CSystem.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L58">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU__ctor_" data-uid="FellowOakDicom.Network.RawPDU.#ctor*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU__ctor_System_Byte___Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(System.Byte[],Encoding)">RawPDU(Byte[], Encoding)</h4>
+  <h4 id="FellowOakDicom_Network_RawPDU__ctor_System_Byte___System_Text_Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(System.Byte[],System.Text.Encoding)">RawPDU(Byte[], Encoding)</h4>
   <div class="markdown level1 summary"><p>Initializes new PDU reader from buffer</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -199,17 +197,64 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Encoding</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
         <td><span class="parametername">encoding</span></td>
         <td><p>The encoding to use for decoding text</p>
 </td>
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU__ctor_System_IO_MemoryStream_System_Text_Encoding_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.%23ctor(System.IO.MemoryStream%2CSystem.Text.Encoding)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L72">View Source</a>
+  </span>
+  <a id="FellowOakDicom_Network_RawPDU__ctor_" data-uid="FellowOakDicom.Network.RawPDU.#ctor*"></a>
+  <h4 id="FellowOakDicom_Network_RawPDU__ctor_System_IO_MemoryStream_System_Text_Encoding_" data-uid="FellowOakDicom.Network.RawPDU.#ctor(System.IO.MemoryStream,System.Text.Encoding)">RawPDU(MemoryStream, Encoding)</h4>
+  <div class="markdown level1 summary"><p>Initializes new PDU reader from a stream</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RawPDU(MemoryStream stream, Encoding encoding = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.memorystream">MemoryStream</a></td>
+        <td><span class="parametername">stream</span></td>
+        <td><p>Stream</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.encoding">Encoding</a></td>
+        <td><span class="parametername">encoding</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="FellowOakDicom_Network_RawPDU__ctor_System_IO_MemoryStream_System_Text_Encoding__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>The created object takes ownership of the stream</p>
+</div>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Length.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Length%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L90">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Length_" data-uid="FellowOakDicom.Network.RawPDU.Length*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Length" data-uid="FellowOakDicom.Network.RawPDU.Length">Length</h4>
   <div class="markdown level1 summary"><p>PDU length</p>
@@ -234,8 +279,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Type.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Type%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L87">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Type_" data-uid="FellowOakDicom.Network.RawPDU.Type*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Type" data-uid="FellowOakDicom.Network.RawPDU.Type">Type</h4>
   <div class="markdown level1 summary"><p>PDU type</p>
@@ -262,8 +312,13 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Dispose.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Dispose%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L371">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Dispose_" data-uid="FellowOakDicom.Network.RawPDU.Dispose*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Dispose" data-uid="FellowOakDicom.Network.RawPDU.Dispose">Dispose()</h4>
   <div class="markdown level1 summary"></div>
@@ -272,8 +327,13 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_MarkLength16_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.MarkLength16(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L317">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_MarkLength16_" data-uid="FellowOakDicom.Network.RawPDU.MarkLength16*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_MarkLength16_System_String_" data-uid="FellowOakDicom.Network.RawPDU.MarkLength16(System.String)">MarkLength16(String)</h4>
   <div class="markdown level1 summary"><p>Marks position to write 16-bit length value</p>
@@ -301,8 +361,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_MarkLength32_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.MarkLength32(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L339">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_MarkLength32_" data-uid="FellowOakDicom.Network.RawPDU.MarkLength32*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_MarkLength32_System_String_" data-uid="FellowOakDicom.Network.RawPDU.MarkLength32(System.String)">MarkLength32(String)</h4>
   <div class="markdown level1 summary"><p>Marks position to write 32-bit length value</p>
@@ -330,8 +395,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ReadByte_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ReadByte(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L167">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ReadByte_" data-uid="FellowOakDicom.Network.RawPDU.ReadByte*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ReadByte_System_String_" data-uid="FellowOakDicom.Network.RawPDU.ReadByte(System.String)">ReadByte(String)</h4>
   <div class="markdown level1 summary"><p>Read byte from PDU</p>
@@ -375,8 +445,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ReadBytes_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ReadBytes(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L179">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ReadBytes_" data-uid="FellowOakDicom.Network.RawPDU.ReadBytes*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ReadBytes_System_String_System_Int32_" data-uid="FellowOakDicom.Network.RawPDU.ReadBytes(System.String,System.Int32)">ReadBytes(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Read bytes from PDU</p>
@@ -426,8 +501,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ReadString_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ReadString(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L215">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ReadString_" data-uid="FellowOakDicom.Network.RawPDU.ReadString*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ReadString_System_String_System_Int32_" data-uid="FellowOakDicom.Network.RawPDU.ReadString(System.String,System.Int32)">ReadString(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Reads string from PDU</p>
@@ -477,8 +557,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ReadUInt16_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ReadUInt16(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L190">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ReadUInt16_" data-uid="FellowOakDicom.Network.RawPDU.ReadUInt16*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ReadUInt16_System_String_" data-uid="FellowOakDicom.Network.RawPDU.ReadUInt16(System.String)">ReadUInt16(String)</h4>
   <div class="markdown level1 summary"><p>Read ushort from PDU</p>
@@ -522,8 +607,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ReadUInt32_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ReadUInt32(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L201">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ReadUInt32_" data-uid="FellowOakDicom.Network.RawPDU.ReadUInt32*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ReadUInt32_System_String_" data-uid="FellowOakDicom.Network.RawPDU.ReadUInt32(System.String)">ReadUInt32(String)</h4>
   <div class="markdown level1 summary"><p>Reads uint from PDU</p>
@@ -567,8 +657,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Reset.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Reset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L146">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Reset_" data-uid="FellowOakDicom.Network.RawPDU.Reset*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Reset" data-uid="FellowOakDicom.Network.RawPDU.Reset">Reset()</h4>
   <div class="markdown level1 summary"><p>Reset PDU read stream</p>
@@ -578,10 +673,15 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void Reset()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Save_FellowOakDicom_IO_IFileReference_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Save(FellowOakDicom.IO.IFileReference)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L125">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Save_" data-uid="FellowOakDicom.Network.RawPDU.Save*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU_Save_IFileReference_" data-uid="FellowOakDicom.Network.RawPDU.Save(IFileReference)">Save(IFileReference)</h4>
+  <h4 id="FellowOakDicom_Network_RawPDU_Save_FellowOakDicom_IO_IFileReference_" data-uid="FellowOakDicom.Network.RawPDU.Save(FellowOakDicom.IO.IFileReference)">Save(IFileReference)</h4>
   <div class="markdown level1 summary"><p>Saves PDU to file</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -600,15 +700,20 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IFileReference</span></td>
+        <td><a class="xref" href="FellowOakDicom.IO.IFileReference.html">IFileReference</a></td>
         <td><span class="parametername">file</span></td>
         <td><p>file</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_SkipBytes_System_String_System_Int32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.SkipBytes(System.String%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L227">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_SkipBytes_" data-uid="FellowOakDicom.Network.RawPDU.SkipBytes*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_SkipBytes_System_String_System_Int32_" data-uid="FellowOakDicom.Network.RawPDU.SkipBytes(System.String,System.Int32)">SkipBytes(String, Int32)</h4>
   <div class="markdown level1 summary"><p>Skips ahead in PDU</p>
@@ -642,8 +747,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_ToString.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L141">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_ToString_" data-uid="FellowOakDicom.Network.RawPDU.ToString*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_ToString" data-uid="FellowOakDicom.Network.RawPDU.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Gets string describing this PDU</p>
@@ -669,8 +779,15 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.Byte)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L242">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.Byte)">Write(String, Byte)</h4>
   <div class="markdown level1 summary"><p>Writes byte to PDU</p>
@@ -704,8 +821,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte_System_Int32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.Byte%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L253">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte_System_Int32_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.Byte,System.Int32)">Write(String, Byte, Int32)</h4>
   <div class="markdown level1 summary"><p>Writes byte to PDU multiple times</p>
@@ -745,8 +867,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte___.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L266">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_Byte___" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.Byte[])">Write(String, Byte[])</h4>
   <div class="markdown level1 summary"><p>Writes byte[] to PDU</p>
@@ -780,8 +907,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L296">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_String_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.String)">Write(String, String)</h4>
   <div class="markdown level1 summary"><p>Writes string to PDU</p>
@@ -815,8 +947,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_String_System_Int32_System_Char_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.String%2CSystem.Int32%2CSystem.Char)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L308">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_String_System_Int32_System_Char_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.String,System.Int32,System.Char)">Write(String, String, Int32, Char)</h4>
   <div class="markdown level1 summary"><p>Writes string to PDU</p>
@@ -862,8 +999,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_UInt16_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.UInt16)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L276">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_UInt16_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.UInt16)">Write(String, UInt16)</h4>
   <div class="markdown level1 summary"><p>Writes ushort to PDU</p>
@@ -897,8 +1039,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_Write_System_String_System_UInt32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.Write(System.String%2CSystem.UInt32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L286">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_Write_" data-uid="FellowOakDicom.Network.RawPDU.Write*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_Write_System_String_System_UInt32_" data-uid="FellowOakDicom.Network.RawPDU.Write(System.String,System.UInt32)">Write(String, UInt32)</h4>
   <div class="markdown level1 summary"><p>Writes uint to PDU</p>
@@ -932,8 +1079,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_WriteLength16.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.WriteLength16%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L326">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_WriteLength16_" data-uid="FellowOakDicom.Network.RawPDU.WriteLength16*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_WriteLength16" data-uid="FellowOakDicom.Network.RawPDU.WriteLength16">WriteLength16()</h4>
   <div class="markdown level1 summary"><p>Writes 16-bit length to top length marker</p>
@@ -943,8 +1095,13 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void WriteLength16()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_WriteLength32.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.WriteLength32%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L348">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_WriteLength32_" data-uid="FellowOakDicom.Network.RawPDU.WriteLength32*"></a>
   <h4 id="FellowOakDicom_Network_RawPDU_WriteLength32" data-uid="FellowOakDicom.Network.RawPDU.WriteLength32">WriteLength32()</h4>
   <div class="markdown level1 summary"><p>Writes 32-bit length to top length marker</p>
@@ -954,10 +1111,15 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public void WriteLength32()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_WritePDU_System_IO_Stream_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.WritePDU(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L100">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_WritePDU_" data-uid="FellowOakDicom.Network.RawPDU.WritePDU*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU_WritePDU_Stream_" data-uid="FellowOakDicom.Network.RawPDU.WritePDU(Stream)">WritePDU(Stream)</h4>
+  <h4 id="FellowOakDicom_Network_RawPDU_WritePDU_System_IO_Stream_" data-uid="FellowOakDicom.Network.RawPDU.WritePDU(System.IO.Stream)">WritePDU(Stream)</h4>
   <div class="markdown level1 summary"><p>Writes PDU to stream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -976,17 +1138,22 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">s</span></td>
         <td><p>Output stream</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU_WritePDUAsync_System_IO_Stream_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU.WritePDUAsync(System.IO.Stream)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L113">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_RawPDU_WritePDUAsync_" data-uid="FellowOakDicom.Network.RawPDU.WritePDUAsync*"></a>
-  <h4 id="FellowOakDicom_Network_RawPDU_WritePDUAsync_Stream_" data-uid="FellowOakDicom.Network.RawPDU.WritePDUAsync(Stream)">WritePDUAsync(Stream)</h4>
+  <h4 id="FellowOakDicom_Network_RawPDU_WritePDUAsync_System_IO_Stream_" data-uid="FellowOakDicom.Network.RawPDU.WritePDUAsync(System.IO.Stream)">WritePDUAsync(Stream)</h4>
   <div class="markdown level1 summary"><p>Writes PDU to stream</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1005,7 +1172,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Stream</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.io.stream">Stream</a></td>
         <td><span class="parametername">s</span></td>
         <td><p>Output stream</p>
 </td>
@@ -1022,11 +1189,15 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span></td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.threading.tasks.task">Task</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.idisposable">System.IDisposable</a>
+  </div>
 </article>
           </div>
           
@@ -1034,6 +1205,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_RawPDU.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.RawPDU%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/PDU.cs/#L17" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

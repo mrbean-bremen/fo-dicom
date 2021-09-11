@@ -96,7 +96,8 @@
   </div>
   <div classs="implements">
     <h5>Implements</h5>
-    <div><span class="xref">IComparable</span></div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">IComparable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable">IComparable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -142,54 +143,40 @@
     <div>
       <a class="xref" href="FellowOakDicom.DicomItem.html#FellowOakDicom_DicomItem_ToString">DicomItem.ToString()</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.html">FellowOakDicom</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
   <h5 id="FellowOakDicom_DicomUniversalResource_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DicomUniversalResource : DicomStringElement, IComparable</code></pre>
+    <pre><code class="lang-csharp hljs">public class DicomUniversalResource : DicomStringElement, IComparable&lt;DicomItem&gt;, IComparable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
-  <a id="FellowOakDicom_DicomUniversalResource__ctor_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor*"></a>
-  <h4 id="FellowOakDicom_DicomUniversalResource__ctor_FellowOakDicom_DicomTag_Encoding___IByteBuffer_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor(FellowOakDicom.DicomTag,Encoding[],IByteBuffer)">DicomUniversalResource(DicomTag, Encoding[], IByteBuffer)</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DicomUniversalResource(DicomTag tag, Encoding[] encodings, IByteBuffer data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="FellowOakDicom.DicomTag.html">DicomTag</a></td>
-        <td><span class="parametername">tag</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">Encoding</span>[]</td>
-        <td><span class="parametername">encodings</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">IByteBuffer</span></td>
-        <td><span class="parametername">data</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomUniversalResource__ctor_FellowOakDicom_DicomTag_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomUniversalResource.%23ctor(FellowOakDicom.DicomTag%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomElement.cs/#L1904">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomUniversalResource__ctor_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor*"></a>
   <h4 id="FellowOakDicom_DicomUniversalResource__ctor_FellowOakDicom_DicomTag_System_String_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor(FellowOakDicom.DicomTag,System.String)">DicomUniversalResource(DicomTag, String)</h4>
   <div class="markdown level1 summary"></div>
@@ -220,10 +207,57 @@
       </tr>
     </tbody>
   </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomUniversalResource__ctor_FellowOakDicom_DicomTag_System_Text_Encoding___FellowOakDicom_IO_Buffer_IByteBuffer_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomUniversalResource.%23ctor(FellowOakDicom.DicomTag%2CSystem.Text.Encoding%5B%5D%2CFellowOakDicom.IO.Buffer.IByteBuffer)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomElement.cs/#L1909">View Source</a>
+  </span>
+  <a id="FellowOakDicom_DicomUniversalResource__ctor_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor*"></a>
+  <h4 id="FellowOakDicom_DicomUniversalResource__ctor_FellowOakDicom_DicomTag_System_Text_Encoding___FellowOakDicom_IO_Buffer_IByteBuffer_" data-uid="FellowOakDicom.DicomUniversalResource.#ctor(FellowOakDicom.DicomTag,System.Text.Encoding[],FellowOakDicom.IO.Buffer.IByteBuffer)">DicomUniversalResource(DicomTag, Encoding[], IByteBuffer)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DicomUniversalResource(DicomTag tag, Encoding[] encodings, IByteBuffer data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="FellowOakDicom.DicomTag.html">DicomTag</a></td>
+        <td><span class="parametername">tag</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.text.encoding">Encoding</a>[]</td>
+        <td><span class="parametername">encodings</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="FellowOakDicom.IO.Buffer.IByteBuffer.html">IByteBuffer</a></td>
+        <td><span class="parametername">data</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomUniversalResource_ValueRepresentation.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomUniversalResource.ValueRepresentation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomElement.cs/#L1918">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomUniversalResource_ValueRepresentation_" data-uid="FellowOakDicom.DicomUniversalResource.ValueRepresentation*"></a>
   <h4 id="FellowOakDicom_DicomUniversalResource_ValueRepresentation" data-uid="FellowOakDicom.DicomUniversalResource.ValueRepresentation">ValueRepresentation</h4>
   <div class="markdown level1 summary"></div>
@@ -251,7 +285,10 @@
   <div><a class="xref" href="FellowOakDicom.DicomItem.html#FellowOakDicom_DicomItem_ValueRepresentation">DicomItem.ValueRepresentation</a></div>
   <h3 id="implements">Implements</h3>
   <div>
-      <span class="xref">IComparable</span>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable-1">System.IComparable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.icomparable">System.IComparable</a>
   </div>
 </article>
           </div>
@@ -260,6 +297,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomUniversalResource.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomUniversalResource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomElement.cs/#L1900" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

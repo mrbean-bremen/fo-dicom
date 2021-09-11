@@ -100,16 +100,47 @@
       <div class="level2"><a class="xref" href="FellowOakDicom.StructuredReport.DicomMeasuredValue.html">DicomMeasuredValue</a></div>
       <div class="level2"><a class="xref" href="FellowOakDicom.StructuredReport.DicomReferencedSOP.html">DicomReferencedSOP</a></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
+  </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.html">FellowOakDicom</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
   <h5 id="FellowOakDicom_DicomDataset_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DicomDataset : IEnumerable&lt;DicomItem&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public class DicomDataset : IEnumerable&lt;DicomItem&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset__ctor.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L36">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset__ctor_" data-uid="FellowOakDicom.DicomDataset.#ctor*"></a>
   <h4 id="FellowOakDicom_DicomDataset__ctor" data-uid="FellowOakDicom.DicomDataset.#ctor">DicomDataset()</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FellowOakDicom.DicomDataset.html">DicomDataset</a> class with <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_InternalTransferSyntax">InternalTransferSyntax</a>
@@ -120,8 +151,13 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public DicomDataset()</code></pre>
   </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset__ctor_FellowOakDicom_DicomItem___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.%23ctor(FellowOakDicom.DicomItem%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L54">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset__ctor_" data-uid="FellowOakDicom.DicomDataset.#ctor*"></a>
   <h4 id="FellowOakDicom_DicomDataset__ctor_FellowOakDicom_DicomItem___" data-uid="FellowOakDicom.DicomDataset.#ctor(FellowOakDicom.DicomItem[])">DicomDataset(DicomItem[])</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FellowOakDicom.DicomDataset.html">DicomDataset</a> class.</p>
@@ -149,8 +185,13 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset__ctor_FellowOakDicom_DicomTransferSyntax_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.%23ctor(FellowOakDicom.DicomTransferSyntax)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L44">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset__ctor_" data-uid="FellowOakDicom.DicomDataset.#ctor*"></a>
   <h4 id="FellowOakDicom_DicomDataset__ctor_FellowOakDicom_DicomTransferSyntax_" data-uid="FellowOakDicom.DicomDataset.#ctor(FellowOakDicom.DicomTransferSyntax)">DicomDataset(DicomTransferSyntax)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FellowOakDicom.DicomDataset.html">DicomDataset</a> class.</p>
@@ -178,10 +219,15 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset__ctor_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.%23ctor(System.Collections.Generic.IEnumerable%7BFellowOakDicom.DicomItem%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L63">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset__ctor_" data-uid="FellowOakDicom.DicomDataset.#ctor*"></a>
-  <h4 id="FellowOakDicom_DicomDataset__ctor_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.#ctor(IEnumerable{FellowOakDicom.DicomItem})">DicomDataset(IEnumerable&lt;DicomItem&gt;)</h4>
+  <h4 id="FellowOakDicom_DicomDataset__ctor_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.#ctor(System.Collections.Generic.IEnumerable{FellowOakDicom.DicomItem})">DicomDataset(IEnumerable&lt;DicomItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="FellowOakDicom.DicomDataset.html">DicomDataset</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -200,7 +246,7 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
         <td><span class="parametername">items</span></td>
         <td><p>A collection of DICOM items.</p>
 </td>
@@ -209,8 +255,13 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_AutoValidate.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.AutoValidate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L161">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_AutoValidate_" data-uid="FellowOakDicom.DicomDataset.AutoValidate*"></a>
   <h4 id="FellowOakDicom_DicomDataset_AutoValidate" data-uid="FellowOakDicom.DicomDataset.AutoValidate">AutoValidate</h4>
   <div class="markdown level1 summary"><p>Gets or sets if the content of DicomItems shall be validated as soon as they are added to the DicomDataset</p>
@@ -218,7 +269,8 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool AutoValidate { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;Use this property with care. You can suppress validation, but be aware you might create invalid Datasets if you need to set this property.&quot;, false)]
+public bool AutoValidate { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,8 +287,13 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_InternalTransferSyntax.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.InternalTransferSyntax%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L111">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_InternalTransferSyntax_" data-uid="FellowOakDicom.DicomDataset.InternalTransferSyntax*"></a>
   <h4 id="FellowOakDicom_DicomDataset_InternalTransferSyntax" data-uid="FellowOakDicom.DicomDataset.InternalTransferSyntax">InternalTransferSyntax</h4>
   <div class="markdown level1 summary"><p>Gets the DICOM transfer syntax of this dataset.</p>
@@ -263,8 +320,13 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Add_FellowOakDicom_DicomItem___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Add(FellowOakDicom.DicomItem%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L764">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Add_" data-uid="FellowOakDicom.DicomDataset.Add*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Add_FellowOakDicom_DicomItem___" data-uid="FellowOakDicom.DicomDataset.Add(FellowOakDicom.DicomItem[])">Add(DicomItem[])</h4>
   <div class="markdown level1 summary"><p>Add a collection of DICOM items to the dataset.</p>
@@ -308,10 +370,31 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>If tag of added item already exists in dataset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Add_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Add(System.Collections.Generic.IEnumerable%7BFellowOakDicom.DicomItem%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L775">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Add_" data-uid="FellowOakDicom.DicomDataset.Add*"></a>
-  <h4 id="FellowOakDicom_DicomDataset_Add_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.Add(IEnumerable{FellowOakDicom.DicomItem})">Add(IEnumerable&lt;DicomItem&gt;)</h4>
+  <h4 id="FellowOakDicom_DicomDataset_Add_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.Add(System.Collections.Generic.IEnumerable{FellowOakDicom.DicomItem})">Add(IEnumerable&lt;DicomItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a collection of DICOM items to the dataset.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -330,7 +413,7 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
         <td><span class="parametername">items</span></td>
         <td><p>Collection of DICOM items to add.</p>
 </td>
@@ -353,8 +436,29 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>If tag of added item already exists in dataset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Add__1_FellowOakDicom_DicomTag___0___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Add%60%601(FellowOakDicom.DicomTag%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L788">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Add_" data-uid="FellowOakDicom.DicomDataset.Add*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Add__1_FellowOakDicom_DicomTag___0___" data-uid="FellowOakDicom.DicomDataset.Add``1(FellowOakDicom.DicomTag,``0[])">Add&lt;T&gt;(DicomTag, T[])</h4>
   <div class="markdown level1 summary"><p>Add single DICOM item given by <code data-dev-comment-type="paramref" class="paramref">tag</code> and <code data-dev-comment-type="paramref" class="paramref">values</code>.</p>
@@ -420,8 +524,29 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>If tag already exists in dataset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Add__1_FellowOakDicom_DicomVR_FellowOakDicom_DicomTag___0___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Add%60%601(FellowOakDicom.DicomVR%2CFellowOakDicom.DicomTag%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L805">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Add_" data-uid="FellowOakDicom.DicomDataset.Add*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Add__1_FellowOakDicom_DicomVR_FellowOakDicom_DicomTag___0___" data-uid="FellowOakDicom.DicomDataset.Add``1(FellowOakDicom.DicomVR,FellowOakDicom.DicomTag,``0[])">Add&lt;T&gt;(DicomVR, DicomTag, T[])</h4>
   <div class="markdown level1 summary"><p>Add single DICOM item given by <code data-dev-comment-type="paramref" class="paramref">vr</code>, <code data-dev-comment-type="paramref" class="paramref">tag</code> and <code data-dev-comment-type="paramref" class="paramref">values</code>.</p>
@@ -497,8 +622,29 @@ set to Explicit VR Little Endian (DICOM default transfer syntax).</p>
   <div class="markdown level1 remarks"><p>No validation is performed on the <code data-dev-comment-type="paramref" class="paramref">vr</code> matching the element <code data-dev-comment-type="paramref" class="paramref">tag</code>
 This method is useful when adding a private tag and need to explicitly set the VR of the created element.</p>
 </div>
-  
-  
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.argumentexception">ArgumentException</a></td>
+        <td><p>If tag already exists in dataset.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_AddOrUpdate_FellowOakDicom_DicomItem___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.AddOrUpdate(FellowOakDicom.DicomItem%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L815">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_AddOrUpdate_" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate*"></a>
   <h4 id="FellowOakDicom_DicomDataset_AddOrUpdate_FellowOakDicom_DicomItem___" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate(FellowOakDicom.DicomItem[])">AddOrUpdate(DicomItem[])</h4>
   <div class="markdown level1 summary"><p>Add a collection of DICOM items to the dataset. Update existing items.</p>
@@ -542,10 +688,15 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_AddOrUpdate_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.AddOrUpdate(System.Collections.Generic.IEnumerable%7BFellowOakDicom.DicomItem%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L825">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_AddOrUpdate_" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate*"></a>
-  <h4 id="FellowOakDicom_DicomDataset_AddOrUpdate_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate(IEnumerable{FellowOakDicom.DicomItem})">AddOrUpdate(IEnumerable&lt;DicomItem&gt;)</h4>
+  <h4 id="FellowOakDicom_DicomDataset_AddOrUpdate_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate(System.Collections.Generic.IEnumerable{FellowOakDicom.DicomItem})">AddOrUpdate(IEnumerable&lt;DicomItem&gt;)</h4>
   <div class="markdown level1 summary"><p>Add a collection of DICOM items to the dataset. Update existing items.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -564,7 +715,7 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
         <td><span class="parametername">items</span></td>
         <td><p>Collection of DICOM items to add.</p>
 </td>
@@ -587,8 +738,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_AddOrUpdate__1_FellowOakDicom_DicomTag___0___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.AddOrUpdate%60%601(FellowOakDicom.DicomTag%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L837">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_AddOrUpdate_" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate*"></a>
   <h4 id="FellowOakDicom_DicomDataset_AddOrUpdate__1_FellowOakDicom_DicomTag___0___" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate``1(FellowOakDicom.DicomTag,``0[])">AddOrUpdate&lt;T&gt;(DicomTag, T[])</h4>
   <div class="markdown level1 summary"><p>Add or update a single DICOM item given by <code data-dev-comment-type="paramref" class="paramref">tag</code> and <code data-dev-comment-type="paramref" class="paramref">values</code>.</p>
@@ -654,8 +810,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_AddOrUpdate__1_FellowOakDicom_DicomVR_FellowOakDicom_DicomTag___0___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.AddOrUpdate%60%601(FellowOakDicom.DicomVR%2CFellowOakDicom.DicomTag%2C%60%600%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L853">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_AddOrUpdate_" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate*"></a>
   <h4 id="FellowOakDicom_DicomDataset_AddOrUpdate__1_FellowOakDicom_DicomVR_FellowOakDicom_DicomTag___0___" data-uid="FellowOakDicom.DicomDataset.AddOrUpdate``1(FellowOakDicom.DicomVR,FellowOakDicom.DicomTag,``0[])">AddOrUpdate&lt;T&gt;(DicomVR, DicomTag, T[])</h4>
   <div class="markdown level1 summary"><p>Add or update a single DICOM item given by <code data-dev-comment-type="paramref" class="paramref">vr</code>, <code data-dev-comment-type="paramref" class="paramref">tag</code> and <code data-dev-comment-type="paramref" class="paramref">values</code>.</p>
@@ -731,8 +892,13 @@ This method is useful when adding a private tag and need to explicitly set the V
   <div class="markdown level1 remarks"><p>No validation is performed on the <code data-dev-comment-type="paramref" class="paramref">vr</code> matching the element <code data-dev-comment-type="paramref" class="paramref">tag</code>
 This method is useful when adding a private tag and need to explicitly set the VR of the created element.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Clear.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Clear%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L915">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Clear_" data-uid="FellowOakDicom.DicomDataset.Clear*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Clear" data-uid="FellowOakDicom.DicomDataset.Clear">Clear()</h4>
   <div class="markdown level1 summary"><p>Removes all items from the dataset.</p>
@@ -758,8 +924,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Contains_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Contains(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L863">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Contains_" data-uid="FellowOakDicom.DicomDataset.Contains*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Contains_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.Contains(FellowOakDicom.DicomTag)">Contains(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Checks the DICOM dataset to determine if the dataset already contains an item with the specified tag.</p>
@@ -803,8 +974,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L926">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_CopyTo_" data-uid="FellowOakDicom.DicomDataset.CopyTo*"></a>
   <h4 id="FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_" data-uid="FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset)">CopyTo(DicomDataset)</h4>
   <div class="markdown level1 summary"><p>Copies all items to the destination dataset.</p>
@@ -848,8 +1024,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_FellowOakDicom_DicomMaskedTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset%2CFellowOakDicom.DicomMaskedTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L956">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_CopyTo_" data-uid="FellowOakDicom.DicomDataset.CopyTo*"></a>
   <h4 id="FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_FellowOakDicom_DicomMaskedTag_" data-uid="FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset,FellowOakDicom.DicomMaskedTag)">CopyTo(DicomDataset, DicomMaskedTag)</h4>
   <div class="markdown level1 summary"><p>Copies tags matching mask to the destination dataset.</p>
@@ -899,8 +1080,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTag___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset%2CFellowOakDicom.DicomTag%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L938">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_CopyTo_" data-uid="FellowOakDicom.DicomDataset.CopyTo*"></a>
   <h4 id="FellowOakDicom_DicomDataset_CopyTo_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTag___" data-uid="FellowOakDicom.DicomDataset.CopyTo(FellowOakDicom.DicomDataset,FellowOakDicom.DicomTag[])">CopyTo(DicomDataset, DicomTag[])</h4>
   <div class="markdown level1 summary"><p>Copies tags to the destination dataset.</p>
@@ -950,8 +1136,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetCodeItem_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetCodeItem(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L214">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetCodeItem_" data-uid="FellowOakDicom.DicomDataset.GetCodeItem*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetCodeItem_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetCodeItem(FellowOakDicom.DicomTag)">GetCodeItem(DicomTag)</h4>
   <div class="markdown level1 summary"></div>
@@ -987,13 +1178,18 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DicomCodeItem</span></td>
+        <td><a class="xref" href="FellowOakDicom.StructuredReport.DicomCodeItem.html">DicomCodeItem</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetDicomItem__1_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetDicomItem%60%601(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L180">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetDicomItem_" data-uid="FellowOakDicom.DicomDataset.GetDicomItem*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetDicomItem__1_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetDicomItem``1(FellowOakDicom.DicomTag)">GetDicomItem&lt;T&gt;(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Gets the <a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a> of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1054,8 +1250,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetEnumerator.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L966">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetEnumerator_" data-uid="FellowOakDicom.DicomDataset.GetEnumerator*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetEnumerator" data-uid="FellowOakDicom.DicomDataset.GetEnumerator">GetEnumerator()</h4>
   <div class="markdown level1 summary"><p>Enumerates all DICOM items.</p>
@@ -1075,14 +1276,19 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerator</span>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerator-1">IEnumerator</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</td>
         <td><p>Enumeration of DICOM items</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetMeasuredValue_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetMeasuredValue(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L235">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetMeasuredValue_" data-uid="FellowOakDicom.DicomDataset.GetMeasuredValue*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetMeasuredValue_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetMeasuredValue(FellowOakDicom.DicomTag)">GetMeasuredValue(DicomTag)</h4>
   <div class="markdown level1 summary"></div>
@@ -1118,13 +1324,18 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DicomMeasuredValue</span></td>
+        <td><a class="xref" href="FellowOakDicom.StructuredReport.DicomMeasuredValue.html">DicomMeasuredValue</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetPrivateTag_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetPrivateTag(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L713">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetPrivateTag_" data-uid="FellowOakDicom.DicomDataset.GetPrivateTag*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetPrivateTag_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetPrivateTag(FellowOakDicom.DicomTag)">GetPrivateTag(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Converts a dictionary tag to a valid private tag. Creates the private creator tag if needed.</p>
@@ -1168,8 +1379,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetReferencedSOP_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetReferencedSOP(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L256">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetReferencedSOP_" data-uid="FellowOakDicom.DicomDataset.GetReferencedSOP*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetReferencedSOP_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetReferencedSOP(FellowOakDicom.DicomTag)">GetReferencedSOP(DicomTag)</h4>
   <div class="markdown level1 summary"></div>
@@ -1205,13 +1421,18 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DicomReferencedSOP</span></td>
+        <td><a class="xref" href="FellowOakDicom.StructuredReport.DicomReferencedSOP.html">DicomReferencedSOP</a></td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetSequence_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetSequence(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L193">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetSequence_" data-uid="FellowOakDicom.DicomDataset.GetSequence*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetSequence_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetSequence(FellowOakDicom.DicomTag)">GetSequence(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Gets the sequence of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1271,8 +1492,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetSingleValue__1_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetSingleValue%60%601(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L507">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetSingleValue_" data-uid="FellowOakDicom.DicomDataset.GetSingleValue*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetSingleValue__1_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetSingleValue``1(FellowOakDicom.DicomTag)">GetSingleValue&lt;T&gt;(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Gets the element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>, whose value multiplicity has to be 1.</p>
@@ -1348,8 +1574,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetSingleValueOrDefault__1_FellowOakDicom_DicomTag___0_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetSingleValueOrDefault%60%601(FellowOakDicom.DicomTag%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L582">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetSingleValueOrDefault_" data-uid="FellowOakDicom.DicomDataset.GetSingleValueOrDefault*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetSingleValueOrDefault__1_FellowOakDicom_DicomTag___0_" data-uid="FellowOakDicom.DicomDataset.GetSingleValueOrDefault``1(FellowOakDicom.DicomTag,``0)">GetSingleValueOrDefault&lt;T&gt;(DicomTag, T)</h4>
   <div class="markdown level1 summary"><p>Gets the element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>, whose value multiplicity has to be 1, or the provided <code data-dev-comment-type="paramref" class="paramref">defaultValue</code> if the element value does not exist.</p>
@@ -1414,8 +1645,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetString_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetString(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L594">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetString_" data-uid="FellowOakDicom.DicomDataset.GetString*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetString_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetString(FellowOakDicom.DicomTag)">GetString(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Gets a string representation of the value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1475,8 +1711,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetValue__1_FellowOakDicom_DicomTag_System_Int32_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetValue%60%601(FellowOakDicom.DicomTag%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L338">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetValue_" data-uid="FellowOakDicom.DicomDataset.GetValue*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetValue__1_FellowOakDicom_DicomTag_System_Int32_" data-uid="FellowOakDicom.DicomDataset.GetValue``1(FellowOakDicom.DicomTag,System.Int32)">GetValue&lt;T&gt;(DicomTag, Int32)</h4>
   <div class="markdown level1 summary"><p>Gets the <code data-dev-comment-type="paramref" class="paramref">index</code>-th element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1559,8 +1800,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetValueCount_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetValueCount(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L308">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetValueCount_" data-uid="FellowOakDicom.DicomDataset.GetValueCount*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetValueCount_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetValueCount(FellowOakDicom.DicomTag)">GetValueCount(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Returns the number of values in the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1619,8 +1865,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetValueOrDefault__1_FellowOakDicom_DicomTag_System_Int32___0_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetValueOrDefault%60%601(FellowOakDicom.DicomTag%2CSystem.Int32%2C%60%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L421">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetValueOrDefault_" data-uid="FellowOakDicom.DicomDataset.GetValueOrDefault*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetValueOrDefault__1_FellowOakDicom_DicomTag_System_Int32___0_" data-uid="FellowOakDicom.DicomDataset.GetValueOrDefault``1(FellowOakDicom.DicomTag,System.Int32,``0)">GetValueOrDefault&lt;T&gt;(DicomTag, Int32, T)</h4>
   <div class="markdown level1 summary"><p>Gets the <code data-dev-comment-type="paramref" class="paramref">index</code>-th element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code> or the provided <code data-dev-comment-type="paramref" class="paramref">defaultValue</code> if the requested value is not contained in the dataset.</p>
@@ -1691,8 +1942,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_GetValues__1_FellowOakDicom_DicomTag_.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.GetValues%60%601(FellowOakDicom.DicomTag)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L434">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_GetValues_" data-uid="FellowOakDicom.DicomDataset.GetValues*"></a>
   <h4 id="FellowOakDicom_DicomDataset_GetValues__1_FellowOakDicom_DicomTag_" data-uid="FellowOakDicom.DicomDataset.GetValues``1(FellowOakDicom.DicomTag)">GetValues&lt;T&gt;(DicomTag)</h4>
   <div class="markdown level1 summary"><p>Gets the array of element values of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1768,8 +2024,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Remove_FellowOakDicom_DicomTag___.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Remove(FellowOakDicom.DicomTag%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L878">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Remove_" data-uid="FellowOakDicom.DicomDataset.Remove*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Remove_FellowOakDicom_DicomTag___" data-uid="FellowOakDicom.DicomDataset.Remove(FellowOakDicom.DicomTag[])">Remove(DicomTag[])</h4>
   <div class="markdown level1 summary"><p>Removes items for specified tags.</p>
@@ -1813,10 +2074,15 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Remove_System_Func_FellowOakDicom_DicomItem_System_Boolean__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Remove(System.Func%7BFellowOakDicom.DicomItem%2CSystem.Boolean%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L905">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Remove_" data-uid="FellowOakDicom.DicomDataset.Remove*"></a>
-  <h4 id="FellowOakDicom_DicomDataset_Remove_Func_FellowOakDicom_DicomItem_System_Boolean__" data-uid="FellowOakDicom.DicomDataset.Remove(Func{FellowOakDicom.DicomItem,System.Boolean})">Remove(Func&lt;DicomItem, Boolean&gt;)</h4>
+  <h4 id="FellowOakDicom_DicomDataset_Remove_System_Func_FellowOakDicom_DicomItem_System_Boolean__" data-uid="FellowOakDicom.DicomDataset.Remove(System.Func{FellowOakDicom.DicomItem,System.Boolean})">Remove(Func&lt;DicomItem, Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Removes items where the selector function returns true.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1835,7 +2101,7 @@ This method is useful when adding a private tag and need to explicitly set the V
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Func</span>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.func-2">Func</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>, <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.boolean">Boolean</a>&gt;</td>
         <td><span class="parametername">selector</span></td>
         <td><p>Selector function</p>
 </td>
@@ -1858,8 +2124,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_ToString.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.ToString%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L987">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_ToString_" data-uid="FellowOakDicom.DicomDataset.ToString*"></a>
   <h4 id="FellowOakDicom_DicomDataset_ToString" data-uid="FellowOakDicom.DicomDataset.ToString">ToString()</h4>
   <div class="markdown level1 summary"><p>Returns a string that represents the current object.</p>
@@ -1885,8 +2156,15 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a></div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_TryGetSequence_FellowOakDicom_DicomTag_FellowOakDicom_DicomSequence__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.TryGetSequence(FellowOakDicom.DicomTag%2CFellowOakDicom.DicomSequence%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L283">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_TryGetSequence_" data-uid="FellowOakDicom.DicomDataset.TryGetSequence*"></a>
   <h4 id="FellowOakDicom_DicomDataset_TryGetSequence_FellowOakDicom_DicomTag_FellowOakDicom_DicomSequence__" data-uid="FellowOakDicom.DicomDataset.TryGetSequence(FellowOakDicom.DicomTag,FellowOakDicom.DicomSequence@)">TryGetSequence(DicomTag, out DicomSequence)</h4>
   <div class="markdown level1 summary"><p>Gets the sequence of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -1936,8 +2214,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_TryGetSingleValue__1_FellowOakDicom_DicomTag___0__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.TryGetSingleValue%60%601(FellowOakDicom.DicomTag%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L536">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_TryGetSingleValue_" data-uid="FellowOakDicom.DicomDataset.TryGetSingleValue*"></a>
   <h4 id="FellowOakDicom_DicomDataset_TryGetSingleValue__1_FellowOakDicom_DicomTag___0__" data-uid="FellowOakDicom.DicomDataset.TryGetSingleValue``1(FellowOakDicom.DicomTag,``0@)">TryGetSingleValue&lt;T&gt;(DicomTag, out T)</h4>
   <div class="markdown level1 summary"><p>Tries to get the element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>, whose value multiplicity has to be 1.</p>
@@ -2002,8 +2285,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_TryGetString_FellowOakDicom_DicomTag_System_String__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.TryGetString(FellowOakDicom.DicomTag%2CSystem.String%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L616">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_TryGetString_" data-uid="FellowOakDicom.DicomDataset.TryGetString*"></a>
   <h4 id="FellowOakDicom_DicomDataset_TryGetString_FellowOakDicom_DicomTag_System_String__" data-uid="FellowOakDicom.DicomDataset.TryGetString(FellowOakDicom.DicomTag,System.String@)">TryGetString(DicomTag, out String)</h4>
   <div class="markdown level1 summary"><p>Tries to get a string representation of the value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -2053,8 +2341,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_TryGetValue__1_FellowOakDicom_DicomTag_System_Int32___0__.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.TryGetValue%60%601(FellowOakDicom.DicomTag%2CSystem.Int32%2C%60%600%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L374">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_TryGetValue_" data-uid="FellowOakDicom.DicomDataset.TryGetValue*"></a>
   <h4 id="FellowOakDicom_DicomDataset_TryGetValue__1_FellowOakDicom_DicomTag_System_Int32___0__" data-uid="FellowOakDicom.DicomDataset.TryGetValue``1(FellowOakDicom.DicomTag,System.Int32,``0@)">TryGetValue&lt;T&gt;(DicomTag, Int32, out T)</h4>
   <div class="markdown level1 summary"><p>Tries to get the <code data-dev-comment-type="paramref" class="paramref">index</code>-th element value of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -2126,8 +2419,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_TryGetValues__1_FellowOakDicom_DicomTag___0____.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.TryGetValues%60%601(FellowOakDicom.DicomTag%2C%60%600%5B%5D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L461">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_TryGetValues_" data-uid="FellowOakDicom.DicomDataset.TryGetValues*"></a>
   <h4 id="FellowOakDicom_DicomDataset_TryGetValues__1_FellowOakDicom_DicomTag___0____" data-uid="FellowOakDicom.DicomDataset.TryGetValues``1(FellowOakDicom.DicomTag,``0[]@)">TryGetValues&lt;T&gt;(DicomTag, out T[])</h4>
   <div class="markdown level1 summary"><p>Tries to get the array of element values of the specified <code data-dev-comment-type="paramref" class="paramref">tag</code>.</p>
@@ -2193,8 +2491,13 @@ This method is useful when adding a private tag and need to explicitly set the V
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_Validate.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.Validate%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L700">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_Validate_" data-uid="FellowOakDicom.DicomDataset.Validate*"></a>
   <h4 id="FellowOakDicom_DicomDataset_Validate" data-uid="FellowOakDicom.DicomDataset.Validate">Validate()</h4>
   <div class="markdown level1 summary"><p>Performs a validation of all DICOM items that are contained in this DicomDataset. This explicit call for validation ignores the
@@ -2223,8 +2526,13 @@ gobal DicomValidation.AutoValidate and DicomDataset.AutoValidate property.</p>
   </table>
   <h3 id="eii">Explicit Interface Implementations
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset_System_Collections_IEnumerable_GetEnumerator.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset.System%23Collections%23IEnumerable%23GetEnumerator%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L975">View Source</a>
+  </span>
   <a id="FellowOakDicom_DicomDataset_System_Collections_IEnumerable_GetEnumerator_" data-uid="FellowOakDicom.DicomDataset.System#Collections#IEnumerable#GetEnumerator*"></a>
   <h4 id="FellowOakDicom_DicomDataset_System_Collections_IEnumerable_GetEnumerator" data-uid="FellowOakDicom.DicomDataset.System#Collections#IEnumerable#GetEnumerator">IEnumerable.GetEnumerator()</h4>
   <div class="markdown level1 summary"><p>Enumerates all DICOM items.</p>
@@ -2250,6 +2558,65 @@ gobal DicomValidation.AutoValidate and DicomDataset.AutoValidate property.</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">System.Collections.Generic.IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">System.Collections.IEnumerable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_Clone_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.Clone(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_GetDateTime_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTag_FellowOakDicom_DicomTag_">DicomDatasetExtensions.GetDateTime(DicomDataset, DicomTag, DicomTag)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_EnumerateMasked_FellowOakDicom_DicomDataset_FellowOakDicom_DicomMaskedTag_">DicomDatasetExtensions.EnumerateMasked(DicomDataset, DicomMaskedTag)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_EnumerateGroup_FellowOakDicom_DicomDataset_System_UInt16_">DicomDatasetExtensions.EnumerateGroup(DicomDataset, UInt16)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_NotValidated_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.NotValidated(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_Validated_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.Validated(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.EnumerableExtensions.html#FellowOakDicom_EnumerableExtensions_Each__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">EnumerableExtensions.Each&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.ConsoleExtensions.html#FellowOakDicom_Log_ConsoleExtensions_WriteToConsole_FellowOakDicom_DicomDataset_">ConsoleExtensions.WriteToConsole(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.Extensions.html#FellowOakDicom_Log_Extensions_WriteToLog_FellowOakDicom_DicomDataset_FellowOakDicom_Log_Logger_FellowOakDicom_Log_LogLevel_">Extensions.WriteToLog(DicomDataset, Logger, LogLevel)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.Extensions.html#FellowOakDicom_Log_Extensions_WriteToString_FellowOakDicom_DicomDataset_">Extensions.WriteToString(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Serialization.DicomXML.html#FellowOakDicom_Serialization_DicomXML_WriteToXml_FellowOakDicom_DicomDataset_">DicomXML.WriteToXml(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Tools.LinqExtensions.html#FellowOakDicom_Tools_LinqExtensions_Diff__2_System_Collections_Generic_IEnumerable___0__System_Func___0___0___1__">LinqExtensions.Diff&lt;S, T&gt;(IEnumerable&lt;S&gt;, Func&lt;S, S, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Tools.LinqExtensions.html#FellowOakDicom_Tools_LinqExtensions_FilterByType__1_System_Collections_Generic_IEnumerable_System_Object__">LinqExtensions.FilterByType&lt;T&gt;(IEnumerable&lt;Object&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Imaging.Codec.DicomCodecExtensions.html#FellowOakDicom_Imaging_Codec_DicomCodecExtensions_Clone_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTransferSyntax_FellowOakDicom_Imaging_Codec_DicomCodecParams_">DicomCodecExtensions.Clone(DicomDataset, DicomTransferSyntax, DicomCodecParams)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RecalculateGroupLength_FellowOakDicom_DicomDataset_System_UInt16_System_Boolean_">DicomDatasetExtensions.RecalculateGroupLength(DicomDataset, UInt16, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RecalculateGroupLengths_FellowOakDicom_DicomDataset_System_Boolean_">DicomDatasetExtensions.RecalculateGroupLengths(DicomDataset, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RemoveGroupLengths_FellowOakDicom_DicomDataset_System_Boolean_">DicomDatasetExtensions.RemoveGroupLengths(DicomDataset, Boolean)</a>
+  </div>
 </article>
           </div>
           
@@ -2257,6 +2624,12 @@ gobal DicomValidation.AutoValidate and DicomDataset.AutoValidate property.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_DicomDataset.md&amp;value=---%0Auid%3A%20FellowOakDicom.DicomDataset%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/DicomDataset.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

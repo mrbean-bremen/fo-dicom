@@ -92,6 +92,11 @@
     <div class="level1"><a class="xref" href="FellowOakDicom.DicomDataset.html">DicomDataset</a></div>
     <div class="level2"><span class="xref">FilmBox</span></div>
   </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">IEnumerable</a>&lt;<a class="xref" href="FellowOakDicom.DicomItem.html">DicomItem</a>&gt;</div>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">IEnumerable</a></div>
+  </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
@@ -161,7 +166,7 @@
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Add_FellowOakDicom_DicomItem___">DicomDataset.Add(DicomItem[])</a>
     </div>
     <div>
-      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Add_IEnumerable_FellowOakDicom_DicomItem__">DicomDataset.Add(IEnumerable&lt;DicomItem&gt;)</a>
+      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Add_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__">DicomDataset.Add(IEnumerable&lt;DicomItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Add__1_FellowOakDicom_DicomTag___0___">DicomDataset.Add&lt;T&gt;(DicomTag, T[])</a>
@@ -173,7 +178,7 @@
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_AddOrUpdate_FellowOakDicom_DicomItem___">DicomDataset.AddOrUpdate(DicomItem[])</a>
     </div>
     <div>
-      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_AddOrUpdate_IEnumerable_FellowOakDicom_DicomItem__">DicomDataset.AddOrUpdate(IEnumerable&lt;DicomItem&gt;)</a>
+      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_AddOrUpdate_System_Collections_Generic_IEnumerable_FellowOakDicom_DicomItem__">DicomDataset.AddOrUpdate(IEnumerable&lt;DicomItem&gt;)</a>
     </div>
     <div>
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_AddOrUpdate__1_FellowOakDicom_DicomTag___0___">DicomDataset.AddOrUpdate&lt;T&gt;(DicomTag, T[])</a>
@@ -188,7 +193,7 @@
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Remove_FellowOakDicom_DicomTag___">DicomDataset.Remove(DicomTag[])</a>
     </div>
     <div>
-      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Remove_Func_FellowOakDicom_DicomItem_System_Boolean__">DicomDataset.Remove(Func&lt;DicomItem, Boolean&gt;)</a>
+      <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Remove_System_Func_FellowOakDicom_DicomItem_System_Boolean__">DicomDataset.Remove(Func&lt;DicomItem, Boolean&gt;)</a>
     </div>
     <div>
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_Clear">DicomDataset.Clear()</a>
@@ -211,17 +216,40 @@
     <div>
       <a class="xref" href="FellowOakDicom.DicomDataset.html#FellowOakDicom_DicomDataset_ToString">DicomDataset.ToString()</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gettype#System_Object_GetType">Object.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.Printing.html">FellowOakDicom.Printing</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
   <h5 id="FellowOakDicom_Printing_FilmBox_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class FilmBox : DicomDataset</code></pre>
+    <pre><code class="lang-csharp hljs">public class FilmBox : DicomDataset, IEnumerable&lt;DicomItem&gt;, IEnumerable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox__ctor_FellowOakDicom_Printing_FilmSession_FellowOakDicom_DicomUID_FellowOakDicom_DicomDataset_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.%23ctor(FellowOakDicom.Printing.FilmSession%2CFellowOakDicom.DicomUID%2CFellowOakDicom.DicomDataset)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L413">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox__ctor_" data-uid="FellowOakDicom.Printing.FilmBox.#ctor*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox__ctor_FellowOakDicom_Printing_FilmSession_FellowOakDicom_DicomUID_FellowOakDicom_DicomDataset_" data-uid="FellowOakDicom.Printing.FilmBox.#ctor(FellowOakDicom.Printing.FilmSession,FellowOakDicom.DicomUID,FellowOakDicom.DicomDataset)">FilmBox(FilmSession, DicomUID, DicomDataset)</h4>
   <div class="markdown level1 summary"></div>
@@ -257,8 +285,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox__ctor_FellowOakDicom_Printing_FilmSession_FellowOakDicom_DicomUID_FellowOakDicom_DicomTransferSyntax_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.%23ctor(FellowOakDicom.Printing.FilmSession%2CFellowOakDicom.DicomUID%2CFellowOakDicom.DicomTransferSyntax)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L391">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox__ctor_" data-uid="FellowOakDicom.Printing.FilmBox.#ctor*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox__ctor_FellowOakDicom_Printing_FilmSession_FellowOakDicom_DicomUID_FellowOakDicom_DicomTransferSyntax_" data-uid="FellowOakDicom.Printing.FilmBox.#ctor(FellowOakDicom.Printing.FilmSession,FellowOakDicom.DicomUID,FellowOakDicom.DicomTransferSyntax)">FilmBox(FilmSession, DicomUID, DicomTransferSyntax)</h4>
   <div class="markdown level1 summary"><p>Create baisc film box for specified film session</p>
@@ -300,8 +333,13 @@
   </table>
   <h3 id="fields">Fields
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_SOPClassUID.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.SOPClassUID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L39">View Source</a>
+  </span>
   <h4 id="FellowOakDicom_Printing_FilmBox_SOPClassUID" data-uid="FellowOakDicom.Printing.FilmBox.SOPClassUID">SOPClassUID</h4>
   <div class="markdown level1 summary"><p>Basic film box SOP class UID</p>
 </div>
@@ -327,8 +365,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_AnnotationDisplayFormatID.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.AnnotationDisplayFormatID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L233">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_AnnotationDisplayFormatID_" data-uid="FellowOakDicom.Printing.FilmBox.AnnotationDisplayFormatID*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_AnnotationDisplayFormatID" data-uid="FellowOakDicom.Printing.FilmBox.AnnotationDisplayFormatID">AnnotationDisplayFormatID</h4>
   <div class="markdown level1 summary"><p>Identification of annotation display format. The definition of the annotation
@@ -355,8 +398,13 @@ Statement.</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_BasicImageBoxes.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.BasicImageBoxes%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L49">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_BasicImageBoxes_" data-uid="FellowOakDicom.Printing.FilmBox.BasicImageBoxes*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_BasicImageBoxes" data-uid="FellowOakDicom.Printing.FilmBox.BasicImageBoxes">BasicImageBoxes</h4>
   <div class="markdown level1 summary"><p>Basic image boxes list</p>
@@ -376,13 +424,18 @@ Statement.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IList</span>&lt;<a class="xref" href="FellowOakDicom.Printing.ImageBox.html">ImageBox</a>&gt;</td>
+        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ilist-1">IList</a>&lt;<a class="xref" href="FellowOakDicom.Printing.ImageBox.html">ImageBox</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_BorderDensity.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.BorderDensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L264">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_BorderDensity_" data-uid="FellowOakDicom.Printing.FilmBox.BorderDensity*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_BorderDensity" data-uid="FellowOakDicom.Printing.FilmBox.BorderDensity">BorderDensity</h4>
   <div class="markdown level1 summary"><p>Density of the film areas surrounding and between images on the film.</p>
@@ -413,8 +466,13 @@ Statement.</p>
 i where i represents the desired density in hundredths of OD (e.g. 150 corresponds with 1.5 OD)
 </li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_ConfigurationInformation.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.ConfigurationInformation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L222">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_ConfigurationInformation_" data-uid="FellowOakDicom.Printing.FilmBox.ConfigurationInformation*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_ConfigurationInformation" data-uid="FellowOakDicom.Printing.FilmBox.ConfigurationInformation">ConfigurationInformation</h4>
   <div class="markdown level1 summary"><p>Character string that contains either the ID of the printer configuration
@@ -449,8 +507,13 @@ be contained in the SCP's Conformance Statement.</p>
 <p>Note: It is recommended that for SCPs, CS000 represent the lowest contrast and CS999
 the highest contrast levels available.</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_EmptyImageDensity.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.EmptyImageDensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L285">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_EmptyImageDensity_" data-uid="FellowOakDicom.Printing.FilmBox.EmptyImageDensity*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_EmptyImageDensity" data-uid="FellowOakDicom.Printing.FilmBox.EmptyImageDensity">EmptyImageDensity</h4>
   <div class="markdown level1 summary"><p>Density of the image box area on the film that contains no image.</p>
@@ -482,8 +545,13 @@ i where i represents the desired density in hundredths of OD
 (e.g. 150 corresponds with 1.5 OD)
 </li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_FilmOrientation.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.FilmOrientation%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L126">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_FilmOrientation_" data-uid="FellowOakDicom.Printing.FilmBox.FilmOrientation*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_FilmOrientation" data-uid="FellowOakDicom.Printing.FilmBox.FilmOrientation">FilmOrientation</h4>
   <div class="markdown level1 summary"><p>Film orientation.</p>
@@ -512,8 +580,13 @@ i where i represents the desired density in hundredths of OD
   <div class="markdown level1 remarks"><p>Enumerated Values:</p>
 <ul><li>PORTRAITvertical film position</li><li>LANDSCAPEhorizontal film position</li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_FilmSession.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.FilmSession%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L28">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_FilmSession_" data-uid="FellowOakDicom.Printing.FilmBox.FilmSession*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_FilmSession" data-uid="FellowOakDicom.Printing.FilmBox.FilmSession">FilmSession</h4>
   <div class="markdown level1 summary"></div>
@@ -537,8 +610,13 @@ i where i represents the desired density in hundredths of OD
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_FilmSizeID.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.FilmSizeID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L157">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_FilmSizeID_" data-uid="FellowOakDicom.Printing.FilmBox.FilmSizeID*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_FilmSizeID" data-uid="FellowOakDicom.Printing.FilmBox.FilmSizeID">FilmSizeID</h4>
   <div class="markdown level1 summary"><p>Film size identification.</p>
@@ -571,8 +649,13 @@ i where i represents the desired density in hundredths of OD
 A4 corresponds with 210 x 297 millimeters
 A3 corresponds with 297 x 420 millimeters</p>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Illumination.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Illumination%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L312">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Illumination_" data-uid="FellowOakDicom.Printing.FilmBox.Illumination*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Illumination" data-uid="FellowOakDicom.Printing.FilmBox.Illumination">Illumination</h4>
   <div class="markdown level1 summary"><p>Luminance of lightbox illuminating a piece of transmissive film, or for the case of reflective media,
@@ -599,8 +682,13 @@ per square meter (cd/m2).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_ImageDisplayFormat.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.ImageDisplayFormat%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L104">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_ImageDisplayFormat_" data-uid="FellowOakDicom.Printing.FilmBox.ImageDisplayFormat*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_ImageDisplayFormat" data-uid="FellowOakDicom.Printing.FilmBox.ImageDisplayFormat">ImageDisplayFormat</h4>
   <div class="markdown level1 summary"><p>Type of image display format.</p>
@@ -650,8 +738,13 @@ the image display format; the definition of the image display formats is defined
 Conformance Statement; i is an integer
 .</li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_MagnificationType.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.MagnificationType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L176">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_MagnificationType_" data-uid="FellowOakDicom.Printing.FilmBox.MagnificationType*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_MagnificationType" data-uid="FellowOakDicom.Printing.FilmBox.MagnificationType">MagnificationType</h4>
   <div class="markdown level1 summary"><p>Interpolation type by which the printer magnifies or decimates the image
@@ -681,8 +774,13 @@ in order to fit the image in the image box on film.</p>
   <div class="markdown level1 remarks"><p>Defined Terms:</p>
 <ul><li>REPLICATE</li><li>BILINEAR</li><li>CUBIC</li><li>NONE</li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_MaxDensity.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.MaxDensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L186">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_MaxDensity_" data-uid="FellowOakDicom.Printing.FilmBox.MaxDensity*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_MaxDensity" data-uid="FellowOakDicom.Printing.FilmBox.MaxDensity">MaxDensity</h4>
   <div class="markdown level1 summary"><p>Maximum density of the images on the film, expressed in hundredths of OD. If Max Density is higher than
@@ -708,8 +806,13 @@ maximum printer density than Max Density is set to maximum printer density.</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_MinDensity.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.MinDensity%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L197">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_MinDensity_" data-uid="FellowOakDicom.Printing.FilmBox.MinDensity*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_MinDensity" data-uid="FellowOakDicom.Printing.FilmBox.MinDensity">MinDensity</h4>
   <div class="markdown level1 summary"><p>Minimum density of the images on the film, expressed in hundredths of OD. If Min Density is lower than
@@ -735,8 +838,13 @@ minimum printer density than Min Density is set to minimum printer density.</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_PresentationLut.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.PresentationLut%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L364">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_PresentationLut_" data-uid="FellowOakDicom.Printing.FilmBox.PresentationLut*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_PresentationLut" data-uid="FellowOakDicom.Printing.FilmBox.PresentationLut">PresentationLut</h4>
   <div class="markdown level1 summary"></div>
@@ -760,8 +868,13 @@ minimum printer density than Min Density is set to minimum printer density.</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_ReferencedPresentationLutSequence.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.ReferencedPresentationLutSequence%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L350">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_ReferencedPresentationLutSequence_" data-uid="FellowOakDicom.Printing.FilmBox.ReferencedPresentationLutSequence*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_ReferencedPresentationLutSequence" data-uid="FellowOakDicom.Printing.FilmBox.ReferencedPresentationLutSequence">ReferencedPresentationLutSequence</h4>
   <div class="markdown level1 summary"></div>
@@ -785,8 +898,13 @@ minimum printer density than Min Density is set to minimum printer density.</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_ReflectedAmbientLight.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.ReflectedAmbientLight%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L322">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_ReflectedAmbientLight_" data-uid="FellowOakDicom.Printing.FilmBox.ReflectedAmbientLight*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_ReflectedAmbientLight" data-uid="FellowOakDicom.Printing.FilmBox.ReflectedAmbientLight">ReflectedAmbientLight</h4>
   <div class="markdown level1 summary"><p>For transmissive film, luminance contribution due to reflected ambient light.
@@ -812,8 +930,13 @@ Expressed as La, in candelas per square meter (cd/m2).</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_RequestedResolutionID.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.RequestedResolutionID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L344">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_RequestedResolutionID_" data-uid="FellowOakDicom.Printing.FilmBox.RequestedResolutionID*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_RequestedResolutionID" data-uid="FellowOakDicom.Printing.FilmBox.RequestedResolutionID">RequestedResolutionID</h4>
   <div class="markdown level1 summary"><p>Specifies the resolution at which images in this Film Box are to be printed.</p>
@@ -842,8 +965,13 @@ Expressed as La, in candelas per square meter (cd/m2).</p>
   <div class="markdown level1 remarks"><p>Defined Terms:</p>
 <ul><li>STANDARDapproximately 4k x 5k printable pixels on a 14 x 17 inch film</li><li>HIGHApproximately twice the resolution of STANDARD.</li></ul>
 </div>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_SmoothingType.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.SmoothingType%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L243">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_SmoothingType_" data-uid="FellowOakDicom.Printing.FilmBox.SmoothingType*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_SmoothingType" data-uid="FellowOakDicom.Printing.FilmBox.SmoothingType">SmoothingType</h4>
   <div class="markdown level1 summary"><p>Further specifies the type of the interpolation function. Values are defined in Conformance Statement.
@@ -869,8 +997,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_SOPInstanceUID.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.SOPInstanceUID%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L44">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_SOPInstanceUID_" data-uid="FellowOakDicom.Printing.FilmBox.SOPInstanceUID*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_SOPInstanceUID" data-uid="FellowOakDicom.Printing.FilmBox.SOPInstanceUID">SOPInstanceUID</h4>
   <div class="markdown level1 summary"><p>Basic film box SOP instance UID</p>
@@ -895,8 +1028,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Trim.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Trim%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L301">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Trim_" data-uid="FellowOakDicom.Printing.FilmBox.Trim*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Trim" data-uid="FellowOakDicom.Printing.FilmBox.Trim">Trim</h4>
   <div class="markdown level1 summary"><p>Specifies whether a trim box shall be printed surrounding each image on the film.</p>
@@ -927,8 +1065,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
 </div>
   <h3 id="methods">Methods
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Clone.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Clone%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L538">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Clone_" data-uid="FellowOakDicom.Printing.FilmBox.Clone*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Clone" data-uid="FellowOakDicom.Printing.FilmBox.Clone">Clone()</h4>
   <div class="markdown level1 summary"><p>Create clone of basic film box instanct</p>
@@ -954,8 +1097,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_FindImageBox_FellowOakDicom_DicomUID_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.FindImageBox(FellowOakDicom.DicomUID)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L552">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_FindImageBox_" data-uid="FellowOakDicom.Printing.FilmBox.FindImageBox*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_FindImageBox_FellowOakDicom_DicomUID_" data-uid="FellowOakDicom.Printing.FilmBox.FindImageBox(FellowOakDicom.DicomUID)">FindImageBox(DicomUID)</h4>
   <div class="markdown level1 summary"><p>Find specific basic image box using its SOP instance UID</p>
@@ -999,8 +1147,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Initialize.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Initialize%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L437">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Initialize_" data-uid="FellowOakDicom.Printing.FilmBox.Initialize*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Initialize" data-uid="FellowOakDicom.Printing.FilmBox.Initialize">Initialize()</h4>
   <div class="markdown level1 summary"><p>Initalize the film box dataset attributes to defaults</p>
@@ -1026,8 +1179,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_IsColor.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.IsColor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L595">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_IsColor_" data-uid="FellowOakDicom.Printing.FilmBox.IsColor*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_IsColor" data-uid="FellowOakDicom.Printing.FilmBox.IsColor">IsColor()</h4>
   <div class="markdown level1 summary"><p>Gets whether one or more image boxes is colored.</p>
@@ -1052,8 +1210,13 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Load_FellowOakDicom_Printing_FilmSession_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Load(FellowOakDicom.Printing.FilmSession%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L758">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Load_" data-uid="FellowOakDicom.Printing.FilmBox.Load*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Load_FellowOakDicom_Printing_FilmSession_System_String_" data-uid="FellowOakDicom.Printing.FilmBox.Load(FellowOakDicom.Printing.FilmSession,System.String)">Load(FilmSession, String)</h4>
   <div class="markdown level1 summary"><p>Load a film box for a specific session from a specific folder.</p>
@@ -1103,10 +1266,15 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_PrintColumnFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.PrintColumnFormat(System.String%5B%5D%2CFellowOakDicom.Imaging.Mathematics.RectF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L610">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_PrintColumnFormat_" data-uid="FellowOakDicom.Printing.FilmBox.PrintColumnFormat*"></a>
-  <h4 id="FellowOakDicom_Printing_FilmBox_PrintColumnFormat_System_String___RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintColumnFormat(System.String[],RectF)">PrintColumnFormat(String[], RectF)</h4>
+  <h4 id="FellowOakDicom_Printing_FilmBox_PrintColumnFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintColumnFormat(System.String[],FellowOakDicom.Imaging.Mathematics.RectF)">PrintColumnFormat(String[], RectF)</h4>
   <div class="markdown level1 summary"><p>Generate rectangles arranged in column format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1131,7 +1299,7 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">RectF</span></td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a></td>
         <td><span class="parametername">marginBounds</span></td>
         <td><p>Margin bounds.</p>
 </td>
@@ -1148,16 +1316,21 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectF</span>[]</td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a>[]</td>
         <td><p>Rectangles arranged in column format.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_PrintRowFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.PrintRowFormat(System.String%5B%5D%2CFellowOakDicom.Imaging.Mathematics.RectF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L650">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_PrintRowFormat_" data-uid="FellowOakDicom.Printing.FilmBox.PrintRowFormat*"></a>
-  <h4 id="FellowOakDicom_Printing_FilmBox_PrintRowFormat_System_String___RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintRowFormat(System.String[],RectF)">PrintRowFormat(String[], RectF)</h4>
+  <h4 id="FellowOakDicom_Printing_FilmBox_PrintRowFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintRowFormat(System.String[],FellowOakDicom.Imaging.Mathematics.RectF)">PrintRowFormat(String[], RectF)</h4>
   <div class="markdown level1 summary"><p>Generate rectangles arranged in row format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1182,7 +1355,7 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">RectF</span></td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a></td>
         <td><span class="parametername">marginBounds</span></td>
         <td><p>Margin bounds.</p>
 </td>
@@ -1199,16 +1372,21 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectF</span>[]</td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a>[]</td>
         <td><p>Rectangles arranged in row format.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_PrintStandardFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.PrintStandardFormat(System.String%5B%5D%2CFellowOakDicom.Imaging.Mathematics.RectF)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L690">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_PrintStandardFormat_" data-uid="FellowOakDicom.Printing.FilmBox.PrintStandardFormat*"></a>
-  <h4 id="FellowOakDicom_Printing_FilmBox_PrintStandardFormat_System_String___RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintStandardFormat(System.String[],RectF)">PrintStandardFormat(String[], RectF)</h4>
+  <h4 id="FellowOakDicom_Printing_FilmBox_PrintStandardFormat_System_String___FellowOakDicom_Imaging_Mathematics_RectF_" data-uid="FellowOakDicom.Printing.FilmBox.PrintStandardFormat(System.String[],FellowOakDicom.Imaging.Mathematics.RectF)">PrintStandardFormat(String[], RectF)</h4>
   <div class="markdown level1 summary"><p>Generate rectangles arranged in standard format.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1233,7 +1411,7 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">RectF</span></td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a></td>
         <td><span class="parametername">marginBounds</span></td>
         <td><p>Margin bounds.</p>
 </td>
@@ -1250,14 +1428,19 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">RectF</span>[]</td>
+        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.RectF.html">RectF</a>[]</td>
         <td><p>Rectangles arranged in standard format.</p>
 </td>
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox_Save_System_String_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox.Save(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L732">View Source</a>
+  </span>
   <a id="FellowOakDicom_Printing_FilmBox_Save_" data-uid="FellowOakDicom.Printing.FilmBox.Save*"></a>
   <h4 id="FellowOakDicom_Printing_FilmBox_Save_System_String_" data-uid="FellowOakDicom.Printing.FilmBox.Save(System.String)">Save(String)</h4>
   <div class="markdown level1 summary"><p>Save the contents of the film box.</p>
@@ -1285,6 +1468,65 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.ienumerable-1">System.Collections.Generic.IEnumerable&lt;T&gt;</a>
+  </div>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.ienumerable">System.Collections.IEnumerable</a>
+  </div>
+  <h3 id="extensionmethods">Extension Methods</h3>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_Clone_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.Clone(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_GetDateTime_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTag_FellowOakDicom_DicomTag_">DicomDatasetExtensions.GetDateTime(DicomDataset, DicomTag, DicomTag)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_EnumerateMasked_FellowOakDicom_DicomDataset_FellowOakDicom_DicomMaskedTag_">DicomDatasetExtensions.EnumerateMasked(DicomDataset, DicomMaskedTag)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_EnumerateGroup_FellowOakDicom_DicomDataset_System_UInt16_">DicomDatasetExtensions.EnumerateGroup(DicomDataset, UInt16)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_NotValidated_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.NotValidated(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.DicomDatasetExtensions.html#FellowOakDicom_DicomDatasetExtensions_Validated_FellowOakDicom_DicomDataset_">DicomDatasetExtensions.Validated(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.EnumerableExtensions.html#FellowOakDicom_EnumerableExtensions_Each__1_System_Collections_Generic_IEnumerable___0__System_Action___0__">EnumerableExtensions.Each&lt;T&gt;(IEnumerable&lt;T&gt;, Action&lt;T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.ConsoleExtensions.html#FellowOakDicom_Log_ConsoleExtensions_WriteToConsole_FellowOakDicom_DicomDataset_">ConsoleExtensions.WriteToConsole(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.Extensions.html#FellowOakDicom_Log_Extensions_WriteToLog_FellowOakDicom_DicomDataset_FellowOakDicom_Log_Logger_FellowOakDicom_Log_LogLevel_">Extensions.WriteToLog(DicomDataset, Logger, LogLevel)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Log.Extensions.html#FellowOakDicom_Log_Extensions_WriteToString_FellowOakDicom_DicomDataset_">Extensions.WriteToString(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Serialization.DicomXML.html#FellowOakDicom_Serialization_DicomXML_WriteToXml_FellowOakDicom_DicomDataset_">DicomXML.WriteToXml(DicomDataset)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Tools.LinqExtensions.html#FellowOakDicom_Tools_LinqExtensions_Diff__2_System_Collections_Generic_IEnumerable___0__System_Func___0___0___1__">LinqExtensions.Diff&lt;S, T&gt;(IEnumerable&lt;S&gt;, Func&lt;S, S, T&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Tools.LinqExtensions.html#FellowOakDicom_Tools_LinqExtensions_FilterByType__1_System_Collections_Generic_IEnumerable_System_Object__">LinqExtensions.FilterByType&lt;T&gt;(IEnumerable&lt;Object&gt;)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.Imaging.Codec.DicomCodecExtensions.html#FellowOakDicom_Imaging_Codec_DicomCodecExtensions_Clone_FellowOakDicom_DicomDataset_FellowOakDicom_DicomTransferSyntax_FellowOakDicom_Imaging_Codec_DicomCodecParams_">DicomCodecExtensions.Clone(DicomDataset, DicomTransferSyntax, DicomCodecParams)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RecalculateGroupLength_FellowOakDicom_DicomDataset_System_UInt16_System_Boolean_">DicomDatasetExtensions.RecalculateGroupLength(DicomDataset, UInt16, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RecalculateGroupLengths_FellowOakDicom_DicomDataset_System_Boolean_">DicomDatasetExtensions.RecalculateGroupLengths(DicomDataset, Boolean)</a>
+  </div>
+  <div>
+      <a class="xref" href="FellowOakDicom.IO.Writer.DicomDatasetExtensions.html#FellowOakDicom_IO_Writer_DicomDatasetExtensions_RemoveGroupLengths_FellowOakDicom_DicomDataset_System_Boolean_">DicomDatasetExtensions.RemoveGroupLengths(DicomDataset, Boolean)</a>
+  </div>
 </article>
           </div>
           
@@ -1292,6 +1534,12 @@ Only valid for Magnification Type (2010,0060) = CUBIC</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Printing_FilmBox.md&amp;value=---%0Auid%3A%20FellowOakDicom.Printing.FilmBox%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Printing/FilmBox.cs/#L19" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">

@@ -88,26 +88,90 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object">Object</a></div>
-    <div class="level1"><a class="xref" href="FellowOakDicom.DicomException.html">DicomException</a></div>
-    <div class="level2"><a class="xref" href="FellowOakDicom.Network.DicomNetworkException.html">DicomNetworkException</a></div>
-    <div class="level3"><span class="xref">DicomAssociationRejectedException</span></div>
+    <div class="level1"><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception">Exception</a></div>
+    <div class="level2"><a class="xref" href="FellowOakDicom.DicomException.html">DicomException</a></div>
+    <div class="level3"><a class="xref" href="FellowOakDicom.Network.DicomNetworkException.html">DicomNetworkException</a></div>
+    <div class="level4"><span class="xref">DicomAssociationRejectedException</span></div>
+  </div>
+  <div classs="implements">
+    <h5>Implements</h5>
+    <div><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">ISerializable</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
       <a class="xref" href="FellowOakDicom.DicomException.html#FellowOakDicom_DicomException_OnException">DicomException.OnException</a>
     </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.getbaseexception#System_Exception_GetBaseException">Exception.GetBaseException()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.getobjectdata#System_Exception_GetObjectData_System_Runtime_Serialization_SerializationInfo_System_Runtime_Serialization_StreamingContext_">Exception.GetObjectData(SerializationInfo, StreamingContext)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.gettype#System_Exception_GetType">Exception.GetType()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.tostring#System_Exception_ToString">Exception.ToString()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.data#System_Exception_Data">Exception.Data</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.helplink#System_Exception_HelpLink">Exception.HelpLink</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.hresult#System_Exception_HResult">Exception.HResult</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.innerexception#System_Exception_InnerException">Exception.InnerException</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.message#System_Exception_Message">Exception.Message</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.source#System_Exception_Source">Exception.Source</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.stacktrace#System_Exception_StackTrace">Exception.StackTrace</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.targetsite#System_Exception_TargetSite">Exception.TargetSite</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.exception.serializeobjectstate">Exception.SerializeObjectState</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
+    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.Network.html">FellowOakDicom.Network</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
   <h5 id="FellowOakDicom_Network_DicomAssociationRejectedException_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DicomAssociationRejectedException : DicomNetworkException</code></pre>
+    <pre><code class="lang-csharp hljs">public class DicomAssociationRejectedException : DicomNetworkException, ISerializable</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_DicomAssociationRejectedException__ctor_FellowOakDicom_Network_DicomRejectResult_FellowOakDicom_Network_DicomRejectSource_FellowOakDicom_Network_DicomRejectReason_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.DicomAssociationRejectedException.%23ctor(FellowOakDicom.Network.DicomRejectResult%2CFellowOakDicom.Network.DicomRejectSource%2CFellowOakDicom.Network.DicomRejectReason)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/DicomAssociationRejectedException.cs/#L8">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_DicomAssociationRejectedException__ctor_" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.#ctor*"></a>
   <h4 id="FellowOakDicom_Network_DicomAssociationRejectedException__ctor_FellowOakDicom_Network_DicomRejectResult_FellowOakDicom_Network_DicomRejectSource_FellowOakDicom_Network_DicomRejectReason_" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.#ctor(FellowOakDicom.Network.DicomRejectResult,FellowOakDicom.Network.DicomRejectSource,FellowOakDicom.Network.DicomRejectReason)">DicomAssociationRejectedException(DicomRejectResult, DicomRejectSource, DicomRejectReason)</h4>
   <div class="markdown level1 summary"></div>
@@ -145,8 +209,13 @@
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_DicomAssociationRejectedException_RejectReason.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.DicomAssociationRejectedException.RejectReason%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/DicomAssociationRejectedException.cs/#L23">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectReason_" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectReason*"></a>
   <h4 id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectReason" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectReason">RejectReason</h4>
   <div class="markdown level1 summary"></div>
@@ -170,8 +239,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_DicomAssociationRejectedException_RejectResult.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.DicomAssociationRejectedException.RejectResult%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/DicomAssociationRejectedException.cs/#L19">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectResult_" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectResult*"></a>
   <h4 id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectResult" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectResult">RejectResult</h4>
   <div class="markdown level1 summary"></div>
@@ -195,8 +269,13 @@
       </tr>
     </tbody>
   </table>
-  
-  
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_DicomAssociationRejectedException_RejectSource.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.DicomAssociationRejectedException.RejectSource%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/DicomAssociationRejectedException.cs/#L21">View Source</a>
+  </span>
   <a id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectSource_" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectSource*"></a>
   <h4 id="FellowOakDicom_Network_DicomAssociationRejectedException_RejectSource" data-uid="FellowOakDicom.Network.DicomAssociationRejectedException.RejectSource">RejectSource</h4>
   <div class="markdown level1 summary"></div>
@@ -220,6 +299,10 @@
       </tr>
     </tbody>
   </table>
+  <h3 id="implements">Implements</h3>
+  <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.runtime.serialization.iserializable">System.Runtime.Serialization.ISerializable</a>
+  </div>
 </article>
           </div>
           
@@ -227,6 +310,12 @@
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Network_DicomAssociationRejectedException.md&amp;value=---%0Auid%3A%20FellowOakDicom.Network.DicomAssociationRejectedException%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Network/DicomAssociationRejectedException.cs/#L6" class="contribution-link">View Source</a>
+                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
