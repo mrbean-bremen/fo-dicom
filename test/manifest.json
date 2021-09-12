@@ -45,31 +45,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "396btKADcFSn/dEsiR72ibRIlWbMOd2CQBYm3xETruY="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "intro/features.md",
-      "output": {
-        ".html": {
-          "relative_path": "intro/features.html",
-          "hash": "ny1SLQ12xwq9oKtre2I3Kc7CxIlTNCg01ggzW8Kvx5c="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Toc",
-      "source_relative_path": "intro/toc.yml",
-      "output": {
-        ".html": {
-          "relative_path": "intro/toc.html",
-          "hash": "b0Bf1PCgGLcBAmuYaG7RmF6qT2lmH98v/pJeLRjxmHk="
+          "hash": "cJfyHqaNOKbClEjCvQd47nY+DOs6lKhrulO+AnbuCl0="
         }
       },
       "is_incremental": false,
@@ -6252,7 +6228,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "UiaDrCyeX0Ov5F77syaZQeMyVnA6sZfHd5sB4vAqpgY="
+          "hash": "EVkV0LJxupqqIbuKeT1khTvr8PQIkcPnOCGh9gHe2ag="
         }
       },
       "is_incremental": false,
@@ -6300,7 +6276,7 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 6,
+          "total_file_count": 5,
           "skipped_file_count": 0
         },
         "ManagedReferenceDocumentProcessor": {
