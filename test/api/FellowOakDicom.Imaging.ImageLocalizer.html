@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
     <link rel="stylesheet" href="../styles/docfx.css">
     <link rel="stylesheet" href="../styles/main.css">
-    <meta property="docfx:navrel" content="">
+    <meta property="docfx:navrel" content="../toc.html">
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
@@ -93,10 +93,16 @@
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
     <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
+    </div>
+    <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_">Object.Equals(Object)</a>
     </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.equals#System_Object_Equals_System_Object_System_Object_">Object.Equals(Object, Object)</a>
+    </div>
+    <div>
+      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
     </div>
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.gethashcode#System_Object_GetHashCode">Object.GetHashCode()</a>
@@ -107,30 +113,19 @@
     <div>
       <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.memberwiseclone#System_Object_MemberwiseClone">Object.MemberwiseClone()</a>
     </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.referenceequals#System_Object_ReferenceEquals_System_Object_System_Object_">Object.ReferenceEquals(Object, Object)</a>
-    </div>
-    <div>
-      <a class="xref" href="https://docs.microsoft.com/dotnet/api/system.object.tostring#System_Object_ToString">Object.ToString()</a>
-    </div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="FellowOakDicom.Imaging.html">FellowOakDicom.Imaging</a></h6>
-  <h6><strong>Assembly</strong>: fo-dicom.core.dll</h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="FellowOakDicom_Imaging_ImageLocalizer_syntax">Syntax</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class ImageLocalizer</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Imaging_ImageLocalizer_CalcualteIntersectionLocalizer_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_Mathematics_Point2__FellowOakDicom_Imaging_Mathematics_Point2__.md&amp;value=---%0Auid%3A%20FellowOakDicom.Imaging.ImageLocalizer.CalcualteIntersectionLocalizer(FellowOakDicom.Imaging.FrameGeometry%2CFellowOakDicom.Imaging.FrameGeometry%2CFellowOakDicom.Imaging.Mathematics.Point2%40%2CFellowOakDicom.Imaging.Mathematics.Point2%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Imaging/FrameGeometry.cs/#L370">View Source</a>
-  </span>
+  
+  
   <a id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteIntersectionLocalizer_" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteIntersectionLocalizer*"></a>
-  <h4 id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteIntersectionLocalizer_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_Mathematics_Point2__FellowOakDicom_Imaging_Mathematics_Point2__" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteIntersectionLocalizer(FellowOakDicom.Imaging.FrameGeometry,FellowOakDicom.Imaging.FrameGeometry,FellowOakDicom.Imaging.Mathematics.Point2@,FellowOakDicom.Imaging.Mathematics.Point2@)">CalcualteIntersectionLocalizer(FrameGeometry, FrameGeometry, out Point2, out Point2)</h4>
+  <h4 id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteIntersectionLocalizer_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_FrameGeometry_Point2__Point2__" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteIntersectionLocalizer(FellowOakDicom.Imaging.FrameGeometry,FellowOakDicom.Imaging.FrameGeometry,Point2@,Point2@)">CalcualteIntersectionLocalizer(FrameGeometry, FrameGeometry, out Point2, out Point2)</h4>
   <div class="markdown level1 summary"><p>This method calculates the localizer line of the sourceFrame that can be drawn on the destinationFrame.
 You should call the method CanDrawLocalizer prior to check if localizer calculation is valid on the two frames.</p>
 <p>This method returns the line of common pixels where the two images intersect.
@@ -164,13 +159,13 @@ If the two images intersect, then it returns <pre><code>true</code></pre> and th
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.Point2.html">Point2</a></td>
+        <td><span class="xref">Point2</span></td>
         <td><span class="parametername">startPoint</span></td>
         <td><p>If the frames intersect, then this contains the start point of the localizer line in terms of pixels on destinationFrame</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="FellowOakDicom.Imaging.Mathematics.Point2.html">Point2</a></td>
+        <td><span class="xref">Point2</span></td>
         <td><span class="parametername">endPoint</span></td>
         <td><p>If the frames intersect, then this contains the end point of the localizer lin in terms of pixels on destinationFrame</p>
 </td>
@@ -192,15 +187,10 @@ If the two images intersect, then it returns <pre><code>true</code></pre> and th
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Imaging_ImageLocalizer_CalcualteProjectionLocalizer_FellowOakDicom_DicomDataset_FellowOakDicom_DicomDataset_System_Collections_Generic_List_FellowOakDicom_Imaging_Mathematics_Point2___.md&amp;value=---%0Auid%3A%20FellowOakDicom.Imaging.ImageLocalizer.CalcualteProjectionLocalizer(FellowOakDicom.DicomDataset%2CFellowOakDicom.DicomDataset%2CSystem.Collections.Generic.List%7BFellowOakDicom.Imaging.Mathematics.Point2%7D%40)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Imaging/FrameGeometry.cs/#L260">View Source</a>
-  </span>
+  
+  
   <a id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteProjectionLocalizer_" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteProjectionLocalizer*"></a>
-  <h4 id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteProjectionLocalizer_FellowOakDicom_DicomDataset_FellowOakDicom_DicomDataset_System_Collections_Generic_List_FellowOakDicom_Imaging_Mathematics_Point2___" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteProjectionLocalizer(FellowOakDicom.DicomDataset,FellowOakDicom.DicomDataset,System.Collections.Generic.List{FellowOakDicom.Imaging.Mathematics.Point2}@)">CalcualteProjectionLocalizer(DicomDataset, DicomDataset, out List&lt;Point2&gt;)</h4>
+  <h4 id="FellowOakDicom_Imaging_ImageLocalizer_CalcualteProjectionLocalizer_FellowOakDicom_DicomDataset_FellowOakDicom_DicomDataset_List_Point2___" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CalcualteProjectionLocalizer(FellowOakDicom.DicomDataset,FellowOakDicom.DicomDataset,List{Point2}@)">CalcualteProjectionLocalizer(DicomDataset, DicomDataset, out List&lt;Point2&gt;)</h4>
   <div class="markdown level1 summary"><p>This method calculates the localizer rectangle of the sourceFrame that can be drawn on the destinationFrame.
 You should call the method CanDrawLocalizer prior to check if localizer calculation is valid on the two frames.
 This method will return the 4 points of a rectangle, although most image sets are orthogonal, resulting in the rectangle
@@ -235,20 +225,15 @@ there might me a result even if the two images do not intersect</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="https://docs.microsoft.com/dotnet/api/system.collections.generic.list-1">List</a>&lt;<a class="xref" href="FellowOakDicom.Imaging.Mathematics.Point2.html">Point2</a>&gt;</td>
+        <td><span class="xref">List</span>&lt;<span class="xref">Point2</span>&gt;</td>
         <td><span class="parametername">localizerPoints</span></td>
         <td><p>This contains the points of the localizer rectangle in terms of pixels on destinationFrame</p>
 </td>
       </tr>
     </tbody>
   </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Imaging_ImageLocalizer_CanDrawLocalizer_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_FrameGeometry_.md&amp;value=---%0Auid%3A%20FellowOakDicom.Imaging.ImageLocalizer.CanDrawLocalizer(FellowOakDicom.Imaging.FrameGeometry%2CFellowOakDicom.Imaging.FrameGeometry)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Imaging/FrameGeometry.cs/#L230">View Source</a>
-  </span>
+  
+  
   <a id="FellowOakDicom_Imaging_ImageLocalizer_CanDrawLocalizer_" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CanDrawLocalizer*"></a>
   <h4 id="FellowOakDicom_Imaging_ImageLocalizer_CanDrawLocalizer_FellowOakDicom_Imaging_FrameGeometry_FellowOakDicom_Imaging_FrameGeometry_" data-uid="FellowOakDicom.Imaging.ImageLocalizer.CanDrawLocalizer(FellowOakDicom.Imaging.FrameGeometry,FellowOakDicom.Imaging.FrameGeometry)">CanDrawLocalizer(FrameGeometry, FrameGeometry)</h4>
   <div class="markdown level1 summary"><p>This method performes some checks, if it is valid or allowed that the location of the sourceFrame
@@ -305,12 +290,6 @@ is called.</p>
             <div class="sideaffix">
               <div class="contribution">
                 <ul class="nav">
-                  <li>
-                    <a href="https://github.com/mrbean-bremen/fo-dicom/new/autodoc1/apiSpec/new?filename=FellowOakDicom_Imaging_ImageLocalizer.md&amp;value=---%0Auid%3A%20FellowOakDicom.Imaging.ImageLocalizer%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
-                  </li>
-                  <li>
-                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc1/FO-DICOM.Core/Imaging/FrameGeometry.cs/#L218" class="contribution-link">View Source</a>
-                  </li>
                 </ul>
               </div>
               <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
