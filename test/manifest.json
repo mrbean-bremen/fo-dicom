@@ -6244,15 +6244,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "InvalidFileLink"
-      ],
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "uTKEgSKkYaU62/su3fIvR3DtlD61xNJbdBsyrtWIhFI="
+          "hash": "nPo91xY/8CQ/UI8h4MnUh7ReLRsDuQnkDQ0Gf9O7Ses="
         }
       },
       "is_incremental": false,
