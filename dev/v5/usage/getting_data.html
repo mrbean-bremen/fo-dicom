@@ -1,0 +1,450 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>new GetValue-Methods in DicomDataset | fo-dicom 5 API </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="new GetValue-Methods in DicomDataset | fo-dicom 5 API ">
+    <meta name="generator" content="docfx 2.58.2.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h2 id="new-getvalue-methods-in-dicomdataset">new GetValue-Methods in DicomDataset</h2>
+
+<p>Since <strong>fo-dicom version 4.0.0</strong> there is a new API to get data from DicomDataset</p>
+<dl>
+<dt>
+public T GetDicomItem<t>(DicomTag tag) where T:DicomItem
+</t></dt>
+<dd>
+Gets the DicomItem of the specified tag.   
+<p><em>param T:</em> Type of the return value. Must inherit from DicomItem.<br>
+<em>returns:</em> Item corresponding to tag or <code>null</code> if the tag is not contained in the instance.</p>
+</dd>
+<dt>
+public DicomSequence GetSequence(DicomTag tag)
+</dt>
+<dd>
+Gets the sequence of the specified tag.
+<p><em>param tag:</em> Requested DICOM tag.<br>
+<em>returns:</em> Sequence of datasets corresponding to tag<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag or this is not a sequence</p>
+</dd>
+        
+<dt>
+public bool TryGetSequence(DicomTag tag, out DicomSequence sequence)
+</dt>
+<dd>
+Gets the sequence of the specifiedtag.
+<p><em>param tag:</em> Requested DICOM tag.
+<em>param sequence:</em> Sequence of datasets corresponding to tag.<br>
+<em>returns:</em> Returns true if the tag could be returned as sequence, false otherwise.</p>
+</dd>
+<dt>
+public int GetValueCount(DicomTag tag)
+</dt>
+<dd>
+Returns the number of values in the specified tag.
+<p><em>param tag:</em> Requested DICOM tag.<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag.</p>
+</dd>
+<dt>
+public T GetValue<t>(DicomTag tag, int index)
+</t></dt>
+<dd>
+Gets the index-th element value of the specified tag.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>param index:</em> Item index (for multi-valued elements).<br>
+<em>returns:</em> Element value corresponding to tag.<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag or if the specified
+/// <paramref name="index">item index</paramref> is out-of-range.</p>
+</dd>
+<dt>
+public bool TryGetValue<t>(DicomTag tag, int index, out T elementValue)
+</t></dt>
+<dd>
+Tries to get the index-th element value of the specified tag.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>param index:</em> Item index (for multi-valued elements).<br>
+<em>param elementValue:</em> Element value corresponding to tag.<br>
+<em>returns:</em> Returns <code>true</code> if the element value could be exctracted, otherwise <code>false</code>.</p>
+</dd>
+<dt>
+public T GetValueOrDefault<t>(DicomTag tag, int index, T defaultValue)
+</t></dt>
+<dd>
+Gets the index-th element value of the specified tag or the provided defaultValue if the requested value is not contained in the dataset.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>param index:</em> Item index (for multi-valued elements).<br>
+<em>param defaultValue:</em> Value that is returned if the requested element value does not exist.</p>
+</dd>
+<dt>
+public T[] GetValues<t>(DicomTag tag)
+</t></dt>
+<dd>
+Gets the array of element values of the specified tag.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>returns:</em> Element values corresponding to tag.<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag.</p>
+</dd>
+<dt>
+public bool TryGetValues<t>(DicomTag tag, out T[] values)
+</t></dt>
+<dd>
+Tries to get the array of element values of the specified tag.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+*param elementValue&quot;&gt;Element values corresponding to tag.<br>
+<em>returns:</em> Returns <code>true</code> if the element values could be exctracted, otherwise <code>false</code>.</p>
+</dd>
+<dt>
+public T GetSingleValue<t>(DicomTag tag)
+</t></dt>
+<dd>
+Gets the element value of the specified tag, whose value multiplicity has to be 1.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>returns:</em> Element values corresponding to tag.<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag, is empty or is multi-valued.</p>
+</dd>
+<dt>
+public bool TryGetSingleValue<t>(DicomTag tag, out T value)
+</t></dt>
+<dd>
+Tries to get the element value of the specified tag, whose value multiplicity has to be 1.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>param elementValue:</em> Element value corresponding to tag.<br>
+<em>returns:</em> Returns <code>true</code> if the element values could be exctracted, otherwise <code>false</code>.</p>
+</dd>
+<dt>
+public T GetSingleValueOrDefault<t>(DicomTag tag, T defaultValue)
+</t></dt>
+<dd>
+Gets the element value of the specified tag, whose value multiplicity has to be 1, or the provided defaultValue if the element value does not exist.
+<p><em>type T:</em> Type of the return value. This cannot be an array type.<br>
+<em>param tag:</em> Requested DICOM tag.<br>
+<em>param defaultValue:</em> Value that is returned if the requested element value does not exist.</p>
+</dd>
+<dt>
+public string GetString(DicomTag tag)
+</dt>
+<dd>
+Gets a string representation of the value of the specified tag.
+<p><em>param tag:</em> Requested DICOM tag.<br>
+<em>returns:</em> String representing the element value corresponding to tag.<br>
+<em>exception DicomDataException:</em> If the dataset does not contain tag.</p>
+</dd>
+<dt>
+public bool TryGetString(DicomTag tag, out string stringValue)
+</dt>
+<dd>
+Tries to get a string representation of the value of the specified tag.
+<p><em>param tag:</em> Requested DICOM tag.<br>
+<em>param stringValue:</em> String representing the element value corresponding to tag.<br>
+<em>returns:</em> Returns <code>false</code> if the dataset does not contain the tag.</p>
+</dd>
+</dl>
+<h2 id="old-get-methods-in-dicomdataset">old Get-Methods in DicomDataset</h2>
+<p>For previous versions up to <strong>fo-dicom 3.0.2</strong> use the following methods:</p>
+<pre><code>// Given these prerequisites, DicomDataset.Get&lt;T&gt; yields results as follows:
+using static Dicom.DicomTag;
+var ds = DicomFile.Open(fileName).Dataset;
+</code></pre>
+<p><strong>CS, Code String</strong></p>
+<table>
+<thead>
+<tr>
+<th>Call &lt;= 3.0.2</th>
+<th>Call &gt;= 4.0.0</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ds.Get&lt;string&gt;(ImageType, -1)</code></td>
+<td><code>ds.GetString(ImageType)</code></td>
+<td>&quot;ORIGINAL\PRIMARY\AXIAL&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string&gt;(ImageType)</code></td>
+<td></td>
+<td>&quot;ORIGINAL&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string&gt;(ImageType, 0)</code></td>
+<td><code>ds.GetValue&lt;string&gt;(ImageType, 0)</code></td>
+<td>&quot;ORIGINAL&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string&gt;(ImageType, 2)</code></td>
+<td><code>ds.GetValue&lt;string&gt;(ImageType, 2)</code></td>
+<td>&quot;AXIAL&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string[]&gt;(ImageType)</code></td>
+<td><code>ds.GetValues&lt;string&gt;(ImageType)</code></td>
+<td>{ &quot;ORIGINAL&quot;, &quot;PRIMARY&quot;, &quot;AXIAL&quot; }</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DicomCodeString&gt;(ImageType)</code></td>
+<td><code>ds.GetDicomItem&lt;DicomCodeString&gt;(ImageType)</code></td>
+<td><code>DicomCodeString</code> [ &quot;ORIGINAL&quot;, &quot;PRIMARY&quot;, &quot;AXIAL&quot; ]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DA, Date</strong></p>
+<table>
+<thead>
+<tr>
+<th>Call &lt;= 3.0.2</th>
+<th>Call &gt;= 4.0.0</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ds.Get&lt;string&gt;(StudyDate)</code></td>
+<td><code>ds.GetSingleValue&lt;string&gt;(StudyDate)</code></td>
+<td>&quot;19990509&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DateTime&gt;(StudyDate)</code></td>
+<td><code>ds.GetSingleValue&lt;DateTime&gt;(StudyDate)</code></td>
+<td><code>DateTime</code> May 9, 1999</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DicomDate&gt;(StudyDate)</code></td>
+<td><code>ds.GetDicomItem&lt;DicomDate&gt;(StudyDate)</code></td>
+<td><code>DicomDate</code> May 9, 1999</td>
+</tr>
+</tbody>
+</table>
+<p><strong>DS, Decimal String</strong></p>
+<table>
+<thead>
+<tr>
+<th>Call &lt;= 3.0.2</th>
+<th>Call &gt;= 4.0.0</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ds.Get&lt;string&gt;(ImagePositionPatient, -1)</code></td>
+<td><code>ds.GetString(ImagePositionPatient)</code></td>
+<td>&quot;0.5\-3.5\4.25&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;float&gt;(ImagePositionPatient)</code></td>
+<td></td>
+<td>0.5</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;float&gt;(ImagePositionPatient, 0)</code></td>
+<td><code>ds.GetValue&lt;float&gt;(ImagePositionPatient, 0)</code></td>
+<td>0.5</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;double&gt;(ImagePositionPatient, 2)</code></td>
+<td><code>ds.GetValue&lt;double&gt;(ImagePositionPatient, 2)</code></td>
+<td>4.25</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;decimal[]&gt;(ImagePositionPatient)</code></td>
+<td><code>ds.GetValues&lt;decimal&gt;(ImagePositionPatient)</code></td>
+<td>{ 0.5, -3.5, 4.25 }</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DicomDecimalString&gt;(ImagePositionPatient)</code></td>
+<td><code>ds.GetDicomItem&lt;DicomDecimalString&gt;(ImagePositionPatient)</code></td>
+<td><code>DicomDecimalString</code> [ 0.5, -3.5, 4.25 ]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>SS, SignedShort</strong></p>
+<table>
+<thead>
+<tr>
+<th>Call &lt;= 3.0.2</th>
+<th>Call &gt;= 4.0.0</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ds.Get&lt;short[]&gt;(OverlayOrigin)</code></td>
+<td><code>ds.GetValues&lt;short&gt;(OverlayOrigin)</code></td>
+<td>{ 1, -2 }</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;short&gt;(OverlayOrigin)</code></td>
+<td></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;short&gt;(OverlayOrigin, 0)</code></td>
+<td><code>ds.GetValue&lt;short&gt;(OverlayOrigin, 0)</code></td>
+<td>1</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;long&gt;(OverlayOrigin, 1)</code></td>
+<td><code>ds.GetValue&lt;long&gt;(OverlayOrigin, 1)</code></td>
+<td>-2</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string&gt;(OverlayOrigin, 1)</code></td>
+<td><code>ds.GetValue&lt;string&gt;(OverlayOrigin, 1)</code></td>
+<td>&quot;-2&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;string[]&gt;(OverlayOrigin)</code></td>
+<td><code>ds.GetValues&lt;string&gt;(OverlayOrigin)</code></td>
+<td>{ &quot;1&quot;, &quot;-2&quot; }</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DicomSignedShort&gt;(OverlayOrigin)</code></td>
+<td><code>ds.GetDicomItem&lt;DicomSignedShort&gt;(OverlayOrigin)</code></td>
+<td><code>DicomSignedShort</code> [ 1, -2 ]</td>
+</tr>
+</tbody>
+</table>
+<p><strong>TM, Time</strong></p>
+<table>
+<thead>
+<tr>
+<th>Call &lt;= 3.0.2</th>
+<th>Call &gt;= 4.0.0</th>
+<th>Result</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>ds.Get&lt;string&gt;(StudyTime)</code></td>
+<td><code>ds.GetString(StudyTime)</code></td>
+<td>&quot;105234.530000&quot;</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DateTime&gt;(StudyTime)</code></td>
+<td><code>ds.GetSingleValue&lt;DateTime&gt;(StudyTime)</code></td>
+<td><code>DateTime</code> 10:52:34.53</td>
+</tr>
+<tr>
+<td><code>ds.Get&lt;DicomTime&gt;(StudyTime)</code></td>
+<td><code>ds.GetDicomItem&lt;DicomTime&gt;(StudyTime)</code></td>
+<td><code>DicomTime</code> 10:52:34.53</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mrbean-bremen/fo-dicom/blob/autodoc2/Documentation/v5/usage/getting_data.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            
+            <span>Generated by <strong>DocFX</strong></span>
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
