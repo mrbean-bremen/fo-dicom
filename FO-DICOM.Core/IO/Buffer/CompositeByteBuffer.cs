@@ -46,8 +46,17 @@ namespace FellowOakDicom.IO.Buffer
         public IList<IByteBuffer> Buffers { get; }
 
         /// <inheritdoc />
-        public bool IsMemory => true;
+        public bool IsMemory => Buffers.All(b => b.IsMemory);
 
+        // foreach (var b in Buffers)
+        // {
+        //     if (!b.IsMemory)
+        //     {
+        //         return false;
+        //     }
+        // }
+        //
+        // return true;
         /// <inheritdoc />
         public long Size => Buffers.Sum(x => x.Size);
 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<RunSettings>
+    <MaxCpuCount>0</MaxCpuCount>
+    <DataCollectionRunSettings>
+        <DataCollectors>
+            <DataCollector friendlyName="FO-DICOM Code Coverage">
+                <Configuration>
+                    <Format>cobertura</Format>
+                    <Include>[FO-DICOM.Core*]*</Include>
+                    <ExcludeByAttribute>Obsolete,GeneratedCodeAttribute,CompilerGeneratedAttribute</ExcludeByAttribute>
+                    <IncludeTestAssembly>false</IncludeTestAssembly>
+                    <SkipAutoProps>true</SkipAutoProps>
+                </Configuration>
+            </DataCollector>
+        </DataCollectors>
+    </DataCollectionRunSettings>
+</RunSettings>

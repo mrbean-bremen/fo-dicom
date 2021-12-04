@@ -3,7 +3,7 @@ name: build
 on:
   push:
     branches:
-    - development
+    - codecov
   pull_request:
     branches:
     - development
@@ -55,21 +55,24 @@ jobs:
       - name: Build Dicom.Tests.NetCore
         run: msbuild DICOM.Full.sln -target:"Unit Tests\DICOM_Tests_NetCore" -p:Configuration=Release -p:Platform="Any CPU" -maxCpuCount
       - name: Run Dicom.Tests.NetCore
-        run: dotnet test ./Tests/NetCore/DICOM.Tests.NetCore.csproj --configuration Release --framework netcoreapp2.0
+        run: dotnet test ./Tests/NetCore/DICOM.Tests.NetCore.csproj --configuration Release --framework netcoreapp2.0 
  
   v5-net-framework:
-    runs-on: windows-2019
+    runs-on: windows-2019 
     steps:
     - uses: actions/checkout@v1
     - name: Build FO-DICOM.Core
       run: dotnet build ./FO-DICOM.Core/FO-DICOM.Core.csproj --configuration Release --runtime win-x64
     - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework net462 --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet462.xml"
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework net462 --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet462.xml" --collect:"FO-DICOM Code Coverage" --settings ./FO-DICOM.Core/coverage.runsettings
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
           name: test-v5-net-framework.xml
           path: ./Tests/FO-DICOM.Tests/TestResults/resultsnet462.xml
+    - name: Upload coverage results
+      if: ${{ success() }}
+      uses: codecov/codecov-action@v2       
       
   v5-net-core-21:
     runs-on: windows-2019
@@ -78,12 +81,15 @@ jobs:
     - name: Build FO-DICOM.Core
       run: dotnet build ./FO-DICOM.Core/FO-DICOM.Core.csproj --configuration Release --framework netstandard2.0 --runtime win-x64
     - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework netcoreapp2.1 --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnetcore21.xml"
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework netcoreapp2.1 --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnetcore21.xml" --collect:"FO-DICOM Code Coverage" --settings ./FO-DICOM.Core/coverage.runsettings
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
           name: test-v5-net-core-21.xml
           path: ./Tests/FO-DICOM.Tests/TestResults/resultsnetcore21.xml
+    - name: Upload coverage results
+      if: ${{ success() }}
+      uses: codecov/codecov-action@v2       
       
   v5-net-core-31:
     runs-on: windows-2019
@@ -92,12 +98,15 @@ jobs:
     - name: Build FO-DICOM.Core
       run: dotnet build ./FO-DICOM.Core/FO-DICOM.Core.csproj --configuration Release --runtime win-x64
     - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework netcoreapp3.1 --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnetcore31.xml"
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework netcoreapp3.1 --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnetcore31.xml" --collect:"FO-DICOM Code Coverage" --settings ./FO-DICOM.Core/coverage.runsettings
     - name: Upload test results
       uses: actions/upload-artifact@v2
       with:
           name: test-v5-net-core-31.xml
           path: ./Tests/FO-DICOM.Tests/TestResults/resultsnetcore31.xml
+    - name: Upload coverage results
+      if: ${{ success() }}
+      uses: codecov/codecov-action@v2       
 
   benchmarks:
     runs-on: windows-2019

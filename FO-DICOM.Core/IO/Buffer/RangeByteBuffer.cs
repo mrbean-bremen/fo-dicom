@@ -9,6 +9,18 @@ using System.Threading.Tasks;
 
 namespace FellowOakDicom.IO.Buffer
 {
+    public class BytePool : IDisposable
+    {
+        public byte[] Buffer { get; }
+
+        public BytePool(int bufferSize)
+        {
+            Buffer = ArrayPool<byte>.Shared.Rent(bufferSize);
+        }
+
+        public void Dispose() => ArrayPool<byte>.Shared.Return(Buffer);
+    }
+
     public class RangeByteBuffer : IByteBuffer
     {
         public RangeByteBuffer(IByteBuffer buffer, long offset, int length)
@@ -30,9 +42,11 @@ namespace FellowOakDicom.IO.Buffer
 
         public byte[] Data => Internal.GetByteRange(Offset, Length);
 
-        public byte[] GetByteRange(long offset, int count) => Internal.GetByteRange(Offset + offset, Math.Max(count, Length));
+        public byte[] GetByteRange(long offset, int count) =>
+            Internal.GetByteRange(Offset + offset, Math.Max(count, Length));
 
-        public void GetByteRange(long offset, int count, byte[] output) => Internal.GetByteRange(Offset + offset, Math.Max(count, Length), output);
+        public void GetByteRange(long offset, int count, byte[] output) =>
+            Internal.GetByteRange(Offset + offset, Math.Max(count, Length), output);
 
         public void CopyToStream(Stream stream)
         {
@@ -47,25 +61,18 @@ namespace FellowOakDicom.IO.Buffer
             }
 
             int bufferSize = 1024 * 1024;
-            byte[] buffer = ArrayPool<byte>.Shared.Rent(bufferSize);
+            using var pool = new BytePool(bufferSize);
             long remaining = Size;
             long offset = 0;
-            try
+            while (offset < remaining)
             {
-                while (offset < remaining)
-                {
-                    var count = (int)Math.Min(remaining - offset, bufferSize);
+                var count = (int)Math.Min(remaining - offset, bufferSize);
 
-                    GetByteRange(offset, count, buffer);
+                GetByteRange(offset, count, pool.Buffer);
 
-                    stream.Write(buffer, 0, count);
+                stream.Write(pool.Buffer, 0, count);
 
-                    offset += count;
-                }
-            }
-            finally
-            {
-                ArrayPool<byte>.Shared.Return(buffer);
+                offset += count;
             }
         }
 
