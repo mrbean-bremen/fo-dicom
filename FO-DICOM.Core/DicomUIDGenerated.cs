@@ -63,6 +63,9 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.MPEG4HP42STEREOF.UID, DicomUID.MPEG4HP42STEREOF);
             _uids.Add(DicomUID.HEVCMP51.UID, DicomUID.HEVCMP51);
             _uids.Add(DicomUID.HEVCM10P51.UID, DicomUID.HEVCM10P51);
+            _uids.Add(DicomUID.JPEGXLLossless.UID, DicomUID.JPEGXLLossless);
+            _uids.Add(DicomUID.JPEGXLJPEGRecompression.UID, DicomUID.JPEGXLJPEGRecompression);
+            _uids.Add(DicomUID.JPEGXL.UID, DicomUID.JPEGXL);
             _uids.Add(DicomUID.HTJ2KLossless.UID, DicomUID.HTJ2KLossless);
             _uids.Add(DicomUID.HTJ2KLosslessRPCL.UID, DicomUID.HTJ2KLosslessRPCL);
             _uids.Add(DicomUID.HTJ2K.UID, DicomUID.HTJ2K);
@@ -233,6 +236,8 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.SegmentationStorage.UID, DicomUID.SegmentationStorage);
             _uids.Add(DicomUID.SurfaceSegmentationStorage.UID, DicomUID.SurfaceSegmentationStorage);
             _uids.Add(DicomUID.TractographyResultsStorage.UID, DicomUID.TractographyResultsStorage);
+            _uids.Add(DicomUID.LabelMapSegmentationStorage.UID, DicomUID.LabelMapSegmentationStorage);
+            _uids.Add(DicomUID.HeightMapSegmentationStorage.UID, DicomUID.HeightMapSegmentationStorage);
             _uids.Add(DicomUID.RealWorldValueMappingStorage.UID, DicomUID.RealWorldValueMappingStorage);
             _uids.Add(DicomUID.SurfaceScanMeshStorage.UID, DicomUID.SurfaceScanMeshStorage);
             _uids.Add(DicomUID.SurfaceScanPointCloudStorage.UID, DicomUID.SurfaceScanPointCloudStorage);
@@ -354,6 +359,8 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.DICOSQuadrupoleResonanceStorage.UID, DicomUID.DICOSQuadrupoleResonanceStorage);
             _uids.Add(DicomUID.EddyCurrentImageStorage.UID, DicomUID.EddyCurrentImageStorage);
             _uids.Add(DicomUID.EddyCurrentMultiFrameImageStorage.UID, DicomUID.EddyCurrentMultiFrameImageStorage);
+            _uids.Add(DicomUID.ThermographyImageStorage.UID, DicomUID.ThermographyImageStorage);
+            _uids.Add(DicomUID.ThermographyMultiFrameImageStorage.UID, DicomUID.ThermographyMultiFrameImageStorage);
             _uids.Add(DicomUID.PatientRootQueryRetrieveInformationModelFind.UID, DicomUID.PatientRootQueryRetrieveInformationModelFind);
             _uids.Add(DicomUID.PatientRootQueryRetrieveInformationModelMove.UID, DicomUID.PatientRootQueryRetrieveInformationModelMove);
             _uids.Add(DicomUID.PatientRootQueryRetrieveInformationModelGet.UID, DicomUID.PatientRootQueryRetrieveInformationModelGet);
@@ -729,7 +736,7 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.HealthStatus3772.UID, DicomUID.HealthStatus3772);
             _uids.Add(DicomUID.UseStatus3773.UID, DicomUID.UseStatus3773);
             _uids.Add(DicomUID.SocialHistory3774.UID, DicomUID.SocialHistory3774);
-            _uids.Add(DicomUID.ImplantedDevice3777.UID, DicomUID.ImplantedDevice3777);
+            _uids.Add(DicomUID.CardiovascularImplant3777.UID, DicomUID.CardiovascularImplant3777);
             _uids.Add(DicomUID.PlaqueStructure3802.UID, DicomUID.PlaqueStructure3802);
             _uids.Add(DicomUID.StenosisMeasurementMethod3804.UID, DicomUID.StenosisMeasurementMethod3804);
             _uids.Add(DicomUID.StenosisType3805.UID, DicomUID.StenosisType3805);
@@ -1512,7 +1519,7 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.CoreEchoMeasurement12300.UID, DicomUID.CoreEchoMeasurement12300);
             _uids.Add(DicomUID.OCTAProcessingAlgorithmFamily4270.UID, DicomUID.OCTAProcessingAlgorithmFamily4270);
             _uids.Add(DicomUID.EnFaceImageType4271.UID, DicomUID.EnFaceImageType4271);
-            _uids.Add(DicomUID.OptScanPatternType4272.UID, DicomUID.OptScanPatternType4272);
+            _uids.Add(DicomUID.OPTScanPatternType4272.UID, DicomUID.OPTScanPatternType4272);
             _uids.Add(DicomUID.RetinalSegmentationSurface4273.UID, DicomUID.RetinalSegmentationSurface4273);
             _uids.Add(DicomUID.OrganForRadiationDoseEstimate10060.UID, DicomUID.OrganForRadiationDoseEstimate10060);
             _uids.Add(DicomUID.AbsorbedRadiationDoseType10061.UID, DicomUID.AbsorbedRadiationDoseType10061);
@@ -1851,6 +1858,16 @@ namespace FellowOakDicom
             _uids.Add(DicomUID.WaveformAnnotationsDocumentTitle3048.UID, DicomUID.WaveformAnnotationsDocumentTitle3048);
             _uids.Add(DicomUID.EEGProcedure3049.UID, DicomUID.EEGProcedure3049);
             _uids.Add(DicomUID.PatientConsciousness3050.UID, DicomUID.PatientConsciousness3050);
+            _uids.Add(DicomUID.FollicleType12010.UID, DicomUID.FollicleType12010);
+            _uids.Add(DicomUID.BreastSegmentationTypes7163.UID, DicomUID.BreastSegmentationTypes7163);
+            _uids.Add(DicomUID.ImplantedDevice3779.UID, DicomUID.ImplantedDevice3779);
+            _uids.Add(DicomUID.SimilarityMeasure281.UID, DicomUID.SimilarityMeasure281);
+            _uids.Add(DicomUID.WaveformAcquisitionModality34.UID, DicomUID.WaveformAcquisitionModality34);
+            _uids.Add(DicomUID.EnFaceProcessingAlgorithmFamily4274.UID, DicomUID.EnFaceProcessingAlgorithmFamily4274);
+            _uids.Add(DicomUID.AnteriorEyeSegmentationSurface4275.UID, DicomUID.AnteriorEyeSegmentationSurface4275);
+            _uids.Add(DicomUID.FetalEchocardiographyImageView12312.UID, DicomUID.FetalEchocardiographyImageView12312);
+            _uids.Add(DicomUID.CardiacUltrasoundFetalArrhythmiaMeasurements12313.UID, DicomUID.CardiacUltrasoundFetalArrhythmiaMeasurements12313);
+            _uids.Add(DicomUID.CommonFetalEchocardiographyMeasurements12314.UID, DicomUID.CommonFetalEchocardiographyMeasurements12314);
         }
 
         ///<summary>SOP Class: Verification SOP Class</summary>
@@ -1996,6 +2013,15 @@ namespace FellowOakDicom
 
         ///<summary>Transfer Syntax: HEVC/H.265 Main 10 Profile / Level 5.1</summary>
         public static readonly DicomUID HEVCM10P51 = new DicomUID("1.2.840.10008.1.2.4.108", "HEVC/H.265 Main 10 Profile / Level 5.1", DicomUidType.TransferSyntax, false);
+
+        ///<summary>Transfer Syntax: JPEG XL Lossless</summary>
+        public static readonly DicomUID JPEGXLLossless = new DicomUID("1.2.840.10008.1.2.4.110", "JPEG XL Lossless", DicomUidType.TransferSyntax, false);
+
+        ///<summary>Transfer Syntax: JPEG XL JPEG Recompression</summary>
+        public static readonly DicomUID JPEGXLJPEGRecompression = new DicomUID("1.2.840.10008.1.2.4.111", "JPEG XL JPEG Recompression", DicomUidType.TransferSyntax, false);
+
+        ///<summary>Transfer Syntax: JPEG XL</summary>
+        public static readonly DicomUID JPEGXL = new DicomUID("1.2.840.10008.1.2.4.112", "JPEG XL", DicomUidType.TransferSyntax, false);
 
         ///<summary>Transfer Syntax: High-Throughput JPEG 2000 Image Compression (Lossless Only)</summary>
         public static readonly DicomUID HTJ2KLossless = new DicomUID("1.2.840.10008.1.2.4.201", "High-Throughput JPEG 2000 Image Compression (Lossless Only)", DicomUidType.TransferSyntax, false);
@@ -2507,6 +2533,12 @@ namespace FellowOakDicom
         ///<summary>SOP Class: Tractography Results Storage</summary>
         public static readonly DicomUID TractographyResultsStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.66.6", "Tractography Results Storage", DicomUidType.SOPClass, false);
 
+        ///<summary>SOP Class: Label Map Segmentation Storage</summary>
+        public static readonly DicomUID LabelMapSegmentationStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.66.7", "Label Map Segmentation Storage", DicomUidType.SOPClass, false);
+
+        ///<summary>SOP Class: Height Map Segmentation Storage</summary>
+        public static readonly DicomUID HeightMapSegmentationStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.66.8", "Height Map Segmentation Storage", DicomUidType.SOPClass, false);
+
         ///<summary>SOP Class: Real World Value Mapping Storage</summary>
         public static readonly DicomUID RealWorldValueMappingStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.67", "Real World Value Mapping Storage", DicomUidType.SOPClass, false);
 
@@ -2869,6 +2901,12 @@ namespace FellowOakDicom
 
         ///<summary>SOP Class: Eddy Current Multi-frame Image Storage</summary>
         public static readonly DicomUID EddyCurrentMultiFrameImageStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.601.2", "Eddy Current Multi-frame Image Storage", DicomUidType.SOPClass, false);
+
+        ///<summary>SOP Class: Thermography Image Storage</summary>
+        public static readonly DicomUID ThermographyImageStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.601.3", "Thermography Image Storage", DicomUidType.SOPClass, false);
+
+        ///<summary>SOP Class: Thermography Multi-frame Image Storage</summary>
+        public static readonly DicomUID ThermographyMultiFrameImageStorage = new DicomUID("1.2.840.10008.5.1.4.1.1.601.4", "Thermography Multi-frame Image Storage", DicomUidType.SOPClass, false);
 
         ///<summary>SOP Class: Patient Root Query/Retrieve Information Model - FIND</summary>
         public static readonly DicomUID PatientRootQueryRetrieveInformationModelFind = new DicomUID("1.2.840.10008.5.1.4.1.2.1.1", "Patient Root Query/Retrieve Information Model - FIND", DicomUidType.SOPClass, false);
@@ -3995,8 +4033,8 @@ namespace FellowOakDicom
         ///<summary>Context Group Name: Social History (3774)</summary>
         public static readonly DicomUID SocialHistory3774 = new DicomUID("1.2.840.10008.6.1.262", "Social History (3774)", DicomUidType.ContextGroupName, false);
 
-        ///<summary>Context Group Name: Implanted Device (3777)</summary>
-        public static readonly DicomUID ImplantedDevice3777 = new DicomUID("1.2.840.10008.6.1.263", "Implanted Device (3777)", DicomUidType.ContextGroupName, false);
+        ///<summary>Context Group Name: Cardiovascular Implant (3777)</summary>
+        public static readonly DicomUID CardiovascularImplant3777 = new DicomUID("1.2.840.10008.6.1.263", "Cardiovascular Implant (3777)", DicomUidType.ContextGroupName, false);
 
         ///<summary>Context Group Name: Plaque Structure (3802)</summary>
         public static readonly DicomUID PlaqueStructure3802 = new DicomUID("1.2.840.10008.6.1.264", "Plaque Structure (3802)", DicomUidType.ContextGroupName, false);
@@ -6344,8 +6382,8 @@ namespace FellowOakDicom
         ///<summary>Context Group Name: En Face Image Type (4271)</summary>
         public static readonly DicomUID EnFaceImageType4271 = new DicomUID("1.2.840.10008.6.1.1151", "En Face Image Type (4271)", DicomUidType.ContextGroupName, false);
 
-        ///<summary>Context Group Name: Opt Scan Pattern Type (4272)</summary>
-        public static readonly DicomUID OptScanPatternType4272 = new DicomUID("1.2.840.10008.6.1.1152", "Opt Scan Pattern Type (4272)", DicomUidType.ContextGroupName, false);
+        ///<summary>Context Group Name: OPT Scan Pattern Type (4272)</summary>
+        public static readonly DicomUID OPTScanPatternType4272 = new DicomUID("1.2.840.10008.6.1.1152", "OPT Scan Pattern Type (4272)", DicomUidType.ContextGroupName, false);
 
         ///<summary>Context Group Name: Retinal Segmentation Surface (4273)</summary>
         public static readonly DicomUID RetinalSegmentationSurface4273 = new DicomUID("1.2.840.10008.6.1.1153", "Retinal Segmentation Surface (4273)", DicomUidType.ContextGroupName, false);
@@ -7360,6 +7398,36 @@ namespace FellowOakDicom
 
         ///<summary>Context Group Name: Patient Consciousness  (3050)</summary>
         public static readonly DicomUID PatientConsciousness3050 = new DicomUID("1.2.840.10008.6.1.1490", "Patient Consciousness  (3050)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Follicle Type (12010)</summary>
+        public static readonly DicomUID FollicleType12010 = new DicomUID("1.2.840.10008.6.1.1491", "Follicle Type (12010)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Breast Segmentation Types (7163)</summary>
+        public static readonly DicomUID BreastSegmentationTypes7163 = new DicomUID("1.2.840.10008.6.1.1492", "Breast Segmentation Types (7163)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Implanted Device (3779)</summary>
+        public static readonly DicomUID ImplantedDevice3779 = new DicomUID("1.2.840.10008.6.1.1493", "Implanted Device (3779)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Similarity Measure (281)</summary>
+        public static readonly DicomUID SimilarityMeasure281 = new DicomUID("1.2.840.10008.6.1.1494", "Similarity Measure (281)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Waveform Acquisition Modality (34)</summary>
+        public static readonly DicomUID WaveformAcquisitionModality34 = new DicomUID("1.2.840.10008.6.1.1495", "Waveform Acquisition Modality (34)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: En Face Processing Algorithm Family (4274)</summary>
+        public static readonly DicomUID EnFaceProcessingAlgorithmFamily4274 = new DicomUID("1.2.840.10008.6.1.1496", "En Face Processing Algorithm Family (4274)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Anterior Eye Segmentation Surface (4275)</summary>
+        public static readonly DicomUID AnteriorEyeSegmentationSurface4275 = new DicomUID("1.2.840.10008.6.1.1497", "Anterior Eye Segmentation Surface (4275)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Fetal Echocardiography Image View (12312)</summary>
+        public static readonly DicomUID FetalEchocardiographyImageView12312 = new DicomUID("1.2.840.10008.6.1.1498", "Fetal Echocardiography Image View (12312)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Cardiac Ultrasound Fetal Arrhythmia Measurements (12313)</summary>
+        public static readonly DicomUID CardiacUltrasoundFetalArrhythmiaMeasurements12313 = new DicomUID("1.2.840.10008.6.1.1499", "Cardiac Ultrasound Fetal Arrhythmia Measurements (12313)", DicomUidType.ContextGroupName, false);
+
+        ///<summary>Context Group Name: Common Fetal Echocardiography Measurements (12314)</summary>
+        public static readonly DicomUID CommonFetalEchocardiographyMeasurements12314 = new DicomUID("1.2.840.10008.6.1.1500", "Common Fetal Echocardiography Measurements (12314)", DicomUidType.ContextGroupName, false);
 
     }
 }

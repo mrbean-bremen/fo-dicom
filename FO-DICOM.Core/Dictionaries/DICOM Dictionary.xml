@@ -3,7 +3,7 @@
 <!-- Copyright (c) 2012-2023 fo-dicom contributors.        -->
 <!-- Licensed under the Microsoft Public License (MS-PL).  -->
 
-<dictionary version="2024c">
+<dictionary version="2024d">
     <tag group="0000" element="0000" keyword="CommandGroupLength" vr="UL" vm="1">Command Group Length</tag>
     <tag group="0000" element="0002" keyword="AffectedSOPClassUID" vr="UI" vm="1">Affected SOP Class UID</tag>
     <tag group="0000" element="0003" keyword="RequestedSOPClassUID" vr="UI" vm="1">Requested SOP Class UID</tag>
@@ -273,6 +273,7 @@
     <tag group="0008" element="1145" keyword="ReferencedCurveSequence" vr="SQ" vm="1" retired="true">Referenced Curve Sequence</tag>
     <tag group="0008" element="114A" keyword="ReferencedInstanceSequence" vr="SQ" vm="1">Referenced Instance Sequence</tag>
     <tag group="0008" element="114B" keyword="ReferencedRealWorldValueMappingInstanceSequence" vr="SQ" vm="1">Referenced Real World Value Mapping Instance Sequence</tag>
+    <tag group="0008" element="114C" keyword="ReferencedSegmentationSequence" vr="SQ" vm="1">Referenced Segmentation Sequence</tag>
     <tag group="0008" element="1150" keyword="ReferencedSOPClassUID" vr="UI" vm="1">Referenced SOP Class UID</tag>
     <tag group="0008" element="1155" keyword="ReferencedSOPInstanceUID" vr="UI" vm="1">Referenced SOP Instance UID</tag>
     <tag group="0008" element="1156" keyword="DefinitionSourceSequence" vr="SQ" vm="1">Definition Source Sequence</tag>
@@ -666,6 +667,98 @@
     <tag group="0014" element="511D" keyword="WedgeChamferHeight" vr="DS" vm="1">Wedge Chamfer Height</tag>
     <tag group="0014" element="511E" keyword="WedgeCurve" vr="CS" vm="1">Wedge Curve</tag>
     <tag group="0014" element="511F" keyword="RadiusAlongWedge" vr="DS" vm="1">Radius Along the Wedge</tag>
+    <tag group="0014" element="6001" keyword="ThermalCameraSettingsSequence" vr="SQ" vm="1">Thermal Camera Settings Sequence</tag>
+    <tag group="0014" element="6002" keyword="AcquisitionFrameRate" vr="DS" vm="1">Acquisition Frame Rate</tag>
+    <tag group="0014" element="6003" keyword="IntegrationTime" vr="DS" vm="1">Integration Time</tag>
+    <tag group="0014" element="6004" keyword="NumberOfCalibrationFrames" vr="DS" vm="1">Number of Calibration Frames</tag>
+    <tag group="0014" element="6005" keyword="NumberOfRowsInFullAcquisitionImage" vr="DS" vm="1">Number of Rows in Full Acquisition Image</tag>
+    <tag group="0014" element="6006" keyword="NumberOfColumnsInFullAcquisitionImage" vr="DS" vm="1">Number Of Columns in Full Acquisition Image</tag>
+    <tag group="0014" element="6007" keyword="ThermalSourceSettingsSequence" vr="SQ" vm="1">Thermal Source Settings Sequence</tag>
+    <tag group="0014" element="6008" keyword="SourceHorizontalPitch" vr="DS" vm="1">Source Horizontal Pitch</tag>
+    <tag group="0014" element="6009" keyword="SourceVerticalPitch" vr="DS" vm="1">Source Vertical Pitch</tag>
+    <tag group="0014" element="600A" keyword="SourceHorizontalScanSpeed" vr="DS" vm="1">Source Horizontal Scan Speed</tag>
+    <tag group="0014" element="600B" keyword="ThermalSourceModulationFrequency" vr="DS" vm="1">Thermal Source Modulation Frequency</tag>
+    <tag group="0014" element="600C" keyword="InductionSourceSettingSequence" vr="SQ" vm="1">Induction Source Setting Sequence</tag>
+    <tag group="0014" element="600D" keyword="CoilFrequency" vr="DS" vm="1">Coil Frequency</tag>
+    <tag group="0014" element="600E" keyword="CurrentAmplitudeAcrossCoil" vr="DS" vm="1">Current Amplitude Across Coil</tag>
+    <tag group="0014" element="600F" keyword="FlashSourceSettingSequence" vr="SQ" vm="1">Flash Source Setting Sequence</tag>
+    <tag group="0014" element="6010" keyword="FlashDuration" vr="DS" vm="1">Flash Duration</tag>
+    <tag group="0014" element="6011" keyword="FlashFrameNumber" vr="DS" vm="1-n">Flash Frame Number</tag>
+    <tag group="0014" element="6012" keyword="LaserSourceSettingSequence" vr="SQ" vm="1">Laser Source Setting Sequence</tag>
+    <tag group="0014" element="6013" keyword="HorizontalLaserSpotDimension" vr="DS" vm="1">Horizontal Laser Spot Dimension</tag>
+    <tag group="0014" element="6014" keyword="VerticalLaserSpotDimension" vr="DS" vm="1">Vertical Laser Spot Dimension</tag>
+    <tag group="0014" element="6015" keyword="LaserWavelength" vr="DS" vm="1">Laser Wavelength</tag>
+    <tag group="0014" element="6016" keyword="LaserPower" vr="DS" vm="1">Laser Power</tag>
+    <tag group="0014" element="6017" keyword="ForcedGasSettingSequence" vr="SQ" vm="1">Forced Gas Setting Sequence</tag>
+    <tag group="0014" element="6018" keyword="VibrationSourceSettingSequence" vr="SQ" vm="1">Vibration Source Setting Sequence</tag>
+    <tag group="0014" element="6019" keyword="VibrationExcitationFrequency" vr="DS" vm="1">Vibration Excitation Frequency</tag>
+    <tag group="0014" element="601A" keyword="VibrationExcitationVoltage" vr="DS" vm="1">Vibration Excitation Voltage</tag>
+    <tag group="0014" element="601B" keyword="ThermographyDataCaptureMethod" vr="CS" vm="1">Thermography Data Capture Method</tag>
+    <tag group="0014" element="601C" keyword="ThermalTechnique" vr="CS" vm="1">Thermal Technique</tag>
+    <tag group="0014" element="601D" keyword="ThermalCameraCoreSequence" vr="SQ" vm="1">Thermal Camera Core Sequence</tag>
+    <tag group="0014" element="601E" keyword="DetectorWavelengthRange" vr="CS" vm="1">Detector Wavelength Range</tag>
+    <tag group="0014" element="601F" keyword="ThermalCameraCalibrationType" vr="CS" vm="1">Thermal Camera Calibration Type</tag>
+    <tag group="0014" element="6020" keyword="AcquisitionImageCounter" vr="UV" vm="1">Acquisition Image Counter</tag>
+    <tag group="0014" element="6021" keyword="FrontPanelTemperature" vr="DS" vm="1">Front Panel Temperature</tag>
+    <tag group="0014" element="6022" keyword="AirGapTemperature" vr="DS" vm="1">Air Gap Temperature</tag>
+    <tag group="0014" element="6023" keyword="VerticalPixelSize" vr="DS" vm="1">Vertical Pixel Size</tag>
+    <tag group="0014" element="6024" keyword="HorizontalPixelSize" vr="DS" vm="1">Horizontal Pixel Size</tag>
+    <tag group="0014" element="6025" keyword="DataStreamingProtocol" vr="ST" vm="1-n">Data Streaming Protocol</tag>
+    <tag group="0014" element="6026" keyword="LensSequence" vr="SQ" vm="1">Lens Sequence</tag>
+    <tag group="0014" element="6027" keyword="FieldOfView" vr="DS" vm="1">Field of View</tag>
+    <tag group="0014" element="6028" keyword="LensFilterManufacturer" vr="LO" vm="1">Lens Filter Manufacturer</tag>
+    <tag group="0014" element="6029" keyword="CutoffFilterType" vr="CS" vm="1">Cutoff Filter Type</tag>
+    <tag group="0014" element="602A" keyword="LensFilterCutOffWavelength" vr="DS" vm="1-n">Lens Filter Cut-Off Wavelength</tag>
+    <tag group="0014" element="602B" keyword="ThermalSourceSequence" vr="SQ" vm="1">Thermal Source Sequence</tag>
+    <tag group="0014" element="602C" keyword="ThermalSourceMotionState" vr="CS" vm="1">Thermal Source Motion State</tag>
+    <tag group="0014" element="602D" keyword="ThermalSourceMotionType" vr="CS" vm="1">Thermal Source Motion Type</tag>
+    <tag group="0014" element="602E" keyword="InductionHeatingSequence" vr="SQ" vm="1">Induction Heating Sequence</tag>
+    <tag group="0014" element="602F" keyword="CoilConfigurationID" vr="ST" vm="1">Coil Configuration ID</tag>
+    <tag group="0014" element="6030" keyword="NumberOfTurnsInCoil" vr="DS" vm="1">Number of Turns in Coil</tag>
+    <tag group="0014" element="6031" keyword="ShapeOfIndividualTurn" vr="CS" vm="1">Shape of Individual Turn</tag>
+    <tag group="0014" element="6032" keyword="SizeOfIndividualTurn" vr="DS" vm="1-n">Size of Individual Turn</tag>
+    <tag group="0014" element="6033" keyword="DistanceBetweenTurns" vr="DS" vm="1-n">Distance Between Turns</tag>
+    <tag group="0014" element="6034" keyword="FlashHeatingSequence" vr="SQ" vm="1">Flash Heating Sequence</tag>
+    <tag group="0014" element="6035" keyword="NumberOfLamps" vr="DS" vm="1">Number of Lamps</tag>
+    <tag group="0014" element="6036" keyword="FlashSynchronizationProtocol" vr="ST" vm="1">Flash Synchronization Protocol</tag>
+    <tag group="0014" element="6037" keyword="FlashModificationStatus" vr="CS" vm="1">Flash Modification Status</tag>
+    <tag group="0014" element="6038" keyword="LaserHeatingSequence" vr="SQ" vm="1">Laser Heating Sequence</tag>
+    <tag group="0014" element="6039" keyword="LaserManufacturer" vr="LO" vm="1">Laser Manufacturer</tag>
+    <tag group="0014" element="603A" keyword="LaserModelNumber" vr="LO" vm="1">Laser Model Number</tag>
+    <tag group="0014" element="603B" keyword="LaserTypeDescription" vr="ST" vm="1">Laser Type Description</tag>
+    <tag group="0014" element="603C" keyword="ForcedGasHeatingSequence" vr="SQ" vm="1">Forced Gas Heating Sequence</tag>
+    <tag group="0014" element="603D" keyword="GasUsedForHeatingCoolingPart" vr="LO" vm="1">Gas Used for Heating/Cooling Part</tag>
+    <tag group="0014" element="603E" keyword="VibrationSonicHeatingSequence" vr="SQ" vm="1">Vibration/Sonic Heating Sequence</tag>
+    <tag group="0014" element="603F" keyword="ProbeManufacturer" vr="LO" vm="1">Probe Manufacturer</tag>
+    <tag group="0014" element="6040" keyword="ProbeModelNumber" vr="LO" vm="1">Probe Model Number</tag>
+    <tag group="0014" element="6041" keyword="ApertureSize" vr="DS" vm="1">Aperture Size</tag>
+    <tag group="0014" element="6042" keyword="ProbeResonantFrequency" vr="DS" vm="1">Probe Resonant Frequency</tag>
+    <tag group="0014" element="6043" keyword="HeatSourceDescription" vr="UT" vm="1">Heat Source Description</tag>
+    <tag group="0014" element="6044" keyword="SurfacePreparationWithOpticalCoating" vr="CS" vm="1">Surface Preparation with Optical Coating</tag>
+    <tag group="0014" element="6045" keyword="OpticalCoatingType" vr="ST" vm="1">Optical Coating Type</tag>
+    <tag group="0014" element="6046" keyword="ThermalConductivityOfExposedSurface" vr="DS" vm="1">Thermal Conductivity of Exposed Surface</tag>
+    <tag group="0014" element="6047" keyword="MaterialDensity" vr="DS" vm="1">Material Density</tag>
+    <tag group="0014" element="6048" keyword="SpecificHeatOfInspectionSurface" vr="DS" vm="1">Specific Heat of Inspection Surface</tag>
+    <tag group="0014" element="6049" keyword="EmissivityOfInspectionSurface" vr="DS" vm="1">Emissivity of Inspection Surface</tag>
+    <tag group="0014" element="604A" keyword="ElectromagneticClassificationOfInspectionSurface" vr="CS" vm="1-n">Electromagnetic Classification of Inspection Surface</tag>
+    <tag group="0014" element="604C" keyword="MovingWindowSize" vr="DS" vm="1">Moving Window Size</tag>
+    <tag group="0014" element="604D" keyword="MovingWindowType" vr="CS" vm="1">Moving Window Type</tag>
+    <tag group="0014" element="604E" keyword="MovingWindowWeights" vr="DS" vm="1-n">Moving Window Weights</tag>
+    <tag group="0014" element="604F" keyword="MovingWindowPitch" vr="DS" vm="1">Moving Window Pitch</tag>
+    <tag group="0014" element="6050" keyword="MovingWindowPaddingScheme" vr="CS" vm="1">Moving Window Padding Scheme</tag>
+    <tag group="0014" element="6051" keyword="MovingWindowPaddingLength" vr="DS" vm="1">Moving Window Padding Sength</tag>
+    <tag group="0014" element="6052" keyword="SpatialFilteringParametersSequence" vr="SQ" vm="1">Spatial Filtering Parameters Sequence</tag>
+    <tag group="0014" element="6053" keyword="SpatialFilteringScheme" vr="CS" vm="1">Spatial Filtering Scheme</tag>
+    <tag group="0014" element="6056" keyword="HorizontalMovingWindowSize" vr="DS" vm="1">Horizontal Moving Window Size</tag>
+    <tag group="0014" element="6057" keyword="VerticalMovingWindowSize" vr="DS" vm="1">Vertical Moving Window Size</tag>
+    <tag group="0014" element="6059" keyword="PolynomialFittingSequence" vr="SQ" vm="1">Polynomial Fitting Sequence</tag>
+    <tag group="0014" element="605A" keyword="FittingDataType" vr="CS" vm="1-n">Fitting Data Type</tag>
+    <tag group="0014" element="605B" keyword="OperationOnTimeAxisBeforeFitting" vr="CS" vm="1">Operation on Time Axis Before Fitting</tag>
+    <tag group="0014" element="605C" keyword="OperationOnPixelIntensityBeforeFitting" vr="CS" vm="1">Operation on Pixel Intensity Before Fitting</tag>
+    <tag group="0014" element="605D" keyword="OrderOfPolynomial" vr="DS" vm="1">Order of Polynomial</tag>
+    <tag group="0014" element="605E" keyword="IndependentVariableForPolynomialFit" vr="CS" vm="1">Independent Variable for Polynomial Fit</tag>
+    <tag group="0014" element="605F" keyword="PolynomialCoefficients" vr="DS" vm="1-n">PolynomialCoefficients</tag>
+    <tag group="0014" element="6060" keyword="ThermographyPixelDataUnit" vr="CS" vm="1">Thermography Pixel Data Unit</tag>
     <tag group="0016" element="0001" keyword="WhitePoint" vr="DS" vm="1">White Point</tag>
     <tag group="0016" element="0002" keyword="PrimaryChromaticities" vr="DS" vm="3">Primary Chromaticities</tag>
     <tag group="0016" element="0003" keyword="BatteryLevel" vr="UT" vm="1">Battery Level</tag>
@@ -1958,7 +2051,9 @@
     <tag group="0022" element="1622" keyword="OphthalmicVolumetricPropertiesFlag" vr="CS" vm="1">Ophthalmic Volumetric Properties Flag</tag>
     <tag group="0022" element="1624" keyword="OphthalmicAnatomicReferencePointXCoordinate" vr="FL" vm="1">Ophthalmic Anatomic Reference Point X-Coordinate</tag>
     <tag group="0022" element="1626" keyword="OphthalmicAnatomicReferencePointYCoordinate" vr="FL" vm="1">Ophthalmic Anatomic Reference Point Y-Coordinate</tag>
+    <tag group="0022" element="1627" keyword="OphthalmicEnFaceVolumeDescriptorSequence" vr="SQ" vm="1">Ophthalmic En Face Volume Descriptor Sequence</tag>
     <tag group="0022" element="1628" keyword="OphthalmicEnFaceImageQualityRatingSequence" vr="SQ" vm="1">Ophthalmic En Face Image Quality Rating Sequence</tag>
+    <tag group="0022" element="1629" keyword="OphthalmicEnFaceVolumeDescriptorScope" vr="CS" vm="1">Ophthalmic En Face Volume Descriptor Scope</tag>
     <tag group="0022" element="1630" keyword="QualityThreshold" vr="DS" vm="1">Quality Threshold</tag>
     <tag group="0022" element="1640" keyword="OCTBscanAnalysisAcquisitionParametersSequence" vr="SQ" vm="1">OCT B-scan Analysis Acquisition Parameters Sequence</tag>
     <tag group="0022" element="1642" keyword="NumberOfBscansPerFrame" vr="UL" vm="1">Number of B-scans Per Frame</tag>
@@ -2437,12 +2532,12 @@
     <tag group="003A" element="0317" keyword="WaveformAmplifierType" vr="CS" vm="1">Waveform Amplifier Type</tag>
     <tag group="003A" element="0318" keyword="FilterLowFrequencyCharacteristicsSequence" vr="SQ" vm="1">Filter Low Frequency Characteristics Sequence</tag>
     <tag group="003A" element="0319" keyword="FilterHighFrequencyCharacteristicsSequence" vr="SQ" vm="1">Filter High Frequency Characteristics Sequence</tag>
-    <tag group="003A" element="0320" keyword="SummarizedFilterLookupTable" vr="SQ" vm="1">Summarized Filter Lookup Table Sequence</tag>
+    <tag group="003A" element="0320" keyword="SummarizedFilterLookupTableSequence" vr="SQ" vm="1">Summarized Filter Lookup Table Sequence</tag>
     <tag group="003A" element="0321" keyword="NotchFilterCharacteristicsSequence" vr="SQ" vm="1">Notch Filter Characteristics Sequence</tag>
     <tag group="003A" element="0322" keyword="WaveformFilterType" vr="CS" vm="1">Waveform Filter Type</tag>
     <tag group="003A" element="0323" keyword="AnalogFilterCharacteristicsSequence" vr="SQ" vm="1">Analog Filter Characteristics Sequence</tag>
     <tag group="003A" element="0324" keyword="AnalogFilterRollOff" vr="DS" vm="1">Analog Filter Roll Off </tag>
-    <tag group="003A" element="0325" keyword="AnalogFilterType" vr="SQ" vm="1">Analog Filter Type Code Sequence</tag>
+    <tag group="003A" element="0325" keyword="AnalogFilterTypeCodeSequence" vr="SQ" vm="1">Analog Filter Type Code Sequence</tag>
     <tag group="003A" element="0326" keyword="DigitalFilterCharacteristicsSequence" vr="SQ" vm="1">Digital Filter Characteristics Sequence</tag>
     <tag group="003A" element="0327" keyword="DigitalFilterOrder" vr="IS" vm="1">Digital Filter Order</tag>
     <tag group="003A" element="0328" keyword="DigitalFilterTypeCodeSequence" vr="SQ" vm="1">Digital Filter Type Code Sequence</tag>
@@ -3101,6 +3196,7 @@
     <tag group="0066" element="0002" keyword="SurfaceSequence" vr="SQ" vm="1">Surface Sequence</tag>
     <tag group="0066" element="0003" keyword="SurfaceNumber" vr="UL" vm="1">Surface Number</tag>
     <tag group="0066" element="0004" keyword="SurfaceComments" vr="LT" vm="1">Surface Comments</tag>
+    <tag group="0066" element="0005" keyword="SurfaceOffset" vr="FL" vm="1">Surface Offset</tag>
     <tag group="0066" element="0009" keyword="SurfaceProcessing" vr="CS" vm="1">Surface Processing</tag>
     <tag group="0066" element="000A" keyword="SurfaceProcessingRatio" vr="FL" vm="1">Surface Processing Ratio</tag>
     <tag group="0066" element="000B" keyword="SurfaceProcessingDescription" vr="LO" vm="1">Surface Processing Description</tag>
@@ -3961,6 +4057,7 @@
     <tag group="3002" element="0133" keyword="EnergyDerivationCodeSequence" vr="SQ" vm="1">Energy Derivation Code Sequence</tag>
     <tag group="3002" element="0134" keyword="MaximumCumulativeMetersetExposure" vr="FD" vm="1">Maximum Cumulative Meterset Exposure</tag>
     <tag group="3002" element="0135" keyword="AcquisitionInitiationSequence" vr="SQ" vm="1">Acquisition Initiation Sequence</tag>
+    <tag group="3002" element="0136" keyword="RTConeBeamImagingGeometrySequence" vr="SQ" vm="1">RT Cone-Beam Imaging Geometry Sequence</tag>
     <tag group="3004" element="0001" keyword="DVHType" vr="CS" vm="1">DVH Type</tag>
     <tag group="3004" element="0002" keyword="DoseUnits" vr="CS" vm="1">Dose Units</tag>
     <tag group="3004" element="0004" keyword="DoseType" vr="CS" vm="1">Dose Type</tag>
@@ -5227,6 +5324,9 @@
     <uid uid="1.2.840.10008.1.2.4.106.1" keyword="MPEG4HP42STEREOF" type="Transfer Syntax">Fragmentable MPEG-4 AVC/H.264 Stereo High Profile / Level 4.2</uid>
     <uid uid="1.2.840.10008.1.2.4.107" keyword="HEVCMP51" type="Transfer Syntax">HEVC/H.265 Main Profile / Level 5.1</uid>
     <uid uid="1.2.840.10008.1.2.4.108" keyword="HEVCM10P51" type="Transfer Syntax">HEVC/H.265 Main 10 Profile / Level 5.1</uid>
+    <uid uid="1.2.840.10008.1.2.4.110" keyword="JPEGXLLossless" type="Transfer Syntax">JPEG XL Lossless</uid>
+    <uid uid="1.2.840.10008.1.2.4.111" keyword="JPEGXLJPEGRecompression" type="Transfer Syntax">JPEG XL JPEG Recompression</uid>
+    <uid uid="1.2.840.10008.1.2.4.112" keyword="JPEGXL" type="Transfer Syntax">JPEG XL</uid>
     <uid uid="1.2.840.10008.1.2.4.201" keyword="HTJ2KLossless" type="Transfer Syntax">High-Throughput JPEG 2000 Image Compression (Lossless Only)</uid>
     <uid uid="1.2.840.10008.1.2.4.202" keyword="HTJ2KLosslessRPCL" type="Transfer Syntax">High-Throughput JPEG 2000 with RPCL Options Image Compression (Lossless Only)</uid>
     <uid uid="1.2.840.10008.1.2.4.203" keyword="HTJ2K" type="Transfer Syntax">High-Throughput JPEG 2000 Image Compression</uid>
@@ -5397,6 +5497,8 @@
     <uid uid="1.2.840.10008.5.1.4.1.1.66.4" keyword="SegmentationStorage" type="SOP Class">Segmentation Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.66.5" keyword="SurfaceSegmentationStorage" type="SOP Class">Surface Segmentation Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.66.6" keyword="TractographyResultsStorage" type="SOP Class">Tractography Results Storage</uid>
+    <uid uid="1.2.840.10008.5.1.4.1.1.66.7" keyword="LabelMapSegmentationStorage" type="SOP Class">Label Map Segmentation Storage</uid>
+    <uid uid="1.2.840.10008.5.1.4.1.1.66.8" keyword="HeightMapSegmentationStorage" type="SOP Class">Height Map Segmentation Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.67" keyword="RealWorldValueMappingStorage" type="SOP Class">Real World Value Mapping Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.68.1" keyword="SurfaceScanMeshStorage" type="SOP Class">Surface Scan Mesh Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.68.2" keyword="SurfaceScanPointCloudStorage" type="SOP Class">Surface Scan Point Cloud Storage</uid>
@@ -5518,6 +5620,8 @@
     <uid uid="1.2.840.10008.5.1.4.1.1.501.6" keyword="DICOSQuadrupoleResonanceStorage" type="SOP Class">DICOS Quadrupole Resonance (QR) Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.601.1" keyword="EddyCurrentImageStorage" type="SOP Class">Eddy Current Image Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.1.601.2" keyword="EddyCurrentMultiFrameImageStorage" type="SOP Class">Eddy Current Multi-frame Image Storage</uid>
+    <uid uid="1.2.840.10008.5.1.4.1.1.601.3" keyword="ThermographyImageStorage" type="SOP Class">Thermography Image Storage</uid>
+    <uid uid="1.2.840.10008.5.1.4.1.1.601.4" keyword="ThermographyMultiFrameImageStorage" type="SOP Class">Thermography Multi-frame Image Storage</uid>
     <uid uid="1.2.840.10008.5.1.4.1.2.1.1" keyword="PatientRootQueryRetrieveInformationModelFind" type="SOP Class">Patient Root Query/Retrieve Information Model - FIND</uid>
     <uid uid="1.2.840.10008.5.1.4.1.2.1.2" keyword="PatientRootQueryRetrieveInformationModelMove" type="SOP Class">Patient Root Query/Retrieve Information Model - MOVE</uid>
     <uid uid="1.2.840.10008.5.1.4.1.2.1.3" keyword="PatientRootQueryRetrieveInformationModelGet" type="SOP Class">Patient Root Query/Retrieve Information Model - GET</uid>
@@ -5893,7 +5997,7 @@
     <uid uid="1.2.840.10008.6.1.260" keyword="HealthStatus3772" type="Context Group Name">Health Status (3772)</uid>
     <uid uid="1.2.840.10008.6.1.261" keyword="UseStatus3773" type="Context Group Name">Use Status (3773)</uid>
     <uid uid="1.2.840.10008.6.1.262" keyword="SocialHistory3774" type="Context Group Name">Social History (3774)</uid>
-    <uid uid="1.2.840.10008.6.1.263" keyword="ImplantedDevice3777" type="Context Group Name">Implanted Device (3777)</uid>
+    <uid uid="1.2.840.10008.6.1.263" keyword="CardiovascularImplant3777" type="Context Group Name">Cardiovascular Implant (3777)</uid>
     <uid uid="1.2.840.10008.6.1.264" keyword="PlaqueStructure3802" type="Context Group Name">Plaque Structure (3802)</uid>
     <uid uid="1.2.840.10008.6.1.265" keyword="StenosisMeasurementMethod3804" type="Context Group Name">Stenosis Measurement Method (3804)</uid>
     <uid uid="1.2.840.10008.6.1.266" keyword="StenosisType3805" type="Context Group Name">Stenosis Type (3805)</uid>
@@ -6676,7 +6780,7 @@
     <uid uid="1.2.840.10008.6.1.1149" keyword="CoreEchoMeasurement12300" type="Context Group Name">Core Echo Measurement (12300)</uid>
     <uid uid="1.2.840.10008.6.1.1150" keyword="OCTAProcessingAlgorithmFamily4270" type="Context Group Name">OCT-A Processing Algorithm Family (4270)</uid>
     <uid uid="1.2.840.10008.6.1.1151" keyword="EnFaceImageType4271" type="Context Group Name">En Face Image Type (4271)</uid>
-    <uid uid="1.2.840.10008.6.1.1152" keyword="OptScanPatternType4272" type="Context Group Name">Opt Scan Pattern Type (4272)</uid>
+    <uid uid="1.2.840.10008.6.1.1152" keyword="OPTScanPatternType4272" type="Context Group Name">OPT Scan Pattern Type (4272)</uid>
     <uid uid="1.2.840.10008.6.1.1153" keyword="RetinalSegmentationSurface4273" type="Context Group Name">Retinal Segmentation Surface (4273)</uid>
     <uid uid="1.2.840.10008.6.1.1154" keyword="OrganForRadiationDoseEstimate10060" type="Context Group Name">Organ for Radiation Dose Estimate (10060)</uid>
     <uid uid="1.2.840.10008.6.1.1155" keyword="AbsorbedRadiationDoseType10061" type="Context Group Name">Absorbed Radiation Dose Type (10061)</uid>
@@ -7015,4 +7119,14 @@
     <uid uid="1.2.840.10008.6.1.1488" keyword="WaveformAnnotationsDocumentTitle3048" type="Context Group Name">Waveform Annotations Document Title  (3048)</uid>
     <uid uid="1.2.840.10008.6.1.1489" keyword="EEGProcedure3049" type="Context Group Name">EEG Procedure  (3049)</uid>
     <uid uid="1.2.840.10008.6.1.1490" keyword="PatientConsciousness3050" type="Context Group Name">Patient Consciousness  (3050)</uid>
+    <uid uid="1.2.840.10008.6.1.1491" keyword="FollicleType12010" type="Context Group Name">Follicle Type (12010)</uid>
+    <uid uid="1.2.840.10008.6.1.1492" keyword="BreastSegmentationTypes7163" type="Context Group Name">Breast Segmentation Types (7163)</uid>
+    <uid uid="1.2.840.10008.6.1.1493" keyword="ImplantedDevice3779" type="Context Group Name">Implanted Device (3779)</uid>
+    <uid uid="1.2.840.10008.6.1.1494" keyword="SimilarityMeasure281" type="Context Group Name">Similarity Measure (281)</uid>
+    <uid uid="1.2.840.10008.6.1.1495" keyword="WaveformAcquisitionModality34" type="Context Group Name">Waveform Acquisition Modality (34)</uid>
+    <uid uid="1.2.840.10008.6.1.1496" keyword="EnFaceProcessingAlgorithmFamily4274" type="Context Group Name">En Face Processing Algorithm Family (4274)</uid>
+    <uid uid="1.2.840.10008.6.1.1497" keyword="AnteriorEyeSegmentationSurface4275" type="Context Group Name">Anterior Eye Segmentation Surface (4275)</uid>
+    <uid uid="1.2.840.10008.6.1.1498" keyword="FetalEchocardiographyImageView12312" type="Context Group Name">Fetal Echocardiography Image View (12312)</uid>
+    <uid uid="1.2.840.10008.6.1.1499" keyword="CardiacUltrasoundFetalArrhythmiaMeasurements12313" type="Context Group Name">Cardiac Ultrasound Fetal Arrhythmia Measurements (12313)</uid>
+    <uid uid="1.2.840.10008.6.1.1500" keyword="CommonFetalEchocardiographyMeasurements12314" type="Context Group Name">Common Fetal Echocardiography Measurements (12314)</uid>
 </dictionary>

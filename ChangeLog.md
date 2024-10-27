@@ -1,5 +1,9 @@
-### 5.1.4 (TBD)
+### 5.1.5 (TBD)
 
+
+### 5.1.4 (2024-10-27)
+
+- Update to DICOM Standard 2024d
 - Fix issue where the main TCP listener loop could be blocked by frozen TLS handshakes (#1766)
 - Add support for saving new strings with multi-valued Specific Character Set (#1789)
 - Throw a meaningful and explaining JsonException when trying to serialize not supported fragmented data (#1792)
