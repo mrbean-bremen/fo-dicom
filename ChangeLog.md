@@ -1,4 +1,7 @@
-### 5.1.5 (TBD)
+### 5.1.6 (TBD)
+
+
+### 5.1.5 (2024-11-25)
 
 - Fix regression which caused an exception if writing with an empty SpecificCharacterSet tag (#1879)
 - Fix issue where DicomDataset.FunctionalGroupValues throws IndexOutOfBounds in case of an empty SharedFunctionalGroupSequence (#1884)
