@@ -1,6 +1,7 @@
 ### 5.1.5 (TBD)
-  - Fix regression which caused an exception if writing with an empty SpecificCharacterSet tag (#1879)
 
+- Fix regression which caused an exception if writing with an empty SpecificCharacterSet tag (#1879)
+- Fix issue where DicomDataset.FunctionalGroupValues throws IndexOutOfBounds in case of an empty SharedFunctionalGroupSequence (#1884)
 
 ### 5.1.4 (2024-10-27)
 
@@ -13,7 +14,6 @@
 - Fix bug where DicomDataset.GetDicomTag thew an exception if the private tag does not exist in dataset (#1840)
 - FO-DICOM.Tests target net8.0-windows instead of net7.0-windows
 - Fix rendering of EnhancedMR or EnhancedCT images, that contain any invalid value in any item within the Functional Groups (#1862)
-- Fix issue where DicomDataset.FunctionalGroupValues throws IndexOutOfBounds in case of an empty SharedFunctionalGroupSequence (#1884)
 
 ### 5.1.3 (2024-06-27)
 
