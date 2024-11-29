@@ -15,6 +15,8 @@ namespace FellowOakDicom.Tests.Imaging
     {
 #region Unit tests
 
+#if WINDOWS
+
         [Fact(Skip = "Re-enable when ImageSharp strong names their assemblies")] // TODO re-enable this
         public void As_Image_ReturnsImage()
         {
@@ -110,6 +112,8 @@ namespace FellowOakDicom.Tests.Imaging
             //  cloned bitmap #2 should be still in good shape.
             Assert.Equal(100, bitmap2.Width);
         }
+
+#endif
 
 #endregion
     }

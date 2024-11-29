@@ -99,6 +99,7 @@ namespace FellowOakDicom.Tests.IO
             }
         }
 
+#if WINDOWS
         [Fact]
         public void Create_StoragePathNull_FileAttributesContainTempFlag()
         {
@@ -109,6 +110,7 @@ namespace FellowOakDicom.Tests.IO
                 Assert.True((File.GetAttributes(path) & FileAttributes.Temporary) == FileAttributes.Temporary);
             }
         }
+#endif
 
         #endregion
     }

@@ -2,8 +2,11 @@
 // Licensed under the Microsoft Public License (MS-PL).
 #nullable disable
 
-using System.Drawing;
+#if WINDOWS
 using System.Windows.Media.Imaging;
+#endif
+
+using System.Drawing;
 using FellowOakDicom.Imaging;
 using Xunit;
 
@@ -15,6 +18,7 @@ namespace FellowOakDicom.Tests.Imaging
     {
 #region Unit tests
 
+#if WINDOWS
         [Fact]
         public void As_BitmapSource_ReturnsBitmapSource()
         {
@@ -30,6 +34,8 @@ namespace FellowOakDicom.Tests.Imaging
             image.Render(3, false, false, 0);
             Assert.Throws<DicomImagingException>(() => image.As<Bitmap>());
         }
+
+#endif
 
 #endregion
     }
