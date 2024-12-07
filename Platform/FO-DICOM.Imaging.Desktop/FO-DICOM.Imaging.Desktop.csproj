@@ -24,7 +24,6 @@
     <Description>System.Drawing support for fo-dicom</Description>
     <PackageReadmeFile>READMENuget.md</PackageReadmeFile>
     <Platforms>AnyCPU;x64</Platforms>
-    <EnableWindowsTargeting>true</EnableWindowsTargeting>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
     <DebugSymbols>true</DebugSymbols>

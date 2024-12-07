@@ -1,4 +1,4 @@
-﻿// Copyright (c) 2012-2023 fo-dicom contributors.
+﻿// Copyright (c) 2012-2024 fo-dicom contributors.
 // Licensed under the Microsoft Public License (MS-PL).
 #nullable disable
 
@@ -10,12 +10,10 @@ using Image = SixLabors.ImageSharp.Image;
 namespace FellowOakDicom.Tests.Imaging
 {
 
-    [Collection(TestCollections.General)]
+    [Collection("Windows")]
     public class WinFormsImageTest
     {
 #region Unit tests
-
-#if WINDOWS
 
         [Fact(Skip = "Re-enable when ImageSharp strong names their assemblies")] // TODO re-enable this
         public void As_Image_ReturnsImage()
@@ -112,8 +110,6 @@ namespace FellowOakDicom.Tests.Imaging
             //  cloned bitmap #2 should be still in good shape.
             Assert.Equal(100, bitmap2.Width);
         }
-
-#endif
 
 #endregion
     }
