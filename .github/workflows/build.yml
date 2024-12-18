@@ -9,57 +9,52 @@ on:
     - development
   workflow_dispatch:
 
-jobs:
-  net-462:
-    runs-on: windows-2022
-    steps:
-    - uses: actions/checkout@v4
-    - name: Build FO-DICOM.Core
-      run: dotnet build ./FO-DICOM.Core/FO-DICOM.Core.csproj --configuration Release --runtime win-x64
-    - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework net462 --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet462.xml"
-    - name: Test FO-DICOM.Tests.Windows
-      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework net462 --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet462.xml"
-    - name: Upload test results
-      uses: actions/upload-artifact@v4
-      with:
-          name: test-v5-net-462.xml
-          path: ./Tests/FO-DICOM.Tests/TestResults/resultsnet462.xml
-      
-  net-60:
-    runs-on: windows-2022
+jobs:  
+  tests:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [windows-latest]
+        # framework: ["net462", "net6.0-windows", "net8.0-windows"]
+        framework: ["net8.0-windows"]
     steps:
     - uses: actions/checkout@v4
     - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework net6.0-windows --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet60.xml"
-    - name: Test FO-DICOM.Tests.Windows
-      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework net6.0-windows --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet60.xml"
+      if: ${{ matrix.framework != 'net8.0-windows' }}
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.framework }}.xml"
+    - name: Test FO-DICOM.Tests with Coverage
+      if: ${{ matrix.framework == 'net8.0-windows' }}
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.framework }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
     - name: Upload test results
       uses: actions/upload-artifact@v4
       with:
-          name: test-v5-net-60.xml
-          path: ./Tests/FO-DICOM.Tests/TestResults/resultsnet60.xml
-      
-  net-80:
-    runs-on: windows-2022
-    steps:
-    - uses: actions/checkout@v4
-    - name: Test FO-DICOM.Tests
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework net8.0-windows --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet80.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
+          name: test-v5-${{ matrix.framework }}.xml
+          path: ./Tests/FO-DICOM.Tests/TestResults/results${{ matrix.framework }}.xml
     - name: Test FO-DICOM.Tests.Windows
-      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework net8.0-windows --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultsnet80.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
+      if: ${{ matrix.framework != 'net8.0-windows' }}
+      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.framework }}.xml"
+    - name: Test FO-DICOM.Tests.Windows with Coverage
+      if: false
+      # if: ${{ matrix.framework == 'net8.0-windows' }}
+      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.framework }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
     - name: Upload test results
+      if: false
       uses: actions/upload-artifact@v4
       with:
-          name: test-v5-net-80.xml
-          path: ./Tests/FO-DICOM.Tests/TestResults/resultsnet80.xml
-    - name: Upload code coverage 
+          name: test-v5-${{ matrix.framework }}.xml
+          path: ./Tests/FO-DICOM.Tests/TestResults/resultswin${{ matrix.framework }}.xml
+    - name: Debugging
+      run: tree /f
+    - name: Upload code coverage
+      if: ${{ matrix.framework == 'net8.0-windows' }}
       uses: codecov/codecov-action@v5
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-
+  
   benchmarks:
     runs-on: windows-2022
+    if: false
     steps:
     - uses: actions/checkout@v4
     - name: Build FO-DICOM..Benchmark
@@ -74,4 +69,3 @@ jobs:
           ./BenchmarkDotNet.Artifacts/
           ./BenchmarkDotNet.Artifacts/results/
  
-
