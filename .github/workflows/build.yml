@@ -4,60 +4,63 @@ on:
   push:
     branches:
     - development
+    - merge-cov-test
   pull_request:
     branches:
     - development
   workflow_dispatch:
 
 jobs:  
+
   tests:
-    runs-on: ${{ matrix.os }}
+    runs-on: ${{ matrix.os.ver }}
     strategy:
       fail-fast: false
       matrix:
-        os: [windows-latest]
-        # framework: ["net462", "net6.0-windows", "net8.0-windows"]
-        framework: ["net8.0-windows"]
+        os: [ { name: Windows, ver: windows-latest } ]
+        frameworks: [
+           { name: ".NET Framework 4.6.2", common: "net462", win: "net462", coverage: "" },
+           { name: ".NET 6.0", common: "net6.0", win: "net6.0-windows", coverage: '' },
+           { name: ".NET 8.0", common: "net8.0", win: "net8.0-windows", coverage: '--collect:"XPlat Code Coverage" --settings coverlet.runsettings' }
+        ]
+    name: ${{ matrix.os.name }} - ${{ matrix.frameworks.name }}
+
     steps:
     - uses: actions/checkout@v4
     - name: Test FO-DICOM.Tests
-      if: ${{ matrix.framework != 'net8.0-windows' }}
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.framework }}.xml"
-    - name: Test FO-DICOM.Tests with Coverage
-      if: ${{ matrix.framework == 'net8.0-windows' }}
-      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.framework }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
+      # if: matrix.frameworks.coverage == false
+      run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.frameworks.common }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.frameworks.common }}.xml" ${{ matrix.frameworks.coverage }}
+    # - name: Test FO-DICOM.Tests with Coverage
+      # if: matrix.frameworks.coverage == true
+      # run: dotnet test ./Tests/FO-DICOM.Tests/FO-DICOM.Tests.csproj --configuration Release --framework ${{ matrix.frameworks.common }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\results${{ matrix.frameworks.common }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
     - name: Upload test results
       uses: actions/upload-artifact@v4
       with:
-          name: test-v5-${{ matrix.framework }}.xml
-          path: ./Tests/FO-DICOM.Tests/TestResults/results${{ matrix.framework }}.xml
+          name: test-v5-${{ matrix.frameworks.common }}.xml
+          path: ./Tests/FO-DICOM.Tests/TestResults/results${{ matrix.frameworks.common }}.xml
     - name: Test FO-DICOM.Tests.Windows
-      if: ${{ matrix.framework != 'net8.0-windows' }}
-      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.framework }}.xml"
-    - name: Test FO-DICOM.Tests.Windows with Coverage
-      if: false
-      # if: ${{ matrix.framework == 'net8.0-windows' }}
-      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.framework }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.framework }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
+      # if: matrix.frameworks.coverage == false
+      run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.frameworks.win }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.frameworks.win }}.xml" ${{ matrix.frameworks.coverage }}
+    # - name: Test FO-DICOM.Tests.Windows with Coverage
+      # if: matrix.frameworks.coverage == true
+      # run: dotnet test ./Tests/FO-DICOM.Tests.Windows/FO-DICOM.Tests.Windows.csproj --configuration Release --framework ${{ matrix.frameworks.win }} --blame --runtime win-x64 --logger:"trx;LogFileName=.\resultswin${{ matrix.frameworks.win }}.xml" --collect:"XPlat Code Coverage" --settings coverlet.runsettings
     - name: Upload test results
-      if: false
       uses: actions/upload-artifact@v4
       with:
-          name: test-v5-${{ matrix.framework }}.xml
-          path: ./Tests/FO-DICOM.Tests/TestResults/resultswin${{ matrix.framework }}.xml
-    - name: Debugging
-      run: tree /f
+          name: test-v5-${{ matrix.frameworks.win }}.xml
+          path: ./Tests/FO-DICOM.Tests/TestResults/resultswin${{ matrix.frameworks.win }}.xml
     - name: Upload code coverage
-      if: ${{ matrix.framework == 'net8.0-windows' }}
+      if: matrix.frameworks.coverage == true
       uses: codecov/codecov-action@v5
       env:
         CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-  
+        
   benchmarks:
-    runs-on: windows-2022
+    runs-on: windows-latest
     if: false
     steps:
     - uses: actions/checkout@v4
-    - name: Build FO-DICOM..Benchmark
+    - name: Build FO-DICOM.Benchmark
       run: dotnet build ./Tests/FO-DICOM.Benchmark/FO-DICOM.Benchmark.csproj --configuration Release --framework net8.0
     - name: run benchmarks
       run: ./Tests/FO-DICOM.Benchmark/bin/Release/net8.0/fo-dicom.Benchmark.exe
