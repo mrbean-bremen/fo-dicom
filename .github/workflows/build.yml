@@ -4,6 +4,7 @@ on:
   push:
     branches:
     - development
+    - unix-builds1
   pull_request:
     branches:
     - development
@@ -17,9 +18,10 @@ jobs:
       matrix:
         os: [
             { name: Windows, ver: windows-2022, runtime: win-x64 },
-            { name: Ubuntu, ver: ubuntu-22.04, runtime: linux-x64 },
+            { name: Ubuntu-x64, ver: ubuntu-22.04, runtime: linux-x64 },
+            { name: Ubuntu-arm64, ver: ubuntu-22.04, runtime: linux-arm64 },
             { name: macOS-x64, ver: macos-13, runtime: osx-x64 },
-            { name: macOS-arm, ver: macos-14, runtime: osx-arm64 }
+            { name: macOS-arm64, ver: macos-14, runtime: osx-arm64 }
           ]
         frameworks: [
             { name: ".NET 6.0", common: "net6.0", win: "net6.0-windows", coverage: '' },
@@ -33,7 +35,7 @@ jobs:
           - frameworks: { name: ".NET 6.0", common: "net6.0", win: "net6.0-windows", coverage: '' }
             os: { name: macOS-x64, ver: macos-13, runtime: osx-x64 }
           - frameworks: { name: ".NET 6.0", common: "net6.0", win: "net6.0-windows", coverage: '' }
-            os: { name: macOS-arm, ver: macos-14, runtime: osx-arm64 }
+            os: { name: macOS-arm64, ver: macos-14, runtime: osx-arm64 }
 
     name: ${{ matrix.os.name }} (${{ matrix.frameworks.name }})
     env:
